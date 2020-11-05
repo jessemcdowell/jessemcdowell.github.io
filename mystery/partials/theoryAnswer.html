@@ -1,0 +1,36 @@
+﻿<h1>Who Answers {{playerName}}?</h1>
+<div class="section">
+    <table class="theoryResult">
+        <thead>
+            <tr>
+                <td>&nbsp;</td>
+                <td data-ng-repeat="fact in factNames">{{fact}}</td>
+                <td>Unknown</td>
+            </tr>
+        </thead>
+        
+        <tr data-ng-repeat="player in players">
+            <td class="theoryResultPlayerName">{{player.name}}</td>
+            <td class="theoryResultFact" data-ng-repeat="factStatus in player.factStatuses">
+                <img data-ng-if="$parent.$first" width="14" height="14" class="factStatus" data-ng-src="img/{{factStatus.status}}.png" />
+                <button data-ng-if="!$parent.$first" data-ng-click="$parent.$parent.playerAnswered($parent.$parent.$index, $parent.$parent.factNames[$index])">
+                    <img width="14" height="14" class="factStatus" data-ng-src="img/{{factStatus.status}}.png" />
+                </button>
+            </td>
+            <td class="theoryResultFact">
+                <button data-ng-if="!$first" data-ng-click="$parent.$parent.playerAnswered($parent.$index, null)">?</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="theoryResultPlayerName">Nobody</td>
+            <td class="theoryResultFact" data-ng-repeat="fact in factNames">&nbsp;</td>
+            <td class="theoryResultFact">
+                <button data-ng-click="nobodyAnswered()">.</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="section">
+    <button data-ng-click="cancel()">Cancel</button>
+</div>

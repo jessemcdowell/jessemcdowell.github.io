@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jesse Builds Software</title>
+  
+  <subtitle>Jesse&#39;s opinions on building quality software.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.jessemcdowell.ca/"/>
+  <updated>2021-01-30T07:01:00.000Z</updated>
+  <id>https://www.jessemcdowell.ca/</id>
+  
+  <author>
+    <name>Jesse McDowell</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Breaking Past Senior Developer</title>
+    <link href="https://www.jessemcdowell.ca/2021/01/breaking-past-senior-developer/"/>
+    <id>https://www.jessemcdowell.ca/2021/01/breaking-past-senior-developer/</id>
+    <published>2021-01-30T03:45:00.000Z</published>
+    <updated>2021-01-30T07:01:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Developing software is an excellent career. Software has touched almost every aspect of our world, and its impact is always expanding. Many new things have become possible because of software, things that couldn’t have been dreamed of even ten years ago. The industry is continuing to expand. Tools are getting better. New opportunities are appearing everywhere… So why haven’t you gotten a promotion in ten years?</p><p>In the early days of my career, I got new responsibilities, promotions, and raises fairly regularly. It took a bit of luck, a lot of hard work, and a few years (but not very many years), to work my way up to a senior developer position. Senior means different things at different places, but eventually I got to a place where there was no easy next step, and I had a good number of peers in exactly the same position.</p><p>I can now proudly tell you that I have broken past the wall. About a year ago I achieved my goal and got promoted to the role of system architect. The following are the things that made the difference for me.</p><h2 id="Choose-the-career-path-you-want"><a href="#Choose-the-career-path-you-want" class="headerlink" title="Choose the career path you want"></a>Choose the career path you want</h2><p>There seems to be three distinct paths forward from senior developer:</p><ul><li>people and project management</li><li>technical leadership</li><li>focused technical expert</li></ul><p>The focused technical expert path only exists in companies that need experts focused in very specific areas such as hardware manufacturers or OS &#x2F; platform companies. If you are at the top of one of these specialties, you probably already work for the company where you’ll be getting promoted, and this post won’t really apply to you.</p><p>Both management and technical leadership are fine choices, but you should decide which is right for you. Here are some important differences to help you make your choice:</p><ul><li>Technical leadership positions are harder to get. There aren’t as many of them, and it seems they are more sought after.</li><li>Management positions will eventually strangle out all time for development. At some point you may not be able to go back.</li><li>Technical leadership positions require making harder technical choices based on research and experimentation.</li><li>Management positions require making harder business decisions based on company and customer priorities.</li></ul><p>Either way, they are both big changes from full-time development. You will be leaning heavily on your soft skills, spending more of your time in meetings and writing a lot of documents. You will typically have less control over the things you focus on, and your success will depend more heavily on the work of others.</p><p>If all this sounds awful to you, it is entirely fine to stay where you are. You can spice things up by changing projects or companies. You may want to scale up your impact some day, but until then, do what you love. The only unfortunate consequence is that you will likely be stuck in your current salary range.</p><h2 id="Develop-your-hard-skills-and-your-technical-breadth"><a href="#Develop-your-hard-skills-and-your-technical-breadth" class="headerlink" title="Develop your hard skills and your technical breadth"></a>Develop your hard skills and your technical breadth</h2><p>Both leadership and management positions will favour generalists because you’ll typically have responsibility for far more parts of your system. If you’re after a management position, a basic understanding of different problem areas will be enough. If you want to be a technical leader, make sure you have some success stories in a few areas. If you’ve only ever worked in the back end, for example, see if you can get some time working in the front of the house.</p><p>Technical leaders are going to need to be up to date on all the latest technologies and be able to discuss them intelligently. If learning and working with new things isn’t possible where you work, it may be time to consider changing companies. Contracting helped me expand my portfolio dramatically in just a few years, but it’s not a path I’d necessarily recommend to anyone.</p><h2 id="Find-the-right-company-and-manager-to-help-you-advance"><a href="#Find-the-right-company-and-manager-to-help-you-advance" class="headerlink" title="Find the right company and manager to help you advance"></a>Find the right company and manager to help you advance</h2><p>It’s always important to have a good relationship with your manager, but this is especially true if you want to advance your career. Make sure your manager knows what your goal is, and make sure they are supportive. A good manager will tell you what areas you need to improve, represent you when the right opportunity appears internally, or vouch for you if you find one outside.</p><p>Make sure your company has the role you want. Very small companies will probably not need a software architect, and may not have many openings for new managers. If you’re growing quickly it may appear in the future, but ask your manager. If you’re valued enough, they might even create the position for you when it makes sense.</p><p>If you’re in a place where advancing isn’t possible, or you aren’t getting the support you need, you may have to make the difficult choice and move on. When considering new roles, think about how they can help you work toward your goal. It’s also totally fine, maybe even advantageous, to tell a potential employer what you’re working toward, and ask if it’s possible with them.</p><h2 id="Develop-your-soft-skills"><a href="#Develop-your-soft-skills" class="headerlink" title="Develop your soft skills"></a>Develop your soft skills</h2><p>In your new role you’re going to need to juggle more priorities, build consensus with more people, and convince everyone that it’s all under control. You won’t need to be amazing at this on your first day, but you won’t get the job if they don’t think you can do it.</p><p>Here are some things to work on:</p><ul><li>Find your own personal organization system and get comfortable with it.</li><li>Study development process and team management. There are lots of great books, blogs, videos, and classes.</li><li>Give more presentations, and put effort into improving them.</li><li>If you aren’t already, see if you can become someone’s manager.</li><li>Try coaching &#x2F; mentoring someone who is struggling.</li><li>Run a study group or a book club.</li></ul><h2 id="Develop-your-personal-brand"><a href="#Develop-your-personal-brand" class="headerlink" title="Develop your personal brand"></a>Develop your personal brand</h2><p>I think a lot of us developers lack awareness of our personal brand, but it’s an important part of your career, and it’s importance increases the higher up you go. Make sure people want to work with you, and try to get some high-profile successes under your belt. These will all help you earn a promotion, and give you essential credibility once you get it.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Developing software is an excellent career. Software has touched almost every aspect of our world, and its impact is always expanding. Ma
+      
+    
+    </summary>
+    
+    
+      <category term="leadership" scheme="https://www.jessemcdowell.ca/tags/leadership/"/>
+    
+      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Brewing Your Own Iced Tea</title>
+    <link href="https://www.jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/"/>
+    <id>https://www.jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/</id>
+    <published>2018-06-14T04:29:59.000Z</published>
+    <updated>2020-11-04T05:46:23.164Z</updated>
+    
+    <content type="html"><![CDATA[<p>There are few things more refreshing than a cold glass of good iced tea. I’ve tried iced tea from a lot of places, but the best I’ve had to this day is my own recipe. It’s so easy that I can’t in good conscience keep it secret. It’s also far cheaper than anything you can buy in a can or bottle, and a lot healthier because it doesn’t require any kind of sweetener. The only down side is that it takes a few hours to cool.</p><p>The short version: Make good tea with boiling water, then let it cool slowly before serving.</p><p>The long version:</p><p>Any decent black tea should work, but my favourite is loose Twinings Earl Grey (<a href="https://www.amazon.com/Twinings-Classics-Earl-Grey-Loose/dp/B0005ZXX1S/ref=sr_1_42?s=grocery&ie=UTF8&qid=1375601004&sr=1-42">Amazon.com</a>). The loose version tastes quite different than their tea bags, so do put in the effort to find it.</p><p>You will also need a fine strainer to remove the tea. I use a cloth tea sock (<a href="https://www.amazon.com/dp/B002U77176/ref=sxts_k2p-hero-vn_lp_3?pf_rd_m=ATVPDKIKX0DER&pf_rd_p=8011851592090061987&pd_rd_wg=wF4KQ&pf_rd_r=THGQ3HKM51EH9K3JW6Y2&pf_rd_s=desktop-sx-top-slot&pf_rd_t=301&pd_rd_i=B002U77176&pd_rd_w=e9sIM&pf_rd_i=tea+sock&pd_rd_r=63759cf2-6f82-4d78-840b-edb729e1d77b&ie=UTF8&qid=1527138358&sr=3">Amazon.com</a>).</p><p>Also, be careful that you brew the tea in a container that can handle boiling water. A heat-safe glass pitcher is nice, but a regular metal pot from your kitchen will do just as well. Once it’s down to room temperature, you can transfer it to any container you like.</p><p>I add 25 mL of loose tea for every 1 L of boiling water. Make sure the water is actually at a rolling boil. The hot tap on your water cooler is not going to work for this.</p><p>Set a timer for 5 minutes. At about 2 minutes, stir the tea. At 5 minutes, remove the tea strainer gently without stirring. The tea seems to produce the most flavour about two minutes in, and the most bitterness at the end of the steeping. Stirring only the once yields the smoothest flavour for me.</p><p>Let the tea cool slowly to room temperature, then put it in the fridge to cool the rest of the way. Adding ice while it’s hot can disturb the flavour, and dilutes the tea.</p><p>Once it’s cold, pour a glass, add ice if you like, and enjoy.</p><p>You can experiment with different teas. Green or white tea should work, but follow their proper brewing instructions. Only black tea should be brewed with boiling water. My second favourite mix is using a plain black orange pekoe, inserting a couple springs of fresh mint after removing the tea.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;There are few things more refreshing than a cold glass of good iced tea. I’ve tried iced tea from a lot of places, but the best I’ve had 
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="food" scheme="https://www.jessemcdowell.ca/tags/food/"/>
+    
+      <category term="tea" scheme="https://www.jessemcdowell.ca/tags/tea/"/>
+    
+      <category term="recipes" scheme="https://www.jessemcdowell.ca/tags/recipes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Infiltrating an Organization (or: Joining a New Team)</title>
+    <link href="https://www.jessemcdowell.ca//2016/08/infiltrating-an-organization/"/>
+    <id>https://www.jessemcdowell.ca//2016/08/infiltrating-an-organization/</id>
+    <published>2016-09-01T05:23:42.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>It takes some time to integrate into a new team. I always feel like an outsider at first. As I build friendships and trust, I’m able to contribute with increasing effectiveness. Having noticed some patterns, I’ve been able to make the process faster and smoother using a few simple tricks.</p><p><a href="https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development">Tuckman’s Stages of Group Development</a> describe what happens when a team is formed. His theory has four stages: forming, storming, norming, and performing. As I stared writing this post, I noticed that the stages I was describing lined up fairly well with his. It’s important to note that I’m talking about joining an existing team, where he talks about a team being formed entirely from new people.</p><p>I will relate the stages I’ve noticed using his labels, but leave it as an exercise for the reader to compare to his more detailed descriptions.</p><h2 id="1-Forming"><a href="#1-Forming" class="headerlink" title="1) Forming"></a>1) Forming</h2><p>When I first join a team, everyone is as clueless about me as I am about them. Anything I can do to facilitate interaction here is valuable. I like to set out a couple trinkets on my desk, things that show my personality and interests. This creates openings for others to start conversations, which can help to break the ice. It can be awkward and uncomfortable as the “new guy”, but getting through this sooner really helps speed things up.</p><p>I also tend to ask a lot of questions while I’m getting my bearings. The hard part here is gathering information without judging or commenting too much. Honesty is important, but this early in the process, it can be more damaging than helpful. It’s easy to forget that things were built with constraints and assumptions I wasn’t there to experience.</p><p>That being said, looking things over with a fresh set of eyes can uncover many interesting things. So that I don’t lose track of them, I write every idea and observation down and revisit them later.</p><h2 id="2-Storming"><a href="#2-Storming" class="headerlink" title="2) Storming"></a>2) Storming</h2><p>After a month or two, I start getting used to what’s going on, and the problems the team is solving. The things that seemed strange before may now be routine, but some will still get in my way. My productivity improves, but I don’t feel like a full member of the team yet.</p><p>This is when I start going through my list of suggestions. I remove the items that no longer make sense, and then prioritize the remainder. I work through my list slowly, applying gentle pressure, trying to ask questions of various people on the team. Sometimes the questions receive insightful answers, other times they provoke good changes. Occasionally they uncover issues with team dynamics or lost political battles. All of these outcomes are valuable in different ways.</p><p>Essentially, I am trying to develop my voice. By waiting until I’ve been in the team a bit, I have a much firmer foundation to launch from. Being honest, and being able to disagree respectfully are necessary to fully contributing to the team. Just remember to take it slowly. If you come on too strong too suddenly you can alienate your coworkers.</p><p>With time, everyone gets used to me and my style. Once they realize that I can challenge opinions without judging their source, things become a lot smoother.</p><h2 id="3-Norming"><a href="#3-Norming" class="headerlink" title="3) Norming"></a>3) Norming</h2><p>After a while, I run out of questions. At this point, I will have a pretty good understanding of the architecture, the history and opinions that shaped it, and have a rough idea where people stand on the important issues. Others should have a good idea where I stand too.</p><p>This is when I start fine-tuning my personal processes, and trying to resolve anything that’s still holding me back. I expect to have a good relationship with my manager by this point. I would be bringing up more serious issues earlier, but now I want to start bringing up everything else. If our relationship strong enough, this is when I would try to fix that also.</p><p>Sometimes I never make it to this stage. I might be spending too much energy arguing, or feel like my contributions are not appreciated. If I don’t make it here within a few months, and have no clear path to improve things, I know it’s time to brush up my resume.</p><h2 id="4-Performing"><a href="#4-Performing" class="headerlink" title="4) Performing"></a>4) Performing</h2><p>With good working relationships, enough context about the problem space, and all my major issues resolved, I can now focus on getting some work done.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;It takes some time to integrate into a new team. I always feel like an outsider at first. As I build friendships and trust, I’m able to c
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="teamwork" scheme="https://www.jessemcdowell.ca/tags/teamwork/"/>
+    
+      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Why I Only Drink Loose Tea</title>
+    <link href="https://www.jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/"/>
+    <id>https://www.jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/</id>
+    <published>2014-06-01T22:47:35.000Z</published>
+    <updated>2020-11-03T07:35:39.180Z</updated>
+    
+    <content type="html"><![CDATA[<p>When I was a child, I drank tea because my parents wouldn’t let me drink coffee. I would soak a tea bag in hot water until it made a dark, bitter liquid, then dump in milk and sugar until it was overly sweet, and mostly flavourless. I would sip it to fit in with adults, but I wouldn’t say that it was something I enjoyed.</p><p>As a young adult, I tried loose tea on the advice of a friend. It was a totally different drink. Black tea tasted rich and warming. Earl grey had a wonderfully soothing aroma. Green tea had a nourishing earthy taste that made me feel good when I drank it. More importantly, there was very little bitterness, so I could skip the milk and sugar, and enjoy the flavours even more.</p><p>The reason why loose tea tastes better is basic chemistry. Tea is damaged by exposure to air. The tea in tea bags is ground to a fine dust, then spread out into thin mesh pouches. The larger surface area accelerates the ageing process, robbing the flavour and aroma.</p><p>It may be true that tea bags are easier than loose tea, but with a little equipment they aren’t much easier. Most of the time, I use a simple strainer that sits in the cup like <a href="https://www.amazon.ca/s/field-keywords=Finum+basket">this one</a> (<a href="https://www.amazon.ca/s/field-keywords=Finum+basket">amazon.ca</a>, <a href="https://www.amazon.com/s/field-keywords=Finum+basket">amazon.com</a>). Measure some loose tea into the basket, pour boiling water over it, and remove the basket once it’s finished steeping. The lid can be flipped to hold the wet basket, so you don’t even need to stay near the sink.</p><p>At work, or when I’m travelling, I use <a href="https://www.libretea.com/">a tea thermos with a built-in strainer made by a local company</a>. I put dark teas in the strainer part, steep with the container upside down, then flip and remove both lids to drink. It’s easy to use, and it makes it easy to carry hot tea around without spilling or making a mess.</p><p>Loose teas can be harder to find, but there are many great sources online. If there is a tea store in your neighbourhood, going in and selecting a few teas can be a lot of fun. Except for the very highest grades, most good teas aren’t too expensive, especially when compared to premium tea bags.</p><p>Once awakened, I started taking a lot of pleasure in hunting down and trying new teas and brewing equipment. I have been researching and experimenting for more than a decade now, and I still feel like I’ve barely scratched the surface.</p><p>Sometimes I am forced to drink tea from tea bags while I’m in a restaurant or visiting family. Some tea bags that are better than others, but all of them seem lacking compared to my own stash at home. It’s enough that I’ll never forget why I put in the extra effort to enjoy my cup of tea.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;When I was a child, I drank tea because my parents wouldn’t let me drink coffee. I would soak a tea bag in hot water until it made a dark
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="food" scheme="https://www.jessemcdowell.ca/tags/food/"/>
+    
+      <category term="tea" scheme="https://www.jessemcdowell.ca/tags/tea/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Controller Led Navigation in Angular</title>
+    <link href="https://www.jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/"/>
+    <id>https://www.jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/</id>
+    <published>2014-04-01T22:59:35.000Z</published>
+    <updated>2020-11-03T07:35:39.179Z</updated>
+    
+    <content type="html"><![CDATA[<p>I recently tried <a href="https://angularjs.org/">AngularJS</a> for a pet project. I watched <a href="https://www.youtube.com/watch?v=i9MHigUZKEM" title="a great tutorial">a great tutorial about the platform</a>, then dove in head first. You can see what I built here: <a href="https://www.jessemcdowell.ca/mysterysolver" title="Mystery Solver">MysterySolver</a></p><p>I enjoyed Angular. It was straightforward to use, and allowed me to bang out a lot of functionality without much cumbersome boilerplate code. Jasmine, the testing framework set up in the bootstrap source, was also pretty slick. I really liked how I could nest a bunch of test blocks inside of each other to reuse common setup code.</p><p>The only serious bump I ran into was getting multiple controllers to work together.</p><p>My goal was to build a wizard-style flow. A user enters a bit of info, hits a button, then enters more info. The answers in one step affect the questions in future steps, or might cause steps to be added or taken away. I wanted the controller to trigger the navigation, and I wanted to pass state when it did.</p><p>View-led navigation would have been easy: add a link whenever you like. A user clicks and the new controller is loaded. This kind of navigation is great for keeping controllers ignorant of each other. I suspect this approach is better for search engine indexers as well. It wasn’t ideal for me.</p><p>I searched the Internet and read a bunch of documentation hoping to find an easy answer. What I found was a bunch of other people asking the same questions. When I finally decided to build it myself, the solution was easier than I expected:</p><script src="//gist.github.com/9920643.js"></script><p>To navigate, I used code like this: <script src="//gist.github.com/9920807.js"></script></p><p>In the destination controller, I fetched the navigation parameter like this: <script src="//gist.github.com/9920871.js"></script></p><p>It was easy to test this code. Whenever I expected a controller to navigate, I checked the value of <code>$location.path()</code>. To pass navigation parameters into controllers, I just called the navigate method before the controller was created in the setup block.</p><p>Unfortunately this solution breaks the back button. Because the browser triggers backward navigation, the navigation parameter won’t be set when the controller tries to load. This wasn’t something I needed, so I left alone.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I recently tried &lt;a href=&quot;https://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt; for a pet project. I watched &lt;a href=&quot;https://www.youtube.com/watch?v=i9M
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="web" scheme="https://www.jessemcdowell.ca/tags/web/"/>
+    
+      <category term="angular" scheme="https://www.jessemcdowell.ca/tags/angular/"/>
+    
+      <category term="js" scheme="https://www.jessemcdowell.ca/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reading Server Graphs: Connected Users</title>
+    <link href="https://www.jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/"/>
+    <id>https://www.jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/</id>
+    <published>2013-06-15T05:30:44.000Z</published>
+    <updated>2020-11-03T07:35:39.179Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monitor hanging off a wall showing a graph of connected users. It won’t give you detailed diagnostic information, but it is a good indicator for the health of your servers, and your product generally. If you learn to notice certain patterns in your user graph, it can also save you precious time when things go wrong.</p><h2 id="Assumptions"><a href="#Assumptions" class="headerlink" title="Assumptions"></a>Assumptions</h2><p><img src="/NetworkDiagram.jpg" title="Network Diagram"></p><p>The patterns I’m describing assume a common architecture: you have some boxes in the front that have your traffic balanced between them, and some stuff behind them that’s not balanced. For the purposes of this discussion, it doesn’t matter if it’s one or more apps in the front, if you have a service tier, or what kind of data storage you use. Anything that’s redundant is going to be called distributed, and anything that’s not is going to be called central. You need some way to track user sessions, and the ability to detect disconnects within a few minutes. Some of these graphs also depend on a load balancer that’s configured to keep a single user session on the same distributed server.</p><h2 id="Healthy"><a href="#Healthy" class="headerlink" title="Healthy"></a>Healthy</h2><p><img src="/Normal.png" title="Normal"></p><p><img src="/NormalZoomed.png" title="Normal (zoomed in)"></p><p>This is how a healthy system should look. I’m showing two views, one broken into a couple regions, and another just showing the total within a shorter time span. It’ll be a lot easier to show these patterns on the zoomed in graph, so I’ll use that as a base line for the following examples.</p><p>I was surprised when I first saw the smooth wave-like pattern a connected user graph makes. These examples are a pure sine wave because it was easy to produce, but it’s pretty close to what I’ve seen on real systems. The waves might get a little higher and wider on weekends, but it’s always a smooth line when things are normal.</p><p>The numbers and data shown are totally fabricated, and do not represent any of the systems I’ve worked on. My focus here is on the disruptions to the lines. I have observed all of the patterns I’m showing in real production environments, some of them numerous times.</p><h2 id="Central-Component-Malfunction-x2F-Failure"><a href="#Central-Component-Malfunction-x2F-Failure" class="headerlink" title="Central Component Malfunction &#x2F; Failure"></a>Central Component Malfunction &#x2F; Failure</h2><p><img src="/CentralComponentMalfunction.png" title="Central Component Malfunction"></p><p>This is the worst case for a server system, and as you can see, the results are drastic. You can tell it’s a central component because the number of connected users drops very close to zero. You’ll also note that I show the connected users shooting back above the norm. This happens when users try to reconnect once or multiple times when the system becomes unresponsive. This is a pattern you will notice during most malfunctions.</p><h2 id="Distributed-Component-Malfunction"><a href="#Distributed-Component-Malfunction" class="headerlink" title="Distributed Component Malfunction"></a>Distributed Component Malfunction</h2><p><img src="/DistrubedComponentMalfunction.png" title="Distributed Component Malfunction"></p><p>This is a much more common occurrence in a server system; a server starts to malfunction without losing the ability to respond to network traffic. The load balancer doesn’t detect a failure, but users have serious trouble using the app. You will see a serious fluctuation in the graph as users start disconnecting and reconnecting, slowly getting pushed to new working servers. This is one of the reasons why it’s important to have sticky sessions on your load balancer.</p><h2 id="Distributed-Server-Failure"><a href="#Distributed-Server-Failure" class="headerlink" title="Distributed Server Failure"></a>Distributed Server Failure</h2><p><img src="/DistributedServerFailure.png" title="Distributed Server Failure"></p><p>When one of your distributed servers fails outright, you see a much more sudden gouge, but proportional to the number of servers you have. The graph returns to normal fairly quickly once the load balancer detects the bad server, and users finish logging back in.</p><h2 id="Application-Overloaded"><a href="#Application-Overloaded" class="headerlink" title="Application Overloaded"></a>Application Overloaded</h2><p><img src="/ApplicationOverloaded.png" title="Application Overloaded"></p><p>Performance limits can be distinguished because they get worse as the number of connecting users increases. This example shows a hard wall, but the severity you observe will depend on how your system is breaking down. The key indicator is the subtle twitching that gets progressively worse as the pressure builds. The deep downward spikes occur as various parts of the system start throwing large quantities of errors.</p><h2 id="Central-Component-Performance"><a href="#Central-Component-Performance" class="headerlink" title="Central Component Performance"></a>Central Component Performance</h2><p><img src="/CentralComponentPerformance.png" title="Central Component Performance"></p><p>This is what it looks like when a central component starts to have a performance issue. When it occurs off peak, it’s a good clue that some critical system is acting up. If it’s not obvious what’s wrong, here are a few things you can check: failed hard drives in your storage system, hardware errors in your system logs, unusual latency with a heavily-used APIs, or perhaps someone is running an ad-hoc query on the production database.</p><h2 id="Denial-of-Service-Attack"><a href="#Denial-of-Service-Attack" class="headerlink" title="Denial-of-Service Attack"></a>Denial-of-Service Attack</h2><p><img src="/DosAttack.png" title="DOS Attack"></p><p>Denial of Service attacks are awful, and unfortunately effective things. They look different than network gear failures because attackers have trouble ramping up load generators quickly. Once they do get going though, your networking gear will usually start failing, and nothing will get through until they stop. Most DOS attacks are network-level, so you shouldn’t see increased activity or connections before or during the attack.</p><h2 id="Television-Ad"><a href="#Television-Ad" class="headerlink" title="Television Ad"></a>Television Ad</h2><p><img src="/TvAd.png" title="Tv Ad"></p><p>Advertising should increase your number of connected users. If your ad hits lot of people at the same time, such as a TV ad, you’ll see a bump like this. There will be a spike just as the ad airs, a bit of hang time, then it starts to trickle down to normal. The size of the bump will depend on the effectiveness and reach of your ad.</p><h2 id="Television-Event"><a href="#Television-Event" class="headerlink" title="Television Event"></a>Television Event</h2><p><img src="/TvEvent.png" title="Tv Event"></p><p>This is one of my favourite patterns. This is what happens if there is a big event that your audience is interested in. An example would be a sports site during the Super bowl. You see a dip while it airs, then you go back to normal when it ends. If people don’t like the event, the line might start returning to normal sooner.</p><h2 id="Monitoring-Failure"><a href="#Monitoring-Failure" class="headerlink" title="Monitoring Failure"></a>Monitoring Failure</h2><p><img src="/MonitoringFailure.png" title="Monitoring Failure"></p><p>A flat line like this is almost never real, except maybe during deliberate maintenance windows. If it’s not obvious why you’re flat, you should check that your monitoring and graphing systems are collecting data correctly.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I’ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monit
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="sysadmin" scheme="https://www.jessemcdowell.ca/tags/sysadmin/"/>
+    
+      <category term="troubleshooting" scheme="https://www.jessemcdowell.ca/tags/troubleshooting/"/>
+    
+      <category term="performance" scheme="https://www.jessemcdowell.ca/tags/performance/"/>
+    
+      <category term="server graphs" scheme="https://www.jessemcdowell.ca/tags/server-graphs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>InstallUtil and BadImageFormatException - Facepalm</title>
+    <link href="https://www.jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/"/>
+    <id>https://www.jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/</id>
+    <published>2012-04-15T06:09:18.000Z</published>
+    <updated>2020-11-03T07:35:39.178Z</updated>
+    
+    <content type="html"><![CDATA[<p>I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to giving up, which is not a solution I often explore, but in the end we figured it out and got everything working.</p><p>A member of our operations team was installing a Windows service I’d built to monitor some stuff in our production environment. I’ve made a few windows services in my day, and installed them many times on many machines. I’d even installed this one on my development machine with no issue. In our staging environment, however, this is what we got:</p><blockquote><p>C:\Install\TheService&gt;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe TheService.exe Microsoft (R) .NET Framework Installation utility Version 4.0.30319.1 Copyright (c) Microsoft Corporation. All rights reserved.</p><p>Exception occurred while initializing the installation: System.BadImageFormatException: Could not load file or assembly ‘file:&#x2F;&#x2F;&#x2F;C:\Monitoring\Service\TheService.exe’ or one of its dependencies. An attempt was made to load a program with an incorrect format.</p></blockquote><p>We checked the likely things: the framework version, the platform the app was built for, even re-copying the files in case they somehow got corrupted. When these didn’t work, we started trying more radical things: forcing all assemblies to 32 bit, even running the service as an executable to see if there was some error in the app.</p><p>In my defence, we are both experienced engineers, and I’m not the only person who missed it. Look closely at the command line we used:</p><blockquote><p>C:\Windows\Microsoft.NET\Framework<strong>64</strong>\v4.0.30319\InstallUtil.exe</p></blockquote><p>Long version: Service applications in Visual Studio 2010 are 32 bit by default, and this is a reasonable default for them to have. We were trying to install the 32 bit service with the 64 bit version of InstallUtil. InstallUtil loads the target assembly to access it’s installation instructions, but you can’t load a 32 bit assembly from a 64 bit application (or vice versa). If you try to, you get a BadImageFormatException.</p><p>Short version: Two numbers derailed my entire afternoon.</p><p>It would have been nice if the error message from InstallUtil was a little more specific, but I suppose this isn’t a common problem. At least I got a good reminder about the importance of checking the small details when the big ones aren’t bearing fruit.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to givin
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="sysadmin" scheme="https://www.jessemcdowell.ca/tags/sysadmin/"/>
+    
+      <category term=".net" scheme="https://www.jessemcdowell.ca/tags/net/"/>
+    
+      <category term="troubleshooting" scheme="https://www.jessemcdowell.ca/tags/troubleshooting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Choosing Priorities</title>
+    <link href="https://www.jessemcdowell.ca//2012/03/choosing-priorities/"/>
+    <id>https://www.jessemcdowell.ca//2012/03/choosing-priorities/</id>
+    <published>2012-03-09T05:50:05.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>During the summer I started a difficult but important journey to reorganize my life. The first step was <a href="https://www.jessemcdowell.ca/2011/10/managing-priorities-outside-of-work" title="organizing my daily tasks">organizing my daily tasks</a>. I was successful, but becoming productive again has created new issues.</p><p>When you change from trying to do everything to doing what’s most important, you need to decide what important means. Figuring this out for myself has proven difficult. I still don’t have all the answers, but I am constantly making progress.</p><p>Deciding what isn’t important has been easier. I am abandoning Themis, my attempt at an open source project. I no longer have a need for it, and it will take a lot more effort to get it finished than I originally expected. I would be delighted if someone wanted to take it on, but there isn’t enough there for it to be likely.</p><p>Writing in this blog has also been pushed down the priority list. I intend to keep going, but instead of forcing out a steady pace of content, I’ll wait until I have ideas that I have a strong desire to share.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;During the summer I started a difficult but important journey to reorganize my life. The first step was &lt;a href=&quot;https://www.jessemcdowel
+      
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.jessemcdowell.ca/categories/projects/"/>
+    
+      <category term="Themis" scheme="https://www.jessemcdowell.ca/categories/projects/Themis/"/>
+    
+    
+      <category term="planning" scheme="https://www.jessemcdowell.ca/tags/planning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sharpening The Saw</title>
+    <link href="https://www.jessemcdowell.ca//2011/10/sharpening-the-saw/"/>
+    <id>https://www.jessemcdowell.ca//2011/10/sharpening-the-saw/</id>
+    <published>2011-10-25T01:49:26.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>One of the best things about working in the software business is the high rate of change. Not only do we work with machines that radically change in capability every few years, but new techniques and technologies are constantly appearing on the scene. It is a fascinating new frontier that never gets dull.</p><p>One of the worst things about working in the software business is the high rate of change. If you only focus on your job and stop paying attention, you could wake up one day unemployed with an obsolete skill set. Keeping up to date is a lot of work, and it becomes harder every year.</p><p>Some skills hold up better over time. Solid work habits are priceless, and can help you advance your career even where technical skills are lacking. Work management, software design, and coding practises are good subjects to study as well; they don’t age nearly as fast as specific technologies, and they can make a big impact on the quality of your work. Unless you become a manager however, you’re still going to need to study technical stuff.</p><p>The only way to really learn a tool is to use it, so study at home isn’t always enough. Some employers will deliberately favour new technologies to keep skills fresh and employees happy, but this is not the standard. If your company starts to lag behind industry trends, you might consider changing jobs while it’s still possible.</p><p>There are some tricks that help me stay up to date: I listen to podcasts while exercising or doing simple chores. Public transit is a great opportunity to read while commuting. A smart phone helps me squeeze in a few extra blogs and tweets when I’m waiting for something. This is primarily how I follow industry trends.</p><p>To learn specific technologies, I’ll spend an hour or two a few times a week reading or watching videos. I need to play with something to understand it, so I spend an odd evening banging away at some pet project.</p><p>My study used to be limited to an occasional book or seminar, but increasing my study time, and opening myself to podcasts, blogs, and twitter has made a huge difference in my career. I have more to contribute in design meetings. I have opinions on various technologies I haven’t even used. It takes more energy for sure, but I feel like I am a better developer for it, and I don’t regret it one bit.</p><p>This business is a challenging one, but exciting as well. If you are the kind of person that loves to learn, explore new technologies, and push yourself to constantly look at problems in new ways, then embrace the change and you will do well.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;One of the best things about working in the software business is the high rate of change. Not only do we work with machines that radicall
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+    
+      <category term="learning" scheme="https://www.jessemcdowell.ca/tags/learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Managing Priorities Outside of Work</title>
+    <link href="https://www.jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/"/>
+    <id>https://www.jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/</id>
+    <published>2011-10-07T02:55:07.000Z</published>
+    <updated>2020-11-04T06:09:29.511Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’ve been fortunate to take some serious down time during the summer. After working pretty much non-stop for ten years, things have piled up. I took some time to rest, then got to work on some personal projects that have been neglected far too long.</p><p>What I’ve learned, however, is that it takes more than time to get things done. After about a month, pretty much all I’d achieved was completing a couple video games, and putting all the things I wanted to do into one very long list.</p><p>My first thought was that I wasn’t focusing, so after listening to <a href="https://hanselminutes.com/268/personal-systems-of-organization-rey-bango-interviews-scott-hanselman">a podcast by Scott Hanselman about organization</a>, I decided to try the <a href="https://www.pomodorotechnique.com/">Pomodoro Technique</a>. This is a fairly simple system where you try to focus completely on a task for 25 minutes at a time, shutting out all distractions.</p><p>After a bit of Internet searching with no results, I started making my own pomodoro timer application. I had something working in a couple hours, barely holding myself back from adding sounds and animations. It would have been a lot faster, but I wasn’t completely focused on the task.</p><p>Armed with my timer, ready to experience my first burst of productivity, my wife came home from work. I told her excitedly how I’d built this magical thing, and how I’m going to start getting so much done. Then she asks me one simple question, “Why didn’t you use the timer from the kitchen?” This is when I realized that my problem was focus on a whole other level. I was doing work, but I wasn’t doing the right work.</p><p>This is a common problem in the software world: getting overwhelmed by a giant list of tasks, doing a little bit of everything, and completing nothing. I’ve experienced this first hand, and have been using effective tools for dealing with it for years, but I had never considered applying them to my personal life.</p><p>I tried a few things next, but the best help came from the book <a href="https://www.gettingresults.com/">Getting Results the Agile Way</a>, which was also mentioned in the podcast. It combines agile philosophy with some ideas about balancing life priorities and energy levels. I’m not committed to the entire process, but the parts I am trying have already made a big difference. By focusing on three goals a day, I’m now managing to plow through even dauntingly large tasks. Though I’m not doing everything on my list, I’m getting the most important things done, and because I feel that I’m making progress again it’s motivating me to work harder.</p><p>Taking the time off has been really good for me. Beyond organizing my personal priorities, I’ve also been organizing my main workspaces: my office, and my kitchen. You could say the experience is like rebooting a computer; it took a bit of time, but now I feel fresh and full of life, ready to tackle something new.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I’ve been fortunate to take some serious down time during the summer. After working pretty much non-stop for ten years, things have piled
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="planning" scheme="https://www.jessemcdowell.ca/tags/planning/"/>
+    
+      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Doubling Data for Performance Testing</title>
+    <link href="https://www.jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/"/>
+    <id>https://www.jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/</id>
+    <published>2011-08-12T04:22:26.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Or: The Most Impressive T-SQL Script I’ve Ever Written</strong></p><p>I was recently working on a new application. After three months in the field, users were starting to complain about performance issues. We had done some limited performance tuning for the first release, and more as part of the second release, but new issues were popping up as more data got entered into the system. We could have continued fixing issues as they came up, one release at a time, but we wanted to get ahead of the problem, and the client wanted to know that the system would remain usable without developer intervention for a few years at least.</p><p>The nature of the business was such that the rate of data entry and number of concurrent users shouldn’t change much over time. This meant that increasing the amount of data would be a good approximation of how the system would look in the future. How do you increase the amount of data in a normalized relational database? It would be difficult to enter realistic test data manually, and unrealistic test data can cause unrealistic test results. Bad results means we waste time fixing issues that wouldn’t appear, and never get a chance to detect issues that will.</p><p>I proposed creating a T-SQL script that would double all the existing data. Running it once would simulate six months of usage, running it again simulates a year, twice more and we’re simulating four years of usage. Once it was approved, it took me a couple days to finish, about half of that going to testing and debugging. The result is the most impressive T-SQL script I’ve ever written.</p><p>The script I wrote didn’t do the actual duplication, it combined hand-entered metadata with data from sys.tables and sys.columns to generate a much bigger script. Not only was it faster to write this way, but it made it easier to fix issues, and it allowed the script to be reused after columns were added to the database.</p><p>I had one table variable with a list of tables to copy, and another defining the relationships between foreign keys and their source tables. Most foreign keys were named the same in all tables that they appeared in, so a single mapping was often enough for all of them. Most of the mappings could be determined from the list of tables itself, so I only had a few other relationships and special column rules that had to be entered manually.</p><p>Another factor that helped was our use of guids for all primary keys. Because the can be determined before inserting a row, it was possible to generate the mapping from old to new key at the start of the script. I could also use a single insert statement for each table, and the order of execution only mattered where foreign key constraints existed.</p><p>The results were tremendous. We found a bunch of issues we wouldn’t have found otherwise, and had a fairly solid indication of how the application would behave years in the future.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;Or: The Most Impressive T-SQL Script I’ve Ever Written&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I was recently working on a new application. After three m
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="database" scheme="https://www.jessemcdowell.ca/tags/database/"/>
+    
+      <category term="troubleshooting" scheme="https://www.jessemcdowell.ca/tags/troubleshooting/"/>
+    
+      <category term="performance" scheme="https://www.jessemcdowell.ca/tags/performance/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Critical Path</title>
+    <link href="https://www.jessemcdowell.ca//2011/06/the-critical-path/"/>
+    <id>https://www.jessemcdowell.ca//2011/06/the-critical-path/</id>
+    <published>2011-06-25T16:58:08.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>For the last ten years, if you had asked, I would have told you with some conviction that a “critical path” is a kind of test script that tests the essential functionality of a system. If the app passes it’s critical path test, I would have said, it may not delight users, but it’s unlikely that they’ll storm your basement with torches and pitchforks.</p><p>It came up at work during a discussion about interview questions. My colleague was both proud and surprised to have been the only person interviewed for his position that had known what it really means.</p><p>A critical path is a project management term that refers to the chain of dependant tasks that will take the longest amount of time in a project plan. For example, if I were to make a project plan for my breakfast on Sunday morning, it would look like this:</p><p><img src="/BreakfastOnSunday.png" alt="The plan for my Sunday morning breakfast." title="Breakfast On Sunday"></p><p>In this plan, making pancakes is the critical path. With an unlimited amount of people, and an unlimited amount of kitchen space, and all the resources and tools we would need, the fastest that we could produce my Sunday morning breakfast is the time it takes to make pancakes.</p><p>I can steam milk, flip pancakes, and toss a couple eggs in the pan all at the same time, but grinding coffee beans and mixing the pancake batter has to be done one at a time. This breakfast takes me just a few minutes longer than the critical path, so it’s not worth hiring a sous chef.</p><p>The time of a software projects is usually shaped more by the number of developers. We usually have a lot of features to deliver, and most of them are not directly dependant on each other. What you can see is a part at the beginning and end of a project where it’s hard to keep multiple people working, but that’s a whole other thing.</p><p><img src="/GenericSoftwareProject.png" alt="A generic project plan showing a chain of blocking tasks at the beginning and end of a project." title="Generic Software Project"></p><p>When a critical path is defining the time line for your project, it’s important to identify it; any step that gets delayed affects the entire chain. You should start these tasks as soon as possible, and do what you can to stop them from getting blocked.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;For the last ten years, if you had asked, I would have told you with some conviction that a “critical path” is a kind of test script that
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="planning" scheme="https://www.jessemcdowell.ca/tags/planning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Consulting - A Brave New World</title>
+    <link href="https://www.jessemcdowell.ca//2011/05/consulting-a-brave-new-world/"/>
+    <id>https://www.jessemcdowell.ca//2011/05/consulting-a-brave-new-world/</id>
+    <published>2011-05-24T05:20:41.000Z</published>
+    <updated>2020-11-03T07:35:39.175Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’ve taken a big step in my career. I’ve become a software consultant.</p><p>The decision to leave my job of three and a half years wasn’t an easy one. I was working with some fantastic people, building the best software we could, but at the end of the day I wasn’t learning. The work was challenging, but the challenges were mostly non-technical. In this business, if you’re not moving forward you may as well lay down and die. I couldn’t change my situation, so I said my goodbyes and left.</p><p>Instead of settling in somewhere else for another long haul, I felt it was time for a change of pace. Now I get to hop from organization to organization working on new problems and broadening my skill set in the most efficient way possible. I might settle down if a good opportunity comes along, but for now I’m enjoying the freedom.</p><p>I’m currently working on a fun little contract, but I’ll be looking for my next opportunity soon.</p><p>If you want help designing or building awesome software that delights users, <a href="/contact">we should talk</a>. I’d be happy to put my experience to work building you exactly what you need.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I’ve taken a big step in my career. I’ve become a software consultant.&lt;/p&gt;
+&lt;p&gt;The decision to leave my job of three and a half years wasn
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+    
+      <category term="consulting" scheme="https://www.jessemcdowell.ca/tags/consulting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Average Test</title>
+    <link href="https://www.jessemcdowell.ca//2011/04/the-average-test/"/>
+    <id>https://www.jessemcdowell.ca//2011/04/the-average-test/</id>
+    <published>2011-04-30T23:08:30.000Z</published>
+    <updated>2020-11-03T07:35:39.174Z</updated>
+    
+    <content type="html"><![CDATA[<p>I was conducting technical interviews recently for a senior developer position. I like to talk about a bunch of things, but there is one question I particularly enjoy asking each candidate. Write an implementation for this:</p><script src="//gist.github.com/924487.js"></script><p>It’s a great question because it’s a simple problem, and anyone that comes through the door should know the formula without having to ask. It’s interesting how people react to it sometimes, but I chalk it up to interview jitters. About half the people interviewed answer like this:</p><script src="//gist.github.com/924497.js"></script><p>It’s a good first answer too, except that it doesn’t always work.</p><p>“What will be the result of your function if it’s called with the values Int32.MaxValue and Int32.MaxValue?”</p><p>The answer I want to hear is that it won’t work. Some people think (like I did), that it will throw a System.OverflowException, but it actually returns -1. The default for C# projects is to skip overflow checking for arithmetic.</p><p>This is another answer that I get from time to time:</p><script src="//gist.github.com/924495.js"></script><p>I respect this answer; it indicates that a developer wants to leave low-level details to the framework, which is a perfectly reasonable attitude when developing business-class software. Unfortunately there are two problems with this answer: it defeats the purpose of the test, and it doesn’t exist in the framework. There is the Linq average statement which can be used like this:</p><script src="//gist.github.com/949422.js"></script><p>After the first attempt, I indicate that I want a function which will work correctly for all values of a and b. The way candidates tackle it tells you a lot about them as a developer. Here are some behaviours I’ve noticed:</p><ul><li>Very few candidates stop to consider a solution before answering.</li><li>About 3&#x2F;4 of candidates try to use an if statement.</li><li>About 1&#x2F;4 of candidates write the “if” on the board before deciding what to use it for.</li><li>Occasional candidates will challenge the necessity for handling high values.</li></ul><p>A clean correct answer is hard to pull off on the spot, especially under pressure. I’ve never seen it, and I wouldn’t be surprised if I never do. This doesn’t bother me either. The key thing I’m looking for is the ability to understand questions and discuss the source code. These skills are essential to working in a team.</p><p>How did I come up with such a brilliant interview question? I didn’t. Once upon a time in a company far far away, someone asked me the very same thing. I was pretty proud of my answer too, until I tested it. This was what I came up with:</p><script src="//gist.github.com/950058.js"></script><p>I wrote <a href="https://gist.github.com/949410" title="TestAverageMethod()">a test harness</a> in some spare time after the last round of interviews. Here’s how each of the answers measure up:</p><p>Results for SimpleAverage():<br> Near Zero: 121 of 121 passed.<br> End of Range: 0 of 3 passed.<br> Failed Values:</p><ul><li>SimpleAverage(2147483647, 2147483647) returns -1, but should return 2147483647</li><li>SimpleAverage(-2147483648, -2147483648) returns 0, but should return -2147483648</li><li>SimpleAverage(2147483647, 2147483645) returns -2, but should return 2147483646</li></ul><p>Results for LinqAverage():<br> Near Zero: 121 of 121 passed.<br> End of Range: 3 of 3 passed.</p><p>Results for JessesAverage():<br> Near Zero: 109 of 121 passed.<br> End of Range: 3 of 3 passed.<br> Failed Values:</p><ul><li>JessesAverage(-4, 1) returns -2, but should return -1</li><li>JessesAverage(-4, 3) returns -1, but should return 0</li><li>JessesAverage(-3, 4) returns 1, but should return 0</li><li>JessesAverage(-2, 1) returns -1, but should return 0</li><li>JessesAverage(-1, 2) returns 1, but should return 0</li><li>JessesAverage(-1, 4) returns 2, but should return 1</li><li>JessesAverage(1, -4) returns -2, but should return -1</li><li>JessesAverage(1, -2) returns -1, but should return 0</li><li>JessesAverage(2, -1) returns 1, but should return 0</li><li>JessesAverage(3, -4) returns -1, but should return 0</li><li>JessesAverage(4, -3) returns 1, but should return 0</li><li>JessesAverage(4, -1) returns 2, but should return 1</li></ul><p>This was the best answer I could come up with after some experimentation. I’m not sure why, but the need for type conversion bugs me.</p><script src="//gist.github.com/924508.js"></script><p>Results for ConversionAverage():<br> Near Zero: 121 of 121 passed.<br> End of Range: 3 of 3 passed.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I was conducting technical interviews recently for a senior developer position. I like to talk about a bunch of things, but there is one 
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term=".net" scheme="https://www.jessemcdowell.ca/tags/net/"/>
+    
+      <category term="c#" scheme="https://www.jessemcdowell.ca/tags/c/"/>
+    
+      <category term="leadership" scheme="https://www.jessemcdowell.ca/tags/leadership/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Working Together and Having Fun</title>
+    <link href="https://www.jessemcdowell.ca//2011/01/working-together-and-having-fun/"/>
+    <id>https://www.jessemcdowell.ca//2011/01/working-together-and-having-fun/</id>
+    <published>2011-01-30T19:46:45.000Z</published>
+    <updated>2020-11-03T07:35:39.174Z</updated>
+    
+    <content type="html"><![CDATA[<p>We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation to get right. It can be thankless work too; the only time a user notices a release is when it goes badly. We do our releases early on a week day to minimize impact, so if anything does go wrong, there’s not many bodies around to help out. It’s not much fun, but it’s important work that needs to be done.</p><p>One thing that makes the experience considerably more enjoyable for me is the team of coworkers that come in to help. There’s a handful of us, each with our own responsibilities. I deploy the applications while someone else monitors the database and another person tests the system to make sure it’s running normally. We back each other up, help out where we can, and make decisions together when they need to be made quickly.</p><p>Pressure is never a desirable thing in a work environment, but one benefit is that it quickly builds trust between anyone facing it together. The people I work with are really fantastic: smart, dedicated, and fun. We come from different cultures, like different kinds of food, have different hobbies and different tastes in music, but we still find things to talk about, reasons to laugh and smile.</p><p>I’ve been trying ways to make releases more fun. We had a pot luck breakfast once, and a release soundtrack from team favourites another time. This time I made breakfast burritos, and as a joke, a doughnut salad topped with an espresso sauce. We played a few songs during the waiting periods, and had as much fun as anyone could that early in the morning.</p><p><img src="/DoughnutSalad.jpg" alt="A plate of chopped doughnuts topped with an espresso jelly." title="Doughnut Salad"></p><p>Thanks to the people involved, this release went well despite a few hiccups.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="sysadmin" scheme="https://www.jessemcdowell.ca/tags/sysadmin/"/>
+    
+      <category term="teamwork" scheme="https://www.jessemcdowell.ca/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>When to Add an ORM Tool</title>
+    <link href="https://www.jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/"/>
+    <id>https://www.jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/</id>
+    <published>2011-01-03T20:33:03.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’m working on the code that parses VCalendar data so that it can be processed. Im copying the data I care about into a simple data structure that can represent a calendar request in any format. Any logic that interacts with calendar requests would use this internal structure. I want it to be simple, only having the stuff that I need, but I don’t want to completely re-invent the wheel either, so I will use the VCalendar format as a guideline.</p><p>I’ve used this pattern of processing an established or complex data format into a simple proprietary one before with good results. It allows you to isolate the complexities of a data format in the code that processes it, keeping the rest of your code clean. Like everything, there are cases where I wouldn’t use it, but for this kind of scenario it should work well.</p><p>Now that I’m building this neutral representation, my next thought is how it will be saved to the database. I don’t need a database at this stage of the project, so part of me wants to ignore the decision until later, but the whole point of the system is to persist and interact with these types, so it’s important that I get it right. If I make simple POCO classes now, and start writing a bunch of code that uses them, I might have to change a lot of code later if I want to switch to types generated by Entity Framework. I could write my own custom code to read and write my own types from the database, then I can use any type I want without restrictions, but it would be a waste to write this plumbing code myself when an ORM can do it faster and better.</p><p>Creating a table design now wouldn’t be a simple matter either. I don’t know enough about the needs of the scheduling service to know which parts of the VCalendar format to bring over. If I try to guess now I know I’ll bring over a bunch of stuff that I don’t need, but starting with a simple table and adding fields every time I need one is no fun either. Adding a database to a system is like attaching a ball and chain, and I want to wait until I can be sure I have my model correct before I do it.</p><p>It’s need to make a decision, so here it is: I’m going to keep building my own types, and try to keep them. When it comes time to hook up a database, I’ll play around with the new POCO support in Entity Framework 4, and if that fails I’ll try another ORM tool. I may need to change my model a bit to suit the ORM, but I’m hoping that it wont need to change much.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I’m working on the code that parses VCalendar data so that it can be processed. Im copying the data I care about into a simple data struc
+      
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.jessemcdowell.ca/categories/projects/"/>
+    
+      <category term="Themis" scheme="https://www.jessemcdowell.ca/categories/projects/Themis/"/>
+    
+    
+      <category term="design" scheme="https://www.jessemcdowell.ca/tags/design/"/>
+    
+      <category term="planning" scheme="https://www.jessemcdowell.ca/tags/planning/"/>
+    
+      <category term="database" scheme="https://www.jessemcdowell.ca/tags/database/"/>
+    
+      <category term="entity framework" scheme="https://www.jessemcdowell.ca/tags/entity-framework/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Teaching IT</title>
+    <link href="https://www.jessemcdowell.ca//2010/12/teaching-it/"/>
+    <id>https://www.jessemcdowell.ca//2010/12/teaching-it/</id>
+    <published>2010-12-25T06:28:12.000Z</published>
+    <updated>2020-11-03T07:35:39.172Z</updated>
+    
+    <content type="html"><![CDATA[<p>My company runs a 24&#x2F;7 site with a substantial number of users and connections to partner systems all over the world. We do what we can to make the system fault tolerant, but problems can still appear at any time of day or night. Ideally we would have a technical support team that’s staffed around the clock, but that not in the cards for now.</p><p>We used to have a system where anyone that could fix a problem would get a text message, and whoever was closest to a computer would respond. It worked most of the time, but there were some issues. The team creating the tickets would often be unsure of which component was broken, so the issues would hit lots of people who would be unable to help, and it also exposes <a href="https://en.wikipedia.org/wiki/Diffusion_of_responsibility">a quirk of human behaviour</a> that makes us less likely to help when more people are available.</p><p>Thankfully the whole plan is being reworked. Now a single volunteer will carry a phone that gets all the support tickets. They will respond to issue within a reasonable amount of time, and if they can’t solve them themselves, find other people to help. The company has also added decent incentives to be on call, and is investing in tools to make the job easier.</p><p>As part of the preparation, I’ve been asked to do presentations and create supporting documentation for all of the first responders. I enjoy doing the presentations, and everyone seems to be benefiting from the content, but it’s a lot more work than you might expect. The group of people I’m working with is comprised mostly of heads-down developers. They’re smart people, and all wanting to learn, but most don’t have any IT experience.</p><p>My first session covered these topics:</p><ul><li><p>how to think and act like a seasoned IT pro</p></li><li><p>a brief description of our hosting environment, servers , and where the various applications are deployed</p></li><li><p>how to recognize network problems, hardware problems, and OS problems</p></li><li><p>the symptoms to expect when any of our key systems fail</p></li><li><p>how to safely restart our key systems</p></li></ul><p>It took me about an hour and a half to prepare, and two hours to present. I’ve spent about a day of effort writing it down, but would guess that I’ve covered less than half of the material I talked about. To be fair, the written material is laid out quite differently from the presentations; I am trying to capture a series of troubleshooting guides that can be used in an emergency.</p><p>Are you curious about the difference between a developer and an IT pro? The most significant difference I see is that we developers are used to an environment where we can test changes quickly and safely: change a line of code, hit F5, and see what happens. IT pros take the opposite approach because the cost of a bad change in a live production environment can be devastating. They need to be certain what any change will do before it’s made, and be prepared to roll it back if there’s any hint of trouble. It can be frustrating for a developer to work this way because it’s a serious effort to make even simple changes, but it’s this mentality that keeps the world’s servers running.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;My company runs a 24&amp;#x2F;7 site with a substantial number of users and connections to partner systems all over the world. We do what we 
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="sysadmin" scheme="https://www.jessemcdowell.ca/tags/sysadmin/"/>
+    
+      <category term="troubleshooting" scheme="https://www.jessemcdowell.ca/tags/troubleshooting/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Invitations and the VCard Format</title>
+    <link href="https://www.jessemcdowell.ca//2010/12/invitations-and-the-vcard-format/"/>
+    <id>https://www.jessemcdowell.ca//2010/12/invitations-and-the-vcard-format/</id>
+    <published>2010-12-16T20:59:22.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>My next goal for the Themis project is to parse an invitation from an email. I am starting with invitations generated by MS Outlook because that’s my target audience, but a peak inside of a Google Calendar invitation gives me hope that I’ll be able to support multiple calendars without much trouble.</p><p>Outlook invitations are sent in the VCalendar format, content type “text&#x2F;calendar”. The standard was published as <a href="https://www.w3.org/2002/12/cal/rfc2445.html">RFC 2445</a> in 1998. It describes a standard layout for calendar data in the VCard format, which is described in <a href="https://www.w3.org/2002/12/cal/rfc2425.html">RFC 2425</a>.</p><p>VCard is a simple text based format with a nested structure that’s similar to XML. It uses colons and semicolons instead of angle brackets, supports attributes, and has standard representations for several common data types. Here is an example of the same data represented in both formats (content from RFC 2425):</p><p><img src="/vcard-vs-xml.png" alt="An example of VCard data beside an XML representation of the same data." title="vcard vs xml"></p><p>I looked around for a library to do the job,but decided to build my own. Writing this kind of code isn’t a good way to deliver business value, but it sure is fun. A bit of time with a white board and a couple of evenings coding, and I have a mostly functional VCard parser ready to go.</p><p>When I am setting out to build something like a parser, I like to consider the designs of other established libraries that perform a similar function. As I’ve already mentioned, VCard is a lot like XML in structure, so XML parsers are a great place to look for inspiration. I built a structure that loosely mimics the XmlDocument model, an object tree that holds the entire document in memory. It won’t perform as fast as using something like an XmlReader, but it makes it easier to handle variations in document format with polymorphism. Since the VCard documents I’m processing should never be too big, it won’t be much of a performance burden anyway.</p><p>The object structure that holds VCard data looks like this:</p><p><img src="/VCardObjectModel1.jpg" alt="A UML diagram showing the class structure for holding VCard data." title="VCardObjectModel"></p><p>At first I wanted to have a property like Value, but there is no reliable way to know the type of a VCard value without knowing the structure of the document, and at this level I don’t want to be coupled to the structure of the document. Instead, I will be adding a series of methods to get and set the EscapedValue as a specific type.</p><p>The VCardSimpleValue class was a late addition to the model. I needed a way to hold parameter values (the equivalent of attributes in XML), but since they can’t have parameters of their own I didn’t want to pick up the Parameters collection. I also considered making a type separate from VCardValue for the parameters, but both these classes will need the ability to read and write the escaped value, and I don’t want to write that code twice.</p><p>I’ve added the first unit tests to the solution, checking the parser against a number of examples in the specifications and real snippets extracted from emails sent by Outlook. I’ve also added tests for a number of failure cases in the parser such as groups without an ending or values lines without a value delimiter.</p><p>My next addition will be parsers for the value types and a stub in the test harness that replies to emails with some info about the original request.</p><p>The code at the time of this post is available here: <a href="https://github.com/jessemcdowell/themis/tree/8e0c428df0e33145df0323d6e9ae617114dd0f85">https://github.com/jessemcdowell/themis/tree/8e0c428df0e33145df0323d6e9ae617114dd0f85</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;My next goal for the Themis project is to parse an invitation from an email. I am starting with invitations generated by MS Outlook becau
+      
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.jessemcdowell.ca/categories/projects/"/>
+    
+      <category term="Themis" scheme="https://www.jessemcdowell.ca/categories/projects/Themis/"/>
+    
+    
+      <category term="design" scheme="https://www.jessemcdowell.ca/tags/design/"/>
+    
+      <category term="vcalendar" scheme="https://www.jessemcdowell.ca/tags/vcalendar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>64-bit IIS vs. 32-bit Assemblies</title>
+    <link href="https://www.jessemcdowell.ca//2010/11/64-bit-iis-vs-32-bit-assemblies/"/>
+    <id>https://www.jessemcdowell.ca//2010/11/64-bit-iis-vs-32-bit-assemblies/</id>
+    <published>2010-11-12T00:45:38.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I found my first 64-bit bug at work. I was moving a windows service built for the ‘Any CPU’ to a 64-bit server. It started fine on the new server, and gave no indication of poor health in the logs, but one key function was malfunctioning. I’m not exactly sure what the cause is, but I know that the hash of any binary file was resulting in the same value. The service does some direct memory manipulation which is a likely culprit.</p><p>Fixing the problem was easy: Set all the assemblies to compile for the 32-bit platform, check it in, build it, ship it.</p><p>Except that my web service now looks like this:</p><p><em>Server Error in ‘&#x2F;MyApp’ Application.</em></p><p><em>Could not load file or assembly ‘MyCompany.MyApp.MyAssembly’ or one of its dependencies. An attempt was made to load a program with an incorrect format.</em></p><p>This application has two parts on the server: a windows service that processes emails, and a web service for interacting with them. The two parts share a database and a bunch of business logic, so they also share some assemblies. The windows service works great now that I’ve converted all the assemblies to 32-bit, but the web service wont start.</p><p>Although the error message is a bit misleading, it wasn’t that hard to find the problem. When IIS is running in 64-bit mode (as it tends to do on 64-bit servers), all of its application pools will be 64-bit, and a 64-bit application pool cant load a 32 bit assembly. These are all the ways I can think of to fix it:</p><ul><li>IIS 7 can run an application pool in 32-bit mode</li><li>IIS 6 can be configured to run in 32-bit mode, or you can run a second instance in 32-bit mode, though I don’t imagine both instances could share the same ports</li><li>Write 32-bit and 64-bit versions for any platform-specific operations using conditional compilation, then build two versions of your assemblies</li><li>Rewrite the malfunctioning parts of your app so you don’t have any platform-specific code</li><li>Compile most of your assemblies for ‘Any CPU’, but compile entry-point assemblies (such as my service executable) for 32-bit</li></ul><p>A configuration-based solution isn’t ideal based on the number and management practices of our environments. Finding and removing platform dependence would be the best technical solution, but it would be risky and time consuming. Switching some of my assemblies back to ‘Any CPU’ did the job with a minimal amount of impact.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I found my first 64-bit bug at work. I was moving a windows service built for the ‘Any CPU’ to a 64-bit server. It started fine on the ne
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="sysadmin" scheme="https://www.jessemcdowell.ca/tags/sysadmin/"/>
+    
+      <category term=".net" scheme="https://www.jessemcdowell.ca/tags/net/"/>
+    
+      <category term="troubleshooting" scheme="https://www.jessemcdowell.ca/tags/troubleshooting/"/>
+    
+      <category term="web" scheme="https://www.jessemcdowell.ca/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQLite vs. SQL CE 3.5 with Entity Framework 4</title>
+    <link href="https://www.jessemcdowell.ca//2010/10/sqlite-vs-sql-ce-3-5-with-entity-framework-4/"/>
+    <id>https://www.jessemcdowell.ca//2010/10/sqlite-vs-sql-ce-3-5-with-entity-framework-4/</id>
+    <published>2010-11-01T05:19:23.000Z</published>
+    <updated>2021-01-30T03:45:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>My wife and I have been taking a Japanese class. I’m enjoying it quite a bit, even though learning languages has never been easy for me. I need to work hard to memorize all the new words, and that means lots and lots of practice.</p><p>My wife bought a pack of index cards. This is what a normal person would do. To me, it seems like defeat. Why use paper when there’s a computer in the room? While she’s at the store, I grab a white board and sketch out a data model.</p><p>I used WPF for a UI, two simple view models, and Entity Framework 4 to store the lists of characters, words, and phrases. I started out with SQL Compact Edition 3.5 as a database because that was the one that was there. That didn’t work out so well, so on the advice of a colleague I switched my app to SQLite.</p><p>This is what I found:</p><p>SQL CE 3.5</p><p>SQLite</p><p>Pros</p><ul><li><p>Can be created easily from the VS designer</p></li><li><p>Can view and modify data inside Visual Studio</p></li><li><p>Supports Identity Columns</p></li><li><p>Easy to deploy</p></li><li><p>Lots of good tools available for managing databases</p></li><li><p>Can be used from non .Net and even non Windows applications</p></li></ul><p>Cons</p><ul><li><p>Doesn’t support Identity Columns in EF</p></li><li><p>Requires extra installation on client computers</p></li><li><p>Generating tables from a model is painful</p></li><li><p>Many model changes require regenerating the database</p></li><li><p>Doesn’t map Integer type correctly</p></li><li><p>Doesn’t support foreign key constraints</p></li><li><p>Generating tables from a model is somewhat painful</p></li></ul><h1 id="SQL-Compact-Edition-3-5"><a href="#SQL-Compact-Edition-3-5" class="headerlink" title="SQL Compact Edition 3.5"></a>SQL Compact Edition 3.5</h1><p>Before I start dumping on SQL CE, I should say that I was trying the 3.5 version, not the fancy new 4.0 version. Maybe they’ve fixed all these issues.</p><p>Creating the model was easy, but as I went through a few iterations of the data model I quickly became frustrated with the inability to change the database to match the new model. I’m sure it’s possible to change it, but you have to write the scripts yourself and hope that you’ve named everything exactly right. Entity Framework created a handy database-generation script, but it won’t run directly on as SQL CE database because it doesn’t support the GO statement. Copy and pasting each section of the script is annoying, but still better than typing all the names manually.</p><p>The real shock was adding data from inside my app. Entity Framework can’t generate data in a SQL CE database if the primary key is an identity. The best workaround I could find was to use a regular old integer for a primary key and search the model for the highest key value every time an entity is created. Not fun at all.</p><h1 id="SQLite"><a href="#SQLite" class="headerlink" title="SQLite"></a>SQLite</h1><p>It took a bit of fooling around to switch my database to SQLite. Most of the creation script ran on the database, though the types had to be changed a bit to match the database. All integers in SQLite are actually Int64 in .Net, but the Entity Framework maps them to Int32 in the model. Modifying the mapping files manually is annoying, but not hard to figure out.</p><p>Once the tables were set up and working, it was easy to copy the data over. The database tool I’m using for SQLite can import CSV files, even the multi-byte Japanese characters came across correctly.</p><p>The only thing left is to study.</p><p>You can get a .Net library for SQLite here: <a href="https://sqlite.phxsoftware.com/">https://sqlite.phxsoftware.com/</a></p><p>It’s able to integrate with Visual Studio, even the Express version, but it didn’t work well for me. With a good database management tool you don’t need it. I’ve been using SQLite Administrator, which you can get here: <a href="https://sqliteadmin.orbmu2k.de/">https://sqliteadmin.orbmu2k.de/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;My wife and I have been taking a Japanese class. I’m enjoying it quite a bit, even though learning languages has never been easy for me. 
+      
+    
+    </summary>
+    
+      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+    
+    
+      <category term="database" scheme="https://www.jessemcdowell.ca/tags/database/"/>
+    
+      <category term="entity framework" scheme="https://www.jessemcdowell.ca/tags/entity-framework/"/>
+    
+  </entry>
+  
+</feed>

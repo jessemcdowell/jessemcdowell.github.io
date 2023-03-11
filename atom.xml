@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jesse Builds Software</title>
   
-  <subtitle>Jesse&#39;s opinions on building quality software.</subtitle>
+  <subtitle>Jesse&#39;s thoughts on building quality software.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.jessemcdowell.ca/"/>

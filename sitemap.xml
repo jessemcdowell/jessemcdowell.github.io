@@ -2,6 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.jessemcdowell.ca/2011/01/working-together-and-having-fun/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2011/04/the-average-test/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2010/12/teaching-it/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2018/06/brewing-your-own-iced-tea/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2014/06/why-i-only-drink-loose-tea/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2011/05/consulting-a-brave-new-world/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/2010/07/my-first-post/</loc>
+    
+    <lastmod>2023-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/</loc>
     
     <lastmod>2023-05-01</lastmod>
@@ -119,15 +227,6 @@
   </url>
   
   <url>
-    <loc>https://www.jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/</loc>
-    
-    <lastmod>2021-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jessemcdowell.ca/2011/06/the-critical-path/</loc>
     
     <lastmod>2021-01-30</lastmod>
@@ -191,106 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/</loc>
-    
-    <lastmod>2020-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2018/06/brewing-your-own-iced-tea/</loc>
-    
-    <lastmod>2020-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2014/06/why-i-only-drink-loose-tea/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2011/05/consulting-a-brave-new-world/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2011/01/working-together-and-having-fun/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2011/04/the-average-test/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2010/12/teaching-it/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jessemcdowell.ca/2010/09/themis-system-design/</loc>
-    
-    <lastmod>2020-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/2010/07/my-first-post/</loc>
     
     <lastmod>2020-11-03</lastmod>
     
@@ -324,21 +324,7 @@
   </url>
   
   <url>
-    <loc>https://www.jessemcdowell.ca/tags/projects/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jessemcdowell.ca/tags/sql/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/sysadmin/</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -373,34 +359,6 @@
   </url>
   
   <url>
-    <loc>https://www.jessemcdowell.ca/tags/planning/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/requirements/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/music/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/toys/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jessemcdowell.ca/tags/database/</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,35 +373,7 @@
   </url>
   
   <url>
-    <loc>https://www.jessemcdowell.ca/tags/net/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/troubleshooting/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.jessemcdowell.ca/tags/web/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/vcalendar/</loc>
-    <lastmod>2023-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jessemcdowell.ca/tags/teamwork/</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -549,6 +479,55 @@
   
   <url>
     <loc>https://www.jessemcdowell.ca/tags/war-stories/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/devops/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/Net/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/gadgets/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/project-management/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/people-management/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/management/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jessemcdowell.ca/tags/interviewing/</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

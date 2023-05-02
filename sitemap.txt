@@ -1,12 +1,13 @@
 https://www.jessemcdowell.ca/2011/01/working-together-and-having-fun/
+https://www.jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
+https://www.jessemcdowell.ca/2010/09/themis-system-design/
+https://www.jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
 https://www.jessemcdowell.ca/2011/04/the-average-test/
 https://www.jessemcdowell.ca/2010/12/teaching-it/
 https://www.jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/
-https://www.jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
 https://www.jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/
 https://www.jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/
 https://www.jessemcdowell.ca/2018/06/brewing-your-own-iced-tea/
-https://www.jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
 https://www.jessemcdowell.ca/2014/06/why-i-only-drink-loose-tea/
 https://www.jessemcdowell.ca/2011/05/consulting-a-brave-new-world/
 https://www.jessemcdowell.ca/2010/07/my-first-post/
@@ -30,7 +31,6 @@ https://www.jessemcdowell.ca/2012/03/choosing-priorities/
 https://www.jessemcdowell.ca/2016/08/infiltrating-an-organization/
 https://www.jessemcdowell.ca/about/
 https://www.jessemcdowell.ca/license/
-https://www.jessemcdowell.ca/2010/09/themis-system-design/
 https://www.jessemcdowell.ca/mysterysolver/
 https://www.jessemcdowell.ca/
 https://www.jessemcdowell.ca/tags/blogging/
@@ -52,7 +52,6 @@ https://www.jessemcdowell.ca/tags/angular/
 https://www.jessemcdowell.ca/tags/js/
 https://www.jessemcdowell.ca/tags/food/
 https://www.jessemcdowell.ca/tags/tea/
-https://www.jessemcdowell.ca/tags/server-graphs/
 https://www.jessemcdowell.ca/tags/recipes/
 https://www.jessemcdowell.ca/tags/bugs/
 https://www.jessemcdowell.ca/tags/debugging/
@@ -62,5 +61,4 @@ https://www.jessemcdowell.ca/tags/Net/
 https://www.jessemcdowell.ca/tags/gadgets/
 https://www.jessemcdowell.ca/tags/project-management/
 https://www.jessemcdowell.ca/tags/people-management/
-https://www.jessemcdowell.ca/tags/management/
 https://www.jessemcdowell.ca/tags/interviewing/

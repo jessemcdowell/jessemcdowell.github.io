@@ -1,3 +1,4 @@
+https://www.jessemcdowell.ca/2023/05/Is-the-Bug-Fun/
 https://www.jessemcdowell.ca/2011/01/working-together-and-having-fun/
 https://www.jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
 https://www.jessemcdowell.ca/2010/09/themis-system-design/
@@ -56,6 +57,7 @@ https://www.jessemcdowell.ca/tags/recipes/
 https://www.jessemcdowell.ca/tags/bugs/
 https://www.jessemcdowell.ca/tags/debugging/
 https://www.jessemcdowell.ca/tags/war-stories/
+https://www.jessemcdowell.ca/tags/video-games/
 https://www.jessemcdowell.ca/tags/devops/
 https://www.jessemcdowell.ca/tags/Net/
 https://www.jessemcdowell.ca/tags/gadgets/

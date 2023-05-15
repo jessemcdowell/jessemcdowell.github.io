@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.jessemcdowell.ca/"/>
-  <updated>2023-05-01T15:26:25.859Z</updated>
+  <updated>2023-05-15T17:47:52.291Z</updated>
   <id>https://www.jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Is the Bug Fun?</title>
+    <link href="https://www.jessemcdowell.ca/2023/05/Is-the-Bug-Fun/"/>
+    <id>https://www.jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</id>
+    <published>2023-05-15T17:47:52.000Z</published>
+    <updated>2023-05-15T17:47:52.291Z</updated>
+    
+    <content type="html"><![CDATA[<p>There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any piece of software, bugs are found through testing or user reports, triaged, then assigned to developers. Unlike normal business software they also ask the question, “is the bug fun?”</p><p>There are plenty of unintended features (bugs) in games that became beloved. Attack combos were an accident in Street Fighter II, but they became so popular that they are a part of basically every fighting game now. Rocket jumps are another example. The internet is full of examples.</p><p>Sometimes very glitchy games can be fun too, especially for a certain audience. Speed runners sometimes use glitches to lower their times. People love games for all sorts of reasons beyond just beating them and getting high scores. At the end of the day the goal of a game is to entertain more than be correct.</p><p>The next time a bug comes across your desk, maybe ask yourself if fixing it would make your app less fun.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any p
+      
+    
+    </summary>
+    
+    
+      <category term="bugs" scheme="https://www.jessemcdowell.ca/tags/bugs/"/>
+    
+      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+    
+      <category term="video games" scheme="https://www.jessemcdowell.ca/tags/video-games/"/>
+    
+  </entry>
   
   <entry>
     <title>Case of the Disappearing Users</title>
@@ -512,33 +539,6 @@
       <category term="entity framework" scheme="https://www.jessemcdowell.ca/tags/entity-framework/"/>
     
       <category term=".Net" scheme="https://www.jessemcdowell.ca/tags/Net/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Teaching IT</title>
-    <link href="https://www.jessemcdowell.ca//2010/12/teaching-it/"/>
-    <id>https://www.jessemcdowell.ca//2010/12/teaching-it/</id>
-    <published>2010-12-25T06:28:12.000Z</published>
-    <updated>2023-05-01T19:02:07.238Z</updated>
-    
-    <content type="html"><![CDATA[<p>My company runs a 24&#x2F;7 site with a substantial number of users and connections to partner systems all over the world. We do what we can to make the system fault tolerant, but problems can still appear at any time of day or night. Ideally we would have a technical support team that’s staffed around the clock, but that not in the cards for now.</p><p>We used to have a system where anyone that could fix a problem would get a text message, and whoever was closest to a computer would respond. It worked most of the time, but there were some issues. The team creating the tickets would often be unsure of which component was broken, so the issues would hit lots of people who would be unable to help, and it also exposes <a href="https://en.wikipedia.org/wiki/Diffusion_of_responsibility">a quirk of human behaviour</a> that makes us less likely to help when more people are available.</p><p>Thankfully the whole plan is being reworked. Now a single volunteer will carry a phone that gets all the support tickets. They will respond to issue within a reasonable amount of time, and if they can’t solve them themselves, find other people to help. The company has also added decent incentives to be on call, and is investing in tools to make the job easier.</p><p>As part of the preparation, I’ve been asked to do presentations and create supporting documentation for all of the first responders. I enjoy doing the presentations, and everyone seems to be benefiting from the content, but it’s a lot more work than you might expect. The group of people I’m working with is comprised mostly of heads-down developers. They’re smart people, and all wanting to learn, but most don’t have any IT experience.</p><p>My first session covered these topics:</p><ul><li><p>how to think and act like a seasoned IT pro</p></li><li><p>a brief description of our hosting environment, servers , and where the various applications are deployed</p></li><li><p>how to recognize network problems, hardware problems, and OS problems</p></li><li><p>the symptoms to expect when any of our key systems fail</p></li><li><p>how to safely restart our key systems</p></li></ul><p>It took me about an hour and a half to prepare, and two hours to present. I’ve spent about a day of effort writing it down, but would guess that I’ve covered less than half of the material I talked about. To be fair, the written material is laid out quite differently from the presentations; I am trying to capture a series of troubleshooting guides that can be used in an emergency.</p><p>Are you curious about the difference between a developer and an IT pro? The most significant difference I see is that we developers are used to an environment where we can test changes quickly and safely: change a line of code, hit F5, and see what happens. IT pros take the opposite approach because the cost of a bad change in a live production environment can be devastating. They need to be certain what any change will do before it’s made, and be prepared to roll it back if there’s any hint of trouble. It can be frustrating for a developer to work this way because it’s a serious effort to make even simple changes, but it’s this mentality that keeps the world’s servers running.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;My company runs a 24&amp;#x2F;7 site with a substantial number of users and connections to partner systems all over the world. We do what we 
-      
-    
-    </summary>
-    
-    
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
-    
-      <category term="devops" scheme="https://www.jessemcdowell.ca/tags/devops/"/>
-    
-      <category term="people management" scheme="https://www.jessemcdowell.ca/tags/people-management/"/>
     
   </entry>
   

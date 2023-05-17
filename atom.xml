@@ -5,9 +5,9 @@
   <subtitle>Jesse&#39;s thoughts on building quality software.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.jessemcdowell.ca/"/>
+  <link href="https://jessemcdowell.ca/"/>
   <updated>2023-05-15T17:47:52.291Z</updated>
-  <id>https://www.jessemcdowell.ca/</id>
+  <id>https://jessemcdowell.ca/</id>
   
   <author>
     <name>Jesse McDowell</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Is the Bug Fun?</title>
-    <link href="https://www.jessemcdowell.ca/2023/05/Is-the-Bug-Fun/"/>
-    <id>https://www.jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</id>
+    <link href="https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/"/>
+    <id>https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</id>
     <published>2023-05-15T17:47:52.000Z</published>
     <updated>2023-05-15T17:47:52.291Z</updated>
     
@@ -35,18 +35,18 @@
     </summary>
     
     
-      <category term="bugs" scheme="https://www.jessemcdowell.ca/tags/bugs/"/>
+      <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-      <category term="video games" scheme="https://www.jessemcdowell.ca/tags/video-games/"/>
+      <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
     
   </entry>
   
   <entry>
     <title>Case of the Disappearing Users</title>
-    <link href="https://www.jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/"/>
-    <id>https://www.jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/</id>
+    <link href="https://jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/"/>
+    <id>https://jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/</id>
     <published>2023-05-01T15:26:25.000Z</published>
     <updated>2023-05-01T15:26:25.859Z</updated>
     
@@ -62,16 +62,16 @@
     </summary>
     
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-      <category term="war stories" scheme="https://www.jessemcdowell.ca/tags/war-stories/"/>
+      <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
     
   </entry>
   
   <entry>
     <title>How to Fix a Bug</title>
-    <link href="https://www.jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/"/>
-    <id>https://www.jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/</id>
+    <link href="https://jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/"/>
+    <id>https://jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/</id>
     <published>2023-04-24T15:50:00.000Z</published>
     <updated>2023-04-24T15:51:33.061Z</updated>
     
@@ -87,16 +87,16 @@
     </summary>
     
     
-      <category term="bugs" scheme="https://www.jessemcdowell.ca/tags/bugs/"/>
+      <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
   </entry>
   
   <entry>
     <title>How to Report a Bug</title>
-    <link href="https://www.jessemcdowell.ca/2023/03/How-to-Report-a-Bug/"/>
-    <id>https://www.jessemcdowell.ca/2023/03/How-to-Report-a-Bug/</id>
+    <link href="https://jessemcdowell.ca/2023/03/How-to-Report-a-Bug/"/>
+    <id>https://jessemcdowell.ca/2023/03/How-to-Report-a-Bug/</id>
     <published>2023-03-11T05:40:00.000Z</published>
     <updated>2023-03-12T02:03:00.000Z</updated>
     
@@ -112,16 +112,16 @@
     </summary>
     
     
-      <category term="bugs" scheme="https://www.jessemcdowell.ca/tags/bugs/"/>
+      <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
   </entry>
   
   <entry>
     <title>Breaking Past Senior Developer</title>
-    <link href="https://www.jessemcdowell.ca/2021/01/breaking-past-senior-developer/"/>
-    <id>https://www.jessemcdowell.ca/2021/01/breaking-past-senior-developer/</id>
+    <link href="https://jessemcdowell.ca/2021/01/breaking-past-senior-developer/"/>
+    <id>https://jessemcdowell.ca/2021/01/breaking-past-senior-developer/</id>
     <published>2021-01-30T03:45:00.000Z</published>
     <updated>2021-01-30T07:01:00.000Z</updated>
     
@@ -137,18 +137,18 @@
     </summary>
     
     
-      <category term="leadership" scheme="https://www.jessemcdowell.ca/tags/leadership/"/>
+      <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
-      <category term="people management" scheme="https://www.jessemcdowell.ca/tags/people-management/"/>
+      <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
   </entry>
   
   <entry>
     <title>Brewing Your Own Iced Tea</title>
-    <link href="https://www.jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/"/>
-    <id>https://www.jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/</id>
+    <link href="https://jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/"/>
+    <id>https://jessemcdowell.ca//2018/06/brewing-your-own-iced-tea/</id>
     <published>2018-06-14T04:29:59.000Z</published>
     <updated>2023-05-01T18:41:41.561Z</updated>
     
@@ -164,18 +164,18 @@
     </summary>
     
     
-      <category term="food" scheme="https://www.jessemcdowell.ca/tags/food/"/>
+      <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-      <category term="tea" scheme="https://www.jessemcdowell.ca/tags/tea/"/>
+      <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
     
-      <category term="recipes" scheme="https://www.jessemcdowell.ca/tags/recipes/"/>
+      <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
     
   </entry>
   
   <entry>
     <title>Infiltrating an Organization (or: Joining a New Team)</title>
-    <link href="https://www.jessemcdowell.ca//2016/08/infiltrating-an-organization/"/>
-    <id>https://www.jessemcdowell.ca//2016/08/infiltrating-an-organization/</id>
+    <link href="https://jessemcdowell.ca//2016/08/infiltrating-an-organization/"/>
+    <id>https://jessemcdowell.ca//2016/08/infiltrating-an-organization/</id>
     <published>2016-09-01T05:23:42.000Z</published>
     <updated>2021-01-30T03:45:23.000Z</updated>
     
@@ -191,16 +191,16 @@
     </summary>
     
     
-      <category term="leadership" scheme="https://www.jessemcdowell.ca/tags/leadership/"/>
+      <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
   </entry>
   
   <entry>
     <title>Why I Only Drink Loose Tea</title>
-    <link href="https://www.jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/"/>
-    <id>https://www.jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/</id>
+    <link href="https://jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/"/>
+    <id>https://jessemcdowell.ca//2014/06/why-i-only-drink-loose-tea/</id>
     <published>2014-06-01T22:47:35.000Z</published>
     <updated>2023-05-01T18:38:45.513Z</updated>
     
@@ -216,16 +216,16 @@
     </summary>
     
     
-      <category term="food" scheme="https://www.jessemcdowell.ca/tags/food/"/>
+      <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-      <category term="tea" scheme="https://www.jessemcdowell.ca/tags/tea/"/>
+      <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
     
   </entry>
   
   <entry>
     <title>Controller Led Navigation in Angular</title>
-    <link href="https://www.jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/"/>
-    <id>https://www.jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/</id>
+    <link href="https://jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/"/>
+    <id>https://jessemcdowell.ca//2014/04/controller-led-navigation-in-angular/</id>
     <published>2014-04-01T22:59:35.000Z</published>
     <updated>2023-05-01T19:17:58.917Z</updated>
     
@@ -241,18 +241,18 @@
     </summary>
     
     
-      <category term="web" scheme="https://www.jessemcdowell.ca/tags/web/"/>
+      <category term="web" scheme="https://jessemcdowell.ca/tags/web/"/>
     
-      <category term="angular" scheme="https://www.jessemcdowell.ca/tags/angular/"/>
+      <category term="angular" scheme="https://jessemcdowell.ca/tags/angular/"/>
     
-      <category term="js" scheme="https://www.jessemcdowell.ca/tags/js/"/>
+      <category term="js" scheme="https://jessemcdowell.ca/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>Reading Server Graphs: Connected Users</title>
-    <link href="https://www.jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/"/>
-    <id>https://www.jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/</id>
+    <link href="https://jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/"/>
+    <id>https://jessemcdowell.ca//2013/06/reading-server-graphs-connected-users/</id>
     <published>2013-06-15T05:30:44.000Z</published>
     <updated>2023-05-02T19:19:02.667Z</updated>
     
@@ -268,18 +268,18 @@
     </summary>
     
     
-      <category term="performance" scheme="https://www.jessemcdowell.ca/tags/performance/"/>
+      <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-      <category term="devops" scheme="https://www.jessemcdowell.ca/tags/devops/"/>
+      <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
   </entry>
   
   <entry>
     <title>InstallUtil and BadImageFormatException - Facepalm</title>
-    <link href="https://www.jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/"/>
-    <id>https://www.jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/</id>
+    <link href="https://jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/"/>
+    <id>https://jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/</id>
     <published>2012-04-15T06:09:18.000Z</published>
     <updated>2023-05-01T18:49:52.995Z</updated>
     
@@ -295,18 +295,18 @@
     </summary>
     
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-      <category term="devops" scheme="https://www.jessemcdowell.ca/tags/devops/"/>
+      <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
-      <category term=".Net" scheme="https://www.jessemcdowell.ca/tags/Net/"/>
+      <category term=".Net" scheme="https://jessemcdowell.ca/tags/Net/"/>
     
   </entry>
   
   <entry>
     <title>Choosing Priorities</title>
-    <link href="https://www.jessemcdowell.ca//2012/03/choosing-priorities/"/>
-    <id>https://www.jessemcdowell.ca//2012/03/choosing-priorities/</id>
+    <link href="https://jessemcdowell.ca//2012/03/choosing-priorities/"/>
+    <id>https://jessemcdowell.ca//2012/03/choosing-priorities/</id>
     <published>2012-03-09T05:50:05.000Z</published>
     <updated>2021-01-30T03:45:23.000Z</updated>
     
@@ -321,19 +321,19 @@
     
     </summary>
     
-      <category term="projects" scheme="https://www.jessemcdowell.ca/categories/projects/"/>
+      <category term="projects" scheme="https://jessemcdowell.ca/categories/projects/"/>
     
-      <category term="Themis" scheme="https://www.jessemcdowell.ca/categories/projects/Themis/"/>
+      <category term="Themis" scheme="https://jessemcdowell.ca/categories/projects/Themis/"/>
     
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
   </entry>
   
   <entry>
     <title>Sharpening The Saw</title>
-    <link href="https://www.jessemcdowell.ca//2011/10/sharpening-the-saw/"/>
-    <id>https://www.jessemcdowell.ca//2011/10/sharpening-the-saw/</id>
+    <link href="https://jessemcdowell.ca//2011/10/sharpening-the-saw/"/>
+    <id>https://jessemcdowell.ca//2011/10/sharpening-the-saw/</id>
     <published>2011-10-25T01:49:26.000Z</published>
     <updated>2021-01-30T03:45:23.000Z</updated>
     
@@ -349,16 +349,16 @@
     </summary>
     
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
-      <category term="learning" scheme="https://www.jessemcdowell.ca/tags/learning/"/>
+      <category term="learning" scheme="https://jessemcdowell.ca/tags/learning/"/>
     
   </entry>
   
   <entry>
     <title>Managing Priorities Outside of Work</title>
-    <link href="https://www.jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/"/>
-    <id>https://www.jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/</id>
+    <link href="https://jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/"/>
+    <id>https://jessemcdowell.ca//2011/10/managing-priorities-outside-of-work/</id>
     <published>2011-10-07T02:55:07.000Z</published>
     <updated>2023-05-01T18:55:47.373Z</updated>
     
@@ -374,14 +374,14 @@
     </summary>
     
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
   </entry>
   
   <entry>
     <title>Doubling Data for Performance Testing</title>
-    <link href="https://www.jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/"/>
-    <id>https://www.jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/</id>
+    <link href="https://jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/"/>
+    <id>https://jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/</id>
     <published>2011-08-12T04:22:26.000Z</published>
     <updated>2021-01-30T03:45:23.000Z</updated>
     
@@ -397,21 +397,21 @@
     
     </summary>
     
-      <category term="uncategorized" scheme="https://www.jessemcdowell.ca/categories/uncategorized/"/>
+      <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
     
     
-      <category term="database" scheme="https://www.jessemcdowell.ca/tags/database/"/>
+      <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
-      <category term="performance" scheme="https://www.jessemcdowell.ca/tags/performance/"/>
+      <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
-      <category term="debugging" scheme="https://www.jessemcdowell.ca/tags/debugging/"/>
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
   </entry>
   
   <entry>
     <title>The Critical Path</title>
-    <link href="https://www.jessemcdowell.ca//2011/06/the-critical-path/"/>
-    <id>https://www.jessemcdowell.ca//2011/06/the-critical-path/</id>
+    <link href="https://jessemcdowell.ca//2011/06/the-critical-path/"/>
+    <id>https://jessemcdowell.ca//2011/06/the-critical-path/</id>
     <published>2011-06-25T16:58:08.000Z</published>
     <updated>2021-01-30T03:45:23.000Z</updated>
     
@@ -427,14 +427,14 @@
     </summary>
     
     
-      <category term="project management" scheme="https://www.jessemcdowell.ca/tags/project-management/"/>
+      <category term="project management" scheme="https://jessemcdowell.ca/tags/project-management/"/>
     
   </entry>
   
   <entry>
     <title>Consulting - A Brave New World</title>
-    <link href="https://www.jessemcdowell.ca//2011/05/consulting-a-brave-new-world/"/>
-    <id>https://www.jessemcdowell.ca//2011/05/consulting-a-brave-new-world/</id>
+    <link href="https://jessemcdowell.ca//2011/05/consulting-a-brave-new-world/"/>
+    <id>https://jessemcdowell.ca//2011/05/consulting-a-brave-new-world/</id>
     <published>2011-05-24T05:20:41.000Z</published>
     <updated>2023-05-01T18:33:41.284Z</updated>
     
@@ -451,16 +451,16 @@
     </summary>
     
     
-      <category term="career" scheme="https://www.jessemcdowell.ca/tags/career/"/>
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
-      <category term="consulting" scheme="https://www.jessemcdowell.ca/tags/consulting/"/>
+      <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
     
   </entry>
   
   <entry>
     <title>The Average Test</title>
-    <link href="https://www.jessemcdowell.ca//2011/04/the-average-test/"/>
-    <id>https://www.jessemcdowell.ca//2011/04/the-average-test/</id>
+    <link href="https://jessemcdowell.ca//2011/04/the-average-test/"/>
+    <id>https://jessemcdowell.ca//2011/04/the-average-test/</id>
     <published>2011-04-30T23:08:30.000Z</published>
     <updated>2023-05-01T19:14:58.230Z</updated>
     
@@ -476,16 +476,16 @@
     </summary>
     
     
-      <category term="c#" scheme="https://www.jessemcdowell.ca/tags/c/"/>
+      <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
     
-      <category term="interviewing" scheme="https://www.jessemcdowell.ca/tags/interviewing/"/>
+      <category term="interviewing" scheme="https://jessemcdowell.ca/tags/interviewing/"/>
     
   </entry>
   
   <entry>
     <title>Working Together and Having Fun</title>
-    <link href="https://www.jessemcdowell.ca//2011/01/working-together-and-having-fun/"/>
-    <id>https://www.jessemcdowell.ca//2011/01/working-together-and-having-fun/</id>
+    <link href="https://jessemcdowell.ca//2011/01/working-together-and-having-fun/"/>
+    <id>https://jessemcdowell.ca//2011/01/working-together-and-having-fun/</id>
     <published>2011-01-30T19:46:45.000Z</published>
     <updated>2023-05-02T19:21:50.747Z</updated>
     
@@ -501,18 +501,18 @@
     </summary>
     
     
-      <category term="leadership" scheme="https://www.jessemcdowell.ca/tags/leadership/"/>
+      <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
-      <category term="devops" scheme="https://www.jessemcdowell.ca/tags/devops/"/>
+      <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
-      <category term="people management" scheme="https://www.jessemcdowell.ca/tags/people-management/"/>
+      <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
   </entry>
   
   <entry>
     <title>When to Add an ORM Tool</title>
-    <link href="https://www.jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/"/>
-    <id>https://www.jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/</id>
+    <link href="https://jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/"/>
+    <id>https://jessemcdowell.ca//2011/01/when-to-add-an-orm-tool/</id>
     <published>2011-01-03T20:33:03.000Z</published>
     <updated>2023-05-01T18:48:17.435Z</updated>
     
@@ -527,18 +527,18 @@
     
     </summary>
     
-      <category term="projects" scheme="https://www.jessemcdowell.ca/categories/projects/"/>
+      <category term="projects" scheme="https://jessemcdowell.ca/categories/projects/"/>
     
-      <category term="Themis" scheme="https://www.jessemcdowell.ca/categories/projects/Themis/"/>
+      <category term="Themis" scheme="https://jessemcdowell.ca/categories/projects/Themis/"/>
     
     
-      <category term="design" scheme="https://www.jessemcdowell.ca/tags/design/"/>
+      <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
-      <category term="database" scheme="https://www.jessemcdowell.ca/tags/database/"/>
+      <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
-      <category term="entity framework" scheme="https://www.jessemcdowell.ca/tags/entity-framework/"/>
+      <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
     
-      <category term=".Net" scheme="https://www.jessemcdowell.ca/tags/Net/"/>
+      <category term=".Net" scheme="https://jessemcdowell.ca/tags/Net/"/>
     
   </entry>
   

@@ -1,4 +1,6 @@
 https://jessemcdowell.ca/2023/05/Sustainable-Errors/
+https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/
+https://jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/
 https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/
 https://jessemcdowell.ca/2011/01/working-together-and-having-fun/
 https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
@@ -7,8 +9,6 @@ https://jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
 https://jessemcdowell.ca/2011/04/the-average-test/
 https://jessemcdowell.ca/2010/12/teaching-it/
 https://jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/
-https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/
-https://jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/
 https://jessemcdowell.ca/2018/06/brewing-your-own-iced-tea/
 https://jessemcdowell.ca/2014/06/why-i-only-drink-loose-tea/
 https://jessemcdowell.ca/2011/05/consulting-a-brave-new-world/
@@ -43,6 +43,7 @@ https://jessemcdowell.ca/tags/ioc/
 https://jessemcdowell.ca/tags/unit-testing/
 https://jessemcdowell.ca/tags/database/
 https://jessemcdowell.ca/tags/entity-framework/
+https://jessemcdowell.ca/tags/net/
 https://jessemcdowell.ca/tags/web/
 https://jessemcdowell.ca/tags/c/
 https://jessemcdowell.ca/tags/leadership/
@@ -60,7 +61,6 @@ https://jessemcdowell.ca/tags/debugging/
 https://jessemcdowell.ca/tags/war-stories/
 https://jessemcdowell.ca/tags/video-games/
 https://jessemcdowell.ca/tags/devops/
-https://jessemcdowell.ca/tags/Net/
 https://jessemcdowell.ca/tags/gadgets/
 https://jessemcdowell.ca/tags/project-management/
 https://jessemcdowell.ca/tags/people-management/

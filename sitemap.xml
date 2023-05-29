@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
+    
+    <lastmod>2023-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/</loc>
+    
+    <lastmod>2023-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</loc>
     
     <lastmod>2023-05-15</lastmod>
@@ -75,24 +93,6 @@
   
   <url>
     <loc>https://jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/</loc>
-    
-    <lastmod>2023-05-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
-    
-    <lastmod>2023-05-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/</loc>
     
     <lastmod>2023-05-01</lastmod>
     
@@ -391,6 +391,13 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/tags/net/</loc>
+    <lastmod>2023-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/tags/web/</loc>
     <lastmod>2023-05-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -504,13 +511,6 @@
   
   <url>
     <loc>https://jessemcdowell.ca/tags/devops/</loc>
-    <lastmod>2023-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/tags/Net/</loc>
     <lastmod>2023-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

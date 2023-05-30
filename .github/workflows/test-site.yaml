@@ -17,7 +17,6 @@ jobs:
           url: "https://jessemcdowell.ca"
           honorRobotExclusions: false
           ignorePatterns: "github,google"
-          recursiveLinks: true
-          excludeExternalLinks: true
+          recursiveLinks: false
       - name: Get the result
         run: echo "${{steps.link-report.outputs.result}}"

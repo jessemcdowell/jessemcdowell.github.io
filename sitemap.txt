@@ -1,3 +1,4 @@
+https://jessemcdowell.ca/2023/06/Automating-Non-Non-Downtime-Upgrades-in-Kubernetes-with-ArgoCD/
 https://jessemcdowell.ca/2023/06/Importance-of-Alignment/
 https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/
 https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
@@ -62,9 +63,11 @@ https://jessemcdowell.ca/tags/bugs/
 https://jessemcdowell.ca/tags/debugging/
 https://jessemcdowell.ca/tags/war-stories/
 https://jessemcdowell.ca/tags/video-games/
+https://jessemcdowell.ca/tags/kubernetes/
 https://jessemcdowell.ca/tags/devops/
 https://jessemcdowell.ca/tags/gadgets/
 https://jessemcdowell.ca/tags/project-management/
 https://jessemcdowell.ca/tags/people-management/
 https://jessemcdowell.ca/tags/interviewing/
 https://jessemcdowell.ca/tags/community/
+https://jessemcdowell.ca/tags/argocd/

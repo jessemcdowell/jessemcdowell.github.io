@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2023-06-26T17:55:24.167Z</updated>
+  <updated>2023-07-10T20:18:09.528Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Case of the Appearing Users</title>
+    <link href="https://jessemcdowell.ca/2023/07/Case-of-the-Appearing-Users/"/>
+    <id>https://jessemcdowell.ca/2023/07/Case-of-the-Appearing-Users/</id>
+    <published>2023-07-10T20:18:09.000Z</published>
+    <updated>2023-07-10T20:18:09.528Z</updated>
+    
+    <content type="html"><![CDATA[<p>A couple of years after solving <a href="/2023/05/Case-of-the-Disappearing-Users">The Case of The Disappearing Users</a>, I was assigned another high profile bug where new users were being spontaneously created. They were being generated without a name or any profile information, but still filling up space in lists and appearing on schedules. A couple of other developers had tried fixing it but had no luck, so it was assigned to me.</p><p>I went through my usual bag of tricks: searched recent changes, searched for insert statements, tried to create empty users manually (and couldn’t). Nothing worked, and it was looking pretty hopeless.</p><p>I knew I wasn’t going to make any progress if I couldn’t narrow down the cause. The problem was only occurring for one customer, but it was also only occurring around once a week. I ended up making a patched version of our application that regularly scanned the number of users and threw up a notification if a new one had appeared. I also added some custom logging in a few conspicuous areas, and sent it to the customer.</p><p>The issue appeared again, but this time we were able to collect the logs and analyze them. I was able to determine that the problem was occurring for a specific user, and I was able to figure out which application had caused it. The weird thing: this application didn’t have a feature for creating users! We were able to question the user, and it turned out they had a new computer, and it had a brand new mouse.</p><p>It’s important to understand that this application was build using Microsoft Access (hey, don’t judge). One of the best features of Access in the data binding, saving your from writing a lot of boilerplate code. All you have to do is write a query and bind the controls on the form to the desired fields.</p><p>One of the (many) challenges with Access is that it is sometimes a bit too clover. It could convert a select statement into insert &#x2F; update &#x2F; delete statements automatically. If you navigated the form past the last row of the query (even if your query only selected a single row) it would go into creation mode.</p><p>The form where the row was created had all the keyboard navigation shortcuts blocked, as was the standard practice, but the user was still able to trigger it. This is where the new mouse comes in. This problem occurred around the time when mice just started shipping with scroll wheels, and in Access it automatically triggered row navigation.</p><p>We weren’t able to disable this behavior, but I was able to rewrite the query and modify the form so that a new row couldn’t be generated any more. We also updated our installation instructions to ban mice with scroll wheels in case the same problem could be triggered in any of our hundreds of other forms.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;A couple of years after solving &lt;a href=&quot;/2023/05/Case-of-the-Disappearing-Users&quot;&gt;The Case of The Disappearing Users&lt;/a&gt;, I was assigned 
+      
+    
+    </summary>
+    
+    
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
+    
+      <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
+    
+  </entry>
   
   <entry>
     <title>Automating Non-Non-Downtime Upgrades in Kubernetes with ArgoCD</title>
@@ -511,29 +536,6 @@
       <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
       <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Critical Path</title>
-    <link href="https://jessemcdowell.ca//2011/06/the-critical-path/"/>
-    <id>https://jessemcdowell.ca//2011/06/the-critical-path/</id>
-    <published>2011-06-25T16:58:08.000Z</published>
-    <updated>2021-01-30T03:45:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>For the last ten years, if you had asked, I would have told you with some conviction that a “critical path” is a kind of test script that tests the essential functionality of a system. If the app passes it’s critical path test, I would have said, it may not delight users, but it’s unlikely that they’ll storm your basement with torches and pitchforks.</p><p>It came up at work during a discussion about interview questions. My colleague was both proud and surprised to have been the only person interviewed for his position that had known what it really means.</p><p>A critical path is a project management term that refers to the chain of dependant tasks that will take the longest amount of time in a project plan. For example, if I were to make a project plan for my breakfast on Sunday morning, it would look like this:</p><img src="/2011/06/the-critical-path/BreakfastOnSunday.png" class="" title="The plan for my Sunday morning breakfast."><p>In this plan, making pancakes is the critical path. With an unlimited amount of people, and an unlimited amount of kitchen space, and all the resources and tools we would need, the fastest that we could produce my Sunday morning breakfast is the time it takes to make pancakes.</p><p>I can steam milk, flip pancakes, and toss a couple eggs in the pan all at the same time, but grinding coffee beans and mixing the pancake batter has to be done one at a time. This breakfast takes me just a few minutes longer than the critical path, so it’s not worth hiring a sous chef.</p><p>The time of a software projects is usually shaped more by the number of developers. We usually have a lot of features to deliver, and most of them are not directly dependant on each other. What you can see is a part at the beginning and end of a project where it’s hard to keep multiple people working, but that’s a whole other thing.</p><img src="/2011/06/the-critical-path/GenericSoftwareProject.png" class="" title="A generic project plan showing a chain of blocking tasks at the beginning and end of a project."><p>When a critical path is defining the time line for your project, it’s important to identify it; any step that gets delayed affects the entire chain. You should start these tasks as soon as possible, and do what you can to stop them from getting blocked.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;For the last ten years, if you had asked, I would have told you with some conviction that a “critical path” is a kind of test script that
-      
-    
-    </summary>
-    
-    
-      <category term="project management" scheme="https://jessemcdowell.ca/tags/project-management/"/>
     
   </entry>
   

@@ -1,3 +1,4 @@
+https://jessemcdowell.ca/2023/07/Case-of-the-Appearing-Users/
 https://jessemcdowell.ca/2023/06/Automating-Non-Non-Downtime-Upgrades-in-Kubernetes-with-ArgoCD/
 https://jessemcdowell.ca/2023/06/Importance-of-Alignment/
 https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/

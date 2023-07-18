@@ -1,3 +1,6 @@
+https://jessemcdowell.ca/2023/07/Horizontal-One-on-Ones-and-Talking-Practice/
+https://jessemcdowell.ca/resources/
+https://jessemcdowell.ca/resources/architectural-report-template/
 https://jessemcdowell.ca/2023/07/Case-of-the-Appearing-Users/
 https://jessemcdowell.ca/2023/06/Automating-Non-Non-Downtime-Upgrades-in-Kubernetes-with-ArgoCD/
 https://jessemcdowell.ca/2023/06/Importance-of-Alignment/
@@ -36,7 +39,7 @@ https://jessemcdowell.ca/2011/10/sharpening-the-saw/
 https://jessemcdowell.ca/2012/03/choosing-priorities/
 https://jessemcdowell.ca/2016/08/infiltrating-an-organization/
 https://jessemcdowell.ca/about/
-https://jessemcdowell.ca/license/
+https://jessemcdowell.ca/licence/
 https://jessemcdowell.ca/mysterysolver/
 https://jessemcdowell.ca/
 https://jessemcdowell.ca/tags/blogging/
@@ -70,5 +73,6 @@ https://jessemcdowell.ca/tags/gadgets/
 https://jessemcdowell.ca/tags/project-management/
 https://jessemcdowell.ca/tags/people-management/
 https://jessemcdowell.ca/tags/interviewing/
+https://jessemcdowell.ca/tags/architecture/
 https://jessemcdowell.ca/tags/community/
 https://jessemcdowell.ca/tags/argocd/

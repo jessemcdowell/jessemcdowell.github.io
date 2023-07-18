@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2023-07-10T20:18:09.528Z</updated>
+  <updated>2023-07-18T22:45:16.352Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Horizontal One-on-Ones and Talking Practice</title>
+    <link href="https://jessemcdowell.ca/2023/07/Horizontal-One-on-Ones-and-Talking-Practice/"/>
+    <id>https://jessemcdowell.ca/2023/07/Horizontal-One-on-Ones-and-Talking-Practice/</id>
+    <published>2023-07-18T22:35:11.000Z</published>
+    <updated>2023-07-18T22:45:16.352Z</updated>
+    
+    <content type="html"><![CDATA[<p>When I was promoted to the role of architect it was a new role in the organization. The stakeholders I had to work with were not used to talking to an architect, and weren’t sure what I did or when I should be involved in a conversation. I started using recurring one-on-one meetings with each stakeholder separately. It worked great. It’s also made me a much better communicator.</p><p>One of the first and most important lessons I learned as an architect is that you can’t design a good architecture without a good understanding of its requirements. You can design a system in a vacuum, it’s also much easier to do it this way, but it’s far less likely to serve the organization. Gathering, validating, and documenting technical requirements is tough work, but an essential part of being an architect.</p><p>The best way to discover needs and requirements is to talk to people who know them. There is quite a lot of ways to approach this, and a lot has been written on this subject. For me, I knew I needed to chat with my stakeholders early and often, and private meetings was the simplest technique that could possibly work.</p><p>In my first one-on-one meetings I explained my role, and more importantly, why my role would be beneficial to each of them. For the product manager I explained that if I was good at my job I would help the development team go faster (because of less rework) and to reduce the technical risks of higher value projects before they were scheduled. For the product owner and development leads I explained that I would find and encourage new technologies that helped the team go faster, and help to keep projects moving smoothly.</p><p>I didn’t have any difficulty getting time on a regular schedule. Even with a 3-month release cycle, there was always enough to fill a meeting every two weeks with each of my main stakeholders. I always came prepared with questions, and after a while my stakeholders starting bringing questions for me too.</p><p>I think I have pretty good communication skills, but when you need to explain the value of technical work to people who are primarily non-technical it can be a lot more difficult. It’s even more daunting because the people I was meeting with were far, far better presenters and public speakers than I am.</p><p>I started noticing that I was getting very similar questions from different stakeholders, and so I was able to re-use my answers. And with time, I started getting better at it. Regular conversations certainly helped, but talking about the same topics over and over seemed to make an even bigger difference. Every time I answered a similar question I had a chance to refine my best points and try out new ones.</p><p>I was fortunate to work in an environment with a lot of trust: I could speak my mind honestly, and I didn’t really need to be persuasive to make sure my ideas were heard. Even still, the better I got, the more confident I felt. Portraying confidence is important in a leadership position - if a leader looks worried it can generate more stress for those around them.</p><p>After a few years of these meetings, I am convinced that they were a big part of my success as an architect. I’m also convinced that they’ve helped me improve as a communicator.</p><p>Repeating similar conversation has been so valuable, that I’ve started having practice conversations just for the sake of it. Rough notes and research is still my preferred place to start, but this type of preparation starts to have diminishing returns after a while. If I really need to nail a conversation, a practice conversation is an efficient way to improve my messages. All it takes is a bit of time from a trusted colleague, or if that’s not possible, a rubber duck can do the job too.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;When I was promoted to the role of architect it was a new role in the organization. The stakeholders I had to work with were not used to 
+      
+    
+    </summary>
+    
+    
+      <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+      <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
+    
+      <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+      <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
+    
+  </entry>
   
   <entry>
     <title>Case of the Appearing Users</title>
@@ -506,36 +535,6 @@
     
     
       <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Doubling Data for Performance Testing</title>
-    <link href="https://jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/"/>
-    <id>https://jessemcdowell.ca//2011/08/doubling-data-for-performance-testing/</id>
-    <published>2011-08-12T04:22:26.000Z</published>
-    <updated>2021-01-30T03:45:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Or: The Most Impressive T-SQL Script I’ve Ever Written</strong></p><p>I was recently working on a new application. After three months in the field, users were starting to complain about performance issues. We had done some limited performance tuning for the first release, and more as part of the second release, but new issues were popping up as more data got entered into the system. We could have continued fixing issues as they came up, one release at a time, but we wanted to get ahead of the problem, and the client wanted to know that the system would remain usable without developer intervention for a few years at least.</p><p>The nature of the business was such that the rate of data entry and number of concurrent users shouldn’t change much over time. This meant that increasing the amount of data would be a good approximation of how the system would look in the future. How do you increase the amount of data in a normalized relational database? It would be difficult to enter realistic test data manually, and unrealistic test data can cause unrealistic test results. Bad results means we waste time fixing issues that wouldn’t appear, and never get a chance to detect issues that will.</p><p>I proposed creating a T-SQL script that would double all the existing data. Running it once would simulate six months of usage, running it again simulates a year, twice more and we’re simulating four years of usage. Once it was approved, it took me a couple days to finish, about half of that going to testing and debugging. The result is the most impressive T-SQL script I’ve ever written.</p><p>The script I wrote didn’t do the actual duplication, it combined hand-entered metadata with data from sys.tables and sys.columns to generate a much bigger script. Not only was it faster to write this way, but it made it easier to fix issues, and it allowed the script to be reused after columns were added to the database.</p><p>I had one table variable with a list of tables to copy, and another defining the relationships between foreign keys and their source tables. Most foreign keys were named the same in all tables that they appeared in, so a single mapping was often enough for all of them. Most of the mappings could be determined from the list of tables itself, so I only had a few other relationships and special column rules that had to be entered manually.</p><p>Another factor that helped was our use of guids for all primary keys. Because the can be determined before inserting a row, it was possible to generate the mapping from old to new key at the start of the script. I could also use a single insert statement for each table, and the order of execution only mattered where foreign key constraints existed.</p><p>The results were tremendous. We found a bunch of issues we wouldn’t have found otherwise, and had a fairly solid indication of how the application would behave years in the future.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;Or: The Most Impressive T-SQL Script I’ve Ever Written&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I was recently working on a new application. After three m
-      
-    
-    </summary>
-    
-      <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
-    
-    
-      <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
-    
-      <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
-    
-      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
   </entry>
   

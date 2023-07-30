@@ -1,16 +1,17 @@
+https://jessemcdowell.ca/2023/07/Design-by-Dogma-Antipattern/
+https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
+https://jessemcdowell.ca/2023/05/Sustainable-Errors/
+https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/
 https://jessemcdowell.ca/2023/07/Horizontal-One-on-Ones-and-Talking-Practice/
+https://jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/
 https://jessemcdowell.ca/resources/
 https://jessemcdowell.ca/resources/architectural-report-template/
 https://jessemcdowell.ca/2023/07/Case-of-the-Appearing-Users/
 https://jessemcdowell.ca/2023/06/Automating-Non-Non-Downtime-Upgrades-in-Kubernetes-with-ArgoCD/
 https://jessemcdowell.ca/2023/06/Importance-of-Alignment/
 https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/
-https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
-https://jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/
-https://jessemcdowell.ca/2023/05/Sustainable-Errors/
 https://jessemcdowell.ca/2011/01/when-to-add-an-orm-tool/
 https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/
-https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/
 https://jessemcdowell.ca/2011/01/working-together-and-having-fun/
 https://jessemcdowell.ca/2010/09/themis-system-design/
 https://jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
@@ -76,3 +77,5 @@ https://jessemcdowell.ca/tags/interviewing/
 https://jessemcdowell.ca/tags/architecture/
 https://jessemcdowell.ca/tags/community/
 https://jessemcdowell.ca/tags/argocd/
+https://jessemcdowell.ca/tags/quality/
+https://jessemcdowell.ca/tags/practices/

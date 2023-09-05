@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2023-08-21T18:34:14.608Z</updated>
+  <updated>2023-09-05T22:08:46.293Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Case of the Slow Matchmaking Routine</title>
+    <link href="https://jessemcdowell.ca/2023/09/Case-of-the-Slow-Matchmaking-Routine/"/>
+    <id>https://jessemcdowell.ca/2023/09/Case-of-the-Slow-Matchmaking-Routine/</id>
+    <published>2023-09-05T22:08:46.000Z</published>
+    <updated>2023-09-05T22:08:46.293Z</updated>
+    
+    <content type="html"><![CDATA[<p>The most challenging bug I’ve ever fixed was a performance issue in a matchmaking routine. Matchmaking is the process of finding players to compete against each other in a video game. An excellent matchmaking algorithm doesn’t just stick players together randomly; it tries to make the game more fun by balancing power levels and preventing anyone from waiting too long for a match.</p><p>About six weeks before a game I was working on was scheduled to be feature complete, we discovered our routine couldn’t handle our load targets. The rate at which players were being removed from the matchmaking queue started dropping during load tests. Things got bad quickly once it fell below the rate at which we inserted them. Not only would this cause a bad user experience if we didn’t fix it, but it made it impossible for us to drive enough traffic to our game servers to test that they could handle the projected load. The company wasn’t going to release a game that could crash if it was successful, so we had to fix this issue, and we had to fix it quickly.</p><p>To make matters worse, we could only reproduce the bug in our production system. We had to simulate hundreds of thousands of users to hit it, which just wasn’t possible on a developer machine. Fortunately, our production system was available for testing. Unfortunately, a team on another continent was running the load tests. It took us a day to deploy a new version and a couple of days for them to run the test. With time zone differences expanding the handoffs, the fastest we could iterate was about once a week.</p><p><a href="/2023/04/How-to-Fix-a-Bug/">As I’ve described before</a>, I like to find a bug, understand it, and then fix it. In this case we couldn’t figure it out by looking at the code, even with many smart people trying. This is one of those rare cases where I had to try fixing a bug before understanding it.</p><p>The week of iteration time also meant I had about a week to review the results, consider multiple possibilities, and sprinkle logging and profiling code all over the place, so I did that, too.</p><p> I plugged away at it week after week, but the problem was stubbornly difficult to find. The failing load tests were visible to our management chain, so I also had a fair number of questions about when it would be fixed (which I couldn’t estimate), how we were fixing it, and what we would do if we couldn’t fix it. I was also helping the rest of the team with their deliverables, which had the same deadline, so it was stressful for everyone. Nevertheless, I stuck to my process, narrowed down the location of the problem, and tested my fixes as best as possible in my development environment. Eventually, I figured it out.</p><p>The problem originated in a database query we used to find matches. It used a cartesian join, which takes exponentially longer to complete as more rows are added (<code>O(n²)</code> complexity). At some queue length, the processing time increases from milliseconds to seconds, and then it quickly increases from seconds to minutes. It also didn’t help that our contrived load test meant thousands of users were all attempting to make matches with the same power rating, thus making it harder to distinguish suitable matches.</p><p>After all the time it took to find the problem, it only took a day to fix it. I replaced the algorithm with one that processed matches linearly, giving it <code>O(n)</code> complexity.</p><p>About a week later, I got an email confirming that the issue was fixed. Since the report came in overnight, it was the first thing I read in the morning. It was exhilarating, but the day is still bittersweet in my memory. About an hour later, I attended a last-minute team-wide meeting where we were all let go. The game was never released.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;The most challenging bug I’ve ever fixed was a performance issue in a matchmaking routine. Matchmaking is the process of finding players 
+      
+    
+    </summary>
+    
+    
+      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
+    
+      <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
+    
+      <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
+    
+  </entry>
   
   <entry>
     <title>Regarding Test Coverage Targets</title>
@@ -531,33 +558,6 @@
       <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
       <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>InstallUtil and BadImageFormatException - Facepalm</title>
-    <link href="https://jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/"/>
-    <id>https://jessemcdowell.ca//2012/04/installutil-and-badimageformatexception/</id>
-    <published>2012-04-15T06:09:18.000Z</published>
-    <updated>2023-05-29T17:09:30.588Z</updated>
-    
-    <content type="html"><![CDATA[<p>I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to giving up, which is not a solution I often explore, but in the end we figured it out and got everything working.</p><p>A member of our operations team was installing a Windows service I’d built to monitor some stuff in our production environment. I’ve made a few windows services in my day, and installed them many times on many machines. I’d even installed this one on my development machine with no issue. In our staging environment, however, this is what we got:</p><blockquote><p>C:\Install\TheService&gt;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe TheService.exe Microsoft (R) .NET Framework Installation utility Version 4.0.30319.1 Copyright (c) Microsoft Corporation. All rights reserved.</p><p>Exception occurred while initializing the installation: System.BadImageFormatException: Could not load file or assembly ‘file:&#x2F;&#x2F;&#x2F;C:\Monitoring\Service\TheService.exe’ or one of its dependencies. An attempt was made to load a program with an incorrect format.</p></blockquote><p>We checked the likely things: the framework version, the platform the app was built for, even re-copying the files in case they somehow got corrupted. When these didn’t work, we started trying more radical things: forcing all assemblies to 32 bit, even running the service as an executable to see if there was some error in the app.</p><p>In my defence, we are both experienced engineers, and I’m not the only person who missed it. Look closely at the command line we used:</p><blockquote><p>C:\Windows\Microsoft.NET\Framework<strong>64</strong>\v4.0.30319\InstallUtil.exe</p></blockquote><p>Long version: Service applications in Visual Studio 2010 are 32 bit by default, and this is a reasonable default for them to have. We were trying to install the 32 bit service with the 64 bit version of InstallUtil. InstallUtil loads the target assembly to access it’s installation instructions, but you can’t load a 32 bit assembly from a 64 bit application (or vice versa). If you try to, you get a BadImageFormatException.</p><p>Short version: Two numbers derailed my entire afternoon.</p><p>It would have been nice if the error message from InstallUtil was a little more specific, but I suppose this isn’t a common problem. At least I got a good reminder about the importance of checking the small details when the big ones aren’t bearing fruit.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to givin
-      
-    
-    </summary>
-    
-    
-      <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
-    
-      <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
-    
-      <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
   </entry>
   

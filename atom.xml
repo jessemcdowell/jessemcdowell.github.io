@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2023-11-22T01:51:51.832Z</updated>
+  <updated>2023-11-30T22:07:52.596Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Announcing Pragmatic Potato Software</title>
+    <link href="https://jessemcdowell.ca/2023/11/Announcing-Pragmatic-Potato-Software/"/>
+    <id>https://jessemcdowell.ca/2023/11/Announcing-Pragmatic-Potato-Software/</id>
+    <published>2023-11-30T22:07:52.000Z</published>
+    <updated>2023-11-30T22:07:52.596Z</updated>
+    
+    <content type="html"><![CDATA[<p>I am very pleased to announce the launch of my new company, <a href="https://pragmaticpotato.com/">Pragmatic Potato Software</a>.</p><p>Pragmatic Potato is helping customers with software architecture and development. We can help with architectural investigations, software design, development process, interviewing, and even development. You can find out more about the kind of services we’re offering on our spiffy new website: <a href="https://pragmaticpotato.com/services/">pragmaticpotato.com&#x2F;services&#x2F;</a>.</p><p>If you’re interested, <a href="https://pragmaticpotato.com/contact/">contact me through my website</a>. Let’s have a quick conversation and see if we can help you.</p><p>Some of you may know that I’m also working on a product. I am keeping these efforts in stealth mode for now, but you can <a href="https://pragmaticpotato.com/products/">sign up to be notified</a> when I’m ready to say more.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I am very pleased to announce the launch of my new company, &lt;a href=&quot;https://pragmaticpotato.com/&quot;&gt;Pragmatic Potato Software&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
+    
+    <category term="pragmatic potato" scheme="https://jessemcdowell.ca/tags/pragmatic-potato/"/>
+    
+  </entry>
   
   <entry>
     <title>Using Architectural Decision Records</title>

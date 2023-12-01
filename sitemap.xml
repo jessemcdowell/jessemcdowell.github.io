@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jessemcdowell.ca/about/</loc>
+    
+    <lastmod>2023-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/2023/11/Announcing-Pragmatic-Potato-Software/</loc>
     
     <lastmod>2023-11-30</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/</loc>
     
     <lastmod>2023-11-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/about/</loc>
-    
-    <lastmod>2023-11-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2023-11-30T22:07:52.596Z</updated>
+  <updated>2023-12-14T18:17:07.029Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Switching from Google Podcasts to Spotify</title>
+    <link href="https://jessemcdowell.ca/2023/12/Switching-from-Google-Podcasts-to-Spotify/"/>
+    <id>https://jessemcdowell.ca/2023/12/Switching-from-Google-Podcasts-to-Spotify/</id>
+    <published>2023-12-14T18:17:07.000Z</published>
+    <updated>2023-12-14T18:17:07.029Z</updated>
+    
+    <content type="html"><![CDATA[<p>Back in September <a href="https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/">Google announced that Google Podcasts will be shut down</a>. It is supposed to remain available until April of 2024 and be available for exporting data until June. I chose not to wait.</p><p>I have been using Spotify happily for music for years now, so I decided to give it a try. I didn’t do any research or look for other options. I had some confidence that it would be a reasonable option however because Spotify has been putting a lot of effort and money into its podcast offering.</p><h2 id="Is-Spotify-a-good-replacement-for-Google-Podcasts"><a href="#Is-Spotify-a-good-replacement-for-Google-Podcasts" class="headerlink" title="Is Spotify a good replacement for Google Podcasts"></a>Is Spotify a good replacement for Google Podcasts</h2><p>Short version:</p><p>If you want something that will work on a wide variety of devices, has a huge library of content, and is likely to be around for a while, then Spotify is a good choice. If you want a simple replacement that behaves the same as Google Podcasts, you may have better results elsewhere.</p><p>Long version:</p><p>In terms of the availability of the app on multiple devices, availability of podcasts, and sound quality, Spotify performs excellently. They are a huge company with lots of content, and everything works great.</p><p>I can listen to podcasts on my phone, on my computer, in my car (via Android Auto), or on my kitchen speaker (via my Google Nest Mini). I can even listen to part of an episode on any of these devices and finish it on another device. It has remembered my position every time, something which was often not the case with Google Podcasts.</p><p>The biggest disadvantage has been the disruption of my listening workflows.</p><p>When I wanted to listen to a podcast on Google Podcasts, I would open the app, pick an item out of the Queue, and play it. When it finished, it would usually (depending on how I started it) start on the podcasts at the top of my Queue. If I wanted to listen to a few in a row without touching my phone (for example, while working in the garden), I could pick the next couple podcasts I wanted to hear and put them at the top of the list. Spotify’s “Your Episodes” playlist does not allow custom ordering, but I have found another way to do it.</p><p>The other annoying tidbit is that using the Spotify app or a Podcast app isn’t enough to specify what I want to hear. If I was in the middle of a podcast when I get into my car, I’ll be listening to a podcast there too. It’s not a big deal on the phone, but it can be pretty annoying to change this through the Android Auto interface.</p><h2 id="How-to-migrate-your-data-to-Spotify"><a href="#How-to-migrate-your-data-to-Spotify" class="headerlink" title="How to migrate your data to Spotify"></a>How to migrate your data to Spotify</h2><p>It took me less than 30 minutes to migrate my subscriptions and queue manually. There is supposed to be an export added to Google Podcasts, but I assume it’s not yet available because I couldn’t find it. I also never found an import in Spotify, so maybe it wouldn’t matter.</p><p>To do it manually, just search for and click “Follow” on any podcasts you had subscribed to. Next, search for and click the plus button on any episodes that were in your queue. I suggest using a computer for this, or at least two different devices. If you didn’t already know: <a href="https://podcasts.google.com/">Google Podcasts has a web version</a> that gives you access to everything you’ll need.</p><h2 id="My-Spotify-Podcast-workflow"><a href="#My-Spotify-Podcast-workflow" class="headerlink" title="My Spotify Podcast workflow"></a>My Spotify Podcast workflow</h2><p>When I want to play an episode, I use “Add to Queue” instead of the play button. I can then use the next track button to switch from my current song to the podcast. This makes it easy to queue up a couple of specific podcasts, and makes the player switch automatically back to music when they are all finished. If I want to switch immediately back to music, the next track button will save my place and move on.</p><p>I don’t like to play podcasts directly from the “Your Episodes” playlist because you can’t control the order and it will jump automatically to whatever comes next. Playing from within each podcast’s page is okay if you want it to go from one episode to the next.</p><p>I’ve pinned the “Your Episodes” playlist, which makes it easier to start an episode. In the mobile version, this playlist has a settings menu. Setting “Remove played episodes” to “After playing” will make this list behave the most like Google Podcasts’ queue.</p><p>I occasionally look at the “New Episodes” playlist and save any episodes that interest me. This playlist only appears in the mobile version, but it is extremely helpful because it shows the latest episodes from all the podcasts I follow. I don’t pin this playlist however, since Spotify is so stingy with its pins.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Back in September &lt;a href=&quot;https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/&quot;&gt;Google announced that Google Podca</summary>
+      
+    
+    
+    
+    
+    <category term="howto" scheme="https://jessemcdowell.ca/tags/howto/"/>
+    
+    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+  </entry>
   
   <entry>
     <title>Announcing Pragmatic Potato Software</title>

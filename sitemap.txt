@@ -1,3 +1,4 @@
+https://jessemcdowell.ca/2023/12/Switching-from-Google-Podcasts-to-Spotify/
 https://jessemcdowell.ca/about/
 https://jessemcdowell.ca/2023/11/Announcing-Pragmatic-Potato-Software/
 https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/
@@ -53,6 +54,7 @@ https://jessemcdowell.ca/2016/08/infiltrating-an-organization/
 https://jessemcdowell.ca/licence/
 https://jessemcdowell.ca/
 https://jessemcdowell.ca/tags/github/
+https://jessemcdowell.ca/tags/howto/
 https://jessemcdowell.ca/tags/blogging/
 https://jessemcdowell.ca/tags/design/
 https://jessemcdowell.ca/tags/sql/

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/2024/02/Being-Honest-and-Positive-at-Work/</loc>
     
     <lastmod>2024-02-28</lastmod>
@@ -517,7 +526,7 @@
 
   <url>
     <loc>https://jessemcdowell.ca/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -525,294 +534,294 @@
   
   <url>
     <loc>https://jessemcdowell.ca/tags/github/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/howto/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/blogging/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/design/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/sql/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/devops/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/gadgets/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/quality/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/practices/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/ioc/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/unit-testing/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/open-source/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/net/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/debugging/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/web/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/database/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/entity-framework/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/people-management/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/leadership/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/c/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/interviewing/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/career/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/consulting/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/project-management/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/performance/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/learning/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/food/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/tea/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/angular/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/js/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/recipes/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/bugs/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/war-stories/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/video-games/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/community/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/kubernetes/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/argocd/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/architecture/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/resources/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/reviews/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/pragmatic-potato/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://jessemcdowell.ca/tags/code-reviews/</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

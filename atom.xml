@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2024-02-28T19:37:11.446Z</updated>
+  <updated>2024-03-27T22:35:10.472Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The True Cost of Dependencies</title>
+    <link href="https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/"/>
+    <id>https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/</id>
+    <published>2024-03-27T22:35:10.000Z</published>
+    <updated>2024-03-27T22:35:10.472Z</updated>
+    
+    <content type="html"><![CDATA[<p>I used to use Getform for a contact form on <a href="https://pragmaticpotato.com/">my consulting company website</a>. I recently received an email from them announcing that their free tier was dropping from 50 submissions per month to a lifetime limit of 25. This makes it useless for anything more than a trial, and their lowest tier is a more expensive than other similar options.</p><p>I’m not here to complain about companies taking back free offerings. I don’t like the change, and I wish they’d given me more than three days of notice, but they are a businesses, and businesses need to make money. It is a good reminder though: even if something is free to use, it still takes time and effort to integrate, to maintain, and you may occasionally need to throw it out and find a replacement.</p><p>Dependencies are inescapable in this business. We write programs using frameworks, written and compiled in computer languages, executing in operating systems that run on chips and boards designed and manufactured by others. It would be insane to build bespoke implementations of these for most purposes. Fortunately, these lowest level components are designed to minimize breaking changes.</p><p>Most software relies on a lot more dependencies, and that is often a sensible choice. There are costs to building things yourself even when they are simple: design, testing, and upkeep. Upgrading components to get security updates is a pain, but making your own vulnerabilities that never get detected or fixed has drawbacks too.</p><p>So if there are drawbacks to depending on third parties and drawbacks to building everything yourself, what should you do? It depends! Either way: Before adding a dependency, consider its maturity, stability, and how actively its supported. If the choice is hard to change (ex: a logging framework that will be referenced throughout your code), check again, and harder! Before building it yourself, consider the true cost, including testing and maintenance.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I used to use Getform for a contact form on &lt;a href=&quot;https://pragmaticpotato.com/&quot;&gt;my consulting company website&lt;/a&gt;. I recently received</summary>
+      
+    
+    
+    
+    
+    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
+    
+    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
+    
+    <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
+    
+  </entry>
   
   <entry>
     <title>Being Honest and Positive at Work</title>

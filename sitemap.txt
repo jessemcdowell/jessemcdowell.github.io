@@ -1,3 +1,4 @@
+https://jessemcdowell.ca/2024/06/Pragmatic-Potato-Tech-Stack/
 https://jessemcdowell.ca/2024/05/Cross-Cutting-Concerns/
 https://jessemcdowell.ca/2024/04/Writing-Code-for-Better-Reviews/
 https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/

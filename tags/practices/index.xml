@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practices on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/practices/</link>
+    <description>Recent content in Practices on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 24 Apr 2024 14:37:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Code for Better Reviews</title>
+      <link>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</link>
+      <pubDate>Wed, 24 Apr 2024 14:37:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</guid>
+      <description>I believe code reviews are a high-value activity (which I&amp;rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.&#xA;Make your intentions understood Good commit messages and review titles are important.</description>
+    </item>
+    <item>
+      <title>Being Honest and Positive at Work</title>
+      <link>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</link>
+      <pubDate>Wed, 28 Feb 2024 11:37:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</guid>
+      <description>Two things that are important to me are being honest and treating everyone with dignity. However, some situations make it difficult to do both at the same time. It is possible, though. It takes effort, creativity, and a bit of trust, but it gets easier with practice.&#xA;When I talk about being honest, I actually mean being candid. Candor means both being honest and also communicating in good faith. Many fantasy authors have written about characters who never lie but are also fundamentally dishonest.</description>
+    </item>
+    <item>
+      <title>Optimal Code Reviews</title>
+      <link>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</link>
+      <pubDate>Thu, 04 Jan 2024 14:11:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</guid>
+      <description>I am a strong advocate for code reviews. They have many advantages including improving code quality and team communication. On the other hand, they take a lot of time and add yet another delay to the development pipeline. With the wrong team culture, they can create hard feelings and discourage honest collaboration. This is a heavy price to pay, and yet, I&amp;rsquo;ve seen many teams that do them without ever talking about how or why.</description>
+    </item>
+    <item>
+      <title>Using Architectural Decision Records</title>
+      <link>http://localhost:1313/posts/2023-11-21-using-architectural-decision-records/</link>
+      <pubDate>Tue, 21 Nov 2023 17:51:51 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-21-using-architectural-decision-records/</guid>
+      <description>Architectural Decision Records are a simple technique that promotes good architectural thinking and better collaboration. They don&amp;rsquo;t need to be big or complicated to be effective, but they do take some time, and are yet another step between setting goals and delivering value. If you use them in the right circumstances they can be a big help.&#xA;What is an Architectural Decision Record? An Architectural Decision Record (often abbreviated ADR) is just as the name implies: a document that describes an architectural decision.</description>
+    </item>
+    <item>
+      <title>Getting Unstuck Without a Rubber Duck</title>
+      <link>http://localhost:1313/posts/2023-10-03-getting-unstuck-without-a-rubber-duck/</link>
+      <pubDate>Tue, 03 Oct 2023 18:03:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-10-03-getting-unstuck-without-a-rubber-duck/</guid>
+      <description>Building software is a mostly creative endeavour, and as such, it sometimes resists progress. No matter how hard you try to push forward, if you are truly stuck, continuing on the same path is unlikely to work. Fortunately, there are a few different tricks you can use to get going again.&#xA;Take a rest The easiest way I&amp;rsquo;ve found to get back on track is to take a break. When in the office this was often making a cup of tea or eating a snack in the break room.</description>
+    </item>
+    <item>
+      <title>Regarding Test Coverage Targets</title>
+      <link>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</link>
+      <pubDate>Mon, 21 Aug 2023 11:28:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</guid>
+      <description>Unit tests are undeniably a good thing, but you only realize the full benefits of them when you have enough tests that you can make changes with confidence. If you can make a change, run your tests, and be comfortable enough to ship your changes, then you and your team can get work done much faster. More drastic changes to the shared code become feasible. Life gets better.&#xA;It makes sense then that teams want to ensure that code is sufficiently covered with tests.</description>
+    </item>
+    <item>
+      <title>Horizontal One-on-Ones and Talking Practice</title>
+      <link>http://localhost:1313/posts/2023-07-18-horizontal-one-on-ones-and-talking-practice/</link>
+      <pubDate>Tue, 18 Jul 2023 15:35:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-18-horizontal-one-on-ones-and-talking-practice/</guid>
+      <description>When I was promoted to the role of architect it was a new role in the organization. The stakeholders I had to work with were not used to talking to an architect, and weren&amp;rsquo;t sure what I did or when I should be involved in a conversation. I started using recurring one-on-one meetings with each stakeholder separately. It worked great. It&amp;rsquo;s also made me a much better communicator.&#xA;One of the first and most important lessons I learned as an architect is that you can&amp;rsquo;t design a good architecture without a good understanding of its requirements.</description>
+    </item>
+    <item>
+      <title>Sustainable Errors</title>
+      <link>http://localhost:1313/posts/2023-05-29-sustainable-errors/</link>
+      <pubDate>Mon, 29 May 2023 09:57:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-29-sustainable-errors/</guid>
+      <description>Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.</description>
+    </item>
+    <item>
+      <title>How to Fix a Bug</title>
+      <link>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</link>
+      <pubDate>Mon, 24 Apr 2023 08:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</guid>
+      <description>Building applications can be tricky, and it&amp;rsquo;s inevitable that mistakes will be made. As a result, we programmers spend a lot of time fixing bugs. Sometimes they are easy, but sometimes they can be pretty tough to figure out.&#xA;I&amp;rsquo;ve fixed a lot of bugs in my career, and to be honest with you, I usually enjoy the process. These days I am typically assigned the super urgent bugs that nobody else can figure out, and I kind of like it that way.</description>
+    </item>
+    <item>
+      <title>How to Report a Bug</title>
+      <link>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</link>
+      <pubDate>Fri, 10 Mar 2023 21:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</guid>
+      <description>Nobody likes bugs, least of all programmers. No matter how hard we try to catch them early, some will always escape into circulation. Until computers are smart enough to do what we meant instead of what we said, users are going to keep finding bugs, and we&amp;rsquo;re going to keep fixing them.&#xA;Before a bug is fixed, it needs to be reported. Unfortunately it&amp;rsquo;s not uncommon to receive incomplete reports. We can spend a lot of time hunting and making guesses, and sometimes that&amp;rsquo;s enough, but if we can&amp;rsquo;t figure out the problem it&amp;rsquo;s pretty hard to fix it.</description>
+    </item>
+    <item>
+      <title>Infiltrating an Organization (or: Joining a New Team)</title>
+      <link>http://localhost:1313/2016/08/infiltrating-an-organization/</link>
+      <pubDate>Wed, 31 Aug 2016 22:23:42 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/infiltrating-an-organization/</guid>
+      <description>It takes some time to integrate into a new team. I always feel like an outsider at first. As I build friendships and trust, I&amp;rsquo;m able to contribute with increasing effectiveness. Having noticed some patterns, I&amp;rsquo;ve been able to make the process faster and smoother using a few simple tricks.&#xA;Tuckman&amp;rsquo;s Stages of Group Development describe what happens when a team is formed. His theory has four stages: forming, storming, norming, and performing.</description>
+    </item>
+    <item>
+      <title>Sharpening The Saw</title>
+      <link>http://localhost:1313/2011/10/sharpening-the-saw/</link>
+      <pubDate>Mon, 24 Oct 2011 18:49:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/sharpening-the-saw/</guid>
+      <description>One of the best things about working in the software business is the high rate of change. Not only do we work with machines that radically change in capability every few years, but new techniques and technologies are constantly appearing on the scene. It is a fascinating new frontier that never gets dull.&#xA;One of the worst things about working in the software business is the high rate of change. If you only focus on your job and stop paying attention, you could wake up one day unemployed with an obsolete skill set.</description>
+    </item>
+  </channel>
+</rss>

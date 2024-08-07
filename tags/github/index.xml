@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 01 Nov 2023 10:34:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Blog: Hexo-generated static site hosted on GitHub Pages</title>
+      <link>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</link>
+      <pubDate>Wed, 01 Nov 2023 10:34:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</guid>
+      <description>A couple of years ago I switched this blog from a WordPress site hosted on GoDaddy to a statically generated site. The new setup is faster, more secure, and cheaper to operate. And it was easy to do!&#xA;Static vs Dynamic websites WordPress is a very popular blogging platform. You can use it hosted on WordPress.com, or any number of other web providers that offer it. Because it&amp;rsquo;s open source, you can also host it yourself easily.</description>
+    </item>
+  </channel>
+</rss>

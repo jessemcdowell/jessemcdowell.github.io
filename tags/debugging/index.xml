@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debugging on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/debugging/</link>
+    <description>Recent content in Debugging on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Tue, 05 Sep 2023 15:08:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case of the Slow Matchmaking Routine</title>
+      <link>http://localhost:1313/posts/2023-09-05-case-of-the-slow-matchmaking-routine/</link>
+      <pubDate>Tue, 05 Sep 2023 15:08:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-09-05-case-of-the-slow-matchmaking-routine/</guid>
+      <description>The most challenging bug I&amp;rsquo;ve ever fixed was a performance issue in a matchmaking routine. Matchmaking is the process of finding players to compete against each other in a video game. An excellent matchmaking algorithm doesn&amp;rsquo;t just stick players together randomly; it tries to make the game more fun by balancing power levels and preventing anyone from waiting too long for a match.&#xA;About six weeks before a game I was working on was scheduled to be feature complete, we discovered our routine couldn&amp;rsquo;t handle our load targets.</description>
+    </item>
+    <item>
+      <title>Case of the Appearing Users</title>
+      <link>http://localhost:1313/posts/2023-07-10-case-of-the-appearing-users/</link>
+      <pubDate>Mon, 10 Jul 2023 13:18:09 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-10-case-of-the-appearing-users/</guid>
+      <description>A couple of years after solving The Case of The Disappearing Users, I was assigned another high profile bug where new users were being spontaneously created. They were being generated without a name or any profile information, but still filling up space in lists and appearing on schedules. A couple of other developers had tried fixing it but had no luck, so it was assigned to me.&#xA;I went through my usual bag of tricks: searched recent changes, searched for insert statements, tried to create empty users manually (and couldn&amp;rsquo;t).</description>
+    </item>
+    <item>
+      <title>Is the Bug Fun?</title>
+      <link>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</link>
+      <pubDate>Mon, 15 May 2023 10:47:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</guid>
+      <description>There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any piece of software, bugs are found through testing or user reports, triaged, then assigned to developers. Unlike normal business software they also ask the question, &amp;ldquo;is the bug fun?&amp;rdquo;&#xA;There are plenty of unintended features (bugs) in games that became beloved. Attack combos were an accident in Street Fighter II, but they became so popular that they are a part of basically every fighting game now.</description>
+    </item>
+    <item>
+      <title>Case of the Disappearing Users</title>
+      <link>http://localhost:1313/posts/2023-05-01-case-of-the-disappearing-users/</link>
+      <pubDate>Mon, 01 May 2023 08:26:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-01-case-of-the-disappearing-users/</guid>
+      <description>Many years ago I worked on a program that had a serious problem: the users in one customer&amp;rsquo;s system were getting deleted periodically. When a user was deleted, any data linked with them was also deleted. We could restore the data from backups, but it was a difficult process, and having a system that loses data wasn&amp;rsquo;t great for our reputation, so we wanted to resolve it quickly. Our VP of development tried to find the issue first, but after a day without any progress he assigned the issue to me.</description>
+    </item>
+    <item>
+      <title>How to Fix a Bug</title>
+      <link>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</link>
+      <pubDate>Mon, 24 Apr 2023 08:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</guid>
+      <description>Building applications can be tricky, and it&amp;rsquo;s inevitable that mistakes will be made. As a result, we programmers spend a lot of time fixing bugs. Sometimes they are easy, but sometimes they can be pretty tough to figure out.&#xA;I&amp;rsquo;ve fixed a lot of bugs in my career, and to be honest with you, I usually enjoy the process. These days I am typically assigned the super urgent bugs that nobody else can figure out, and I kind of like it that way.</description>
+    </item>
+    <item>
+      <title>How to Report a Bug</title>
+      <link>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</link>
+      <pubDate>Fri, 10 Mar 2023 21:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</guid>
+      <description>Nobody likes bugs, least of all programmers. No matter how hard we try to catch them early, some will always escape into circulation. Until computers are smart enough to do what we meant instead of what we said, users are going to keep finding bugs, and we&amp;rsquo;re going to keep fixing them.&#xA;Before a bug is fixed, it needs to be reported. Unfortunately it&amp;rsquo;s not uncommon to receive incomplete reports. We can spend a lot of time hunting and making guesses, and sometimes that&amp;rsquo;s enough, but if we can&amp;rsquo;t figure out the problem it&amp;rsquo;s pretty hard to fix it.</description>
+    </item>
+    <item>
+      <title>Reading Server Graphs: Connected Users</title>
+      <link>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</link>
+      <pubDate>Fri, 14 Jun 2013 22:30:44 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</guid>
+      <description>I&amp;rsquo;ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monitor hanging off a wall showing a graph of connected users. It won&amp;rsquo;t give you detailed diagnostic information, but it is a good indicator for the health of your servers, and your product generally. If you learn to notice certain patterns in your user graph, it can also save you precious time when things go wrong.</description>
+    </item>
+    <item>
+      <title>InstallUtil and BadImageFormatException - Facepalm</title>
+      <link>http://localhost:1313/2012/04/installutil-and-badimageformatexception/</link>
+      <pubDate>Sat, 14 Apr 2012 23:09:18 +0000</pubDate>
+      <guid>http://localhost:1313/2012/04/installutil-and-badimageformatexception/</guid>
+      <description>I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to giving up, which is not a solution I often explore, but in the end we figured it out and got everything working.&#xA;A member of our operations team was installing a Windows service I&amp;rsquo;d built to monitor some stuff in our production environment. I&amp;rsquo;ve made a few windows services in my day, and installed them many times on many machines.</description>
+    </item>
+    <item>
+      <title>Doubling Data for Performance Testing</title>
+      <link>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</link>
+      <pubDate>Thu, 11 Aug 2011 21:22:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</guid>
+      <description>Or: The Most Impressive T-SQL Script I&amp;rsquo;ve Ever Written&#xA;I was recently working on a new application. After three months in the field, users were starting to complain about performance issues. We had done some limited performance tuning for the first release, and more as part of the second release, but new issues were popping up as more data got entered into the system. We could have continued fixing issues as they came up, one release at a time, but we wanted to get ahead of the problem, and the client wanted to know that the system would remain usable without developer intervention for a few years at least.</description>
+    </item>
+    <item>
+      <title>Teaching IT</title>
+      <link>http://localhost:1313/2010/12/teaching-it/</link>
+      <pubDate>Fri, 24 Dec 2010 22:28:12 +0000</pubDate>
+      <guid>http://localhost:1313/2010/12/teaching-it/</guid>
+      <description>My company runs a 24/7 site with a substantial number of users and connections to partner systems all over the world. We do what we can to make the system fault tolerant, but problems can still appear at any time of day or night. Ideally we would have a technical support team that&amp;rsquo;s staffed around the clock, but that not in the cards for now.&#xA;We used to have a system where anyone that could fix a problem would get a text message, and whoever was closest to a computer would respond.</description>
+    </item>
+    <item>
+      <title>64-bit IIS vs. 32-bit Assemblies</title>
+      <link>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</link>
+      <pubDate>Thu, 11 Nov 2010 16:45:38 +0000</pubDate>
+      <guid>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</guid>
+      <description>I found my first 64-bit bug at work. I was moving a windows service built for the &amp;lsquo;Any CPU&amp;rsquo; to a 64-bit server. It started fine on the new server, and gave no indication of poor health in the logs, but one key function was malfunctioning. I&amp;rsquo;m not exactly sure what the cause is, but I know that the hash of any binary file was resulting in the same value. The service does some direct memory manipulation which is a likely culprit.</description>
+    </item>
+  </channel>
+</rss>

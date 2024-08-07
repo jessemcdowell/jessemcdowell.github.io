@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Sustainable Errors - </title>
+
+  <meta name="description" content="Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.">
+  <meta name="author" content="Jesse McDowell"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Jesse Builds Software",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/2023-05-29-sustainable-errors\/",
+          "name": "Sustainable errors"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Jesse McDowell"
+  },
+  "headline": "Sustainable Errors",
+  "description" : "Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.",
+  "inLanguage" : "en",
+  "wordCount":  1645 ,
+  "datePublished" : "2023-05-29T09:57:05\u002b00:00",
+  "dateModified" : "2023-05-29T09:57:05\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+  "keywords" : [ "design, c#, .net, quality, practices" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/2023-05-29-sustainable-errors\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Sustainable Errors" />
+<meta property="og:description" content="Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.">
+<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:url" content="http://localhost:1313/2023-05-29-sustainable-errors/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jesse Builds Software" />
+
+  <meta name="twitter:title" content="Sustainable Errors" />
+  <meta name="twitter:description" content="Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for …">
+  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.128.2">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Jesse Builds Software"><link rel="stylesheet" href="http://localhost:1313/css/katex.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/bootstrap.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="http://localhost:1313/css/fonts.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="http://localhost:1313/css/photoswipe.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/photoswipe.default-skin.min.css" />
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">Jesse Builds Software</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Links</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pragmaticpotato.ca/">Pragmatic Potato Software</a>
+                
+                  <a href="/resources">Resources</a>
+                
+                  <a href="/mysterysolver">Mystery Solver</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Jesse Builds Software" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="Jesse Builds Software" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>Sustainable Errors</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them. Fortunately we have the aptly named exception pattern.</p>
+<p>When the pattern is used well it is almost invisible, and yet we should be thinking about it all the time. Sample code and simple apps often show exception handling as rote boilerplate that writes out stack traces and swallows errors. This is not a good example to be setting.</p>
+<p>Most modern languages have an exception type and a throw statement. I&rsquo;ll be using C#/.Net terminology for this post, but the same or similar terms and patterns exist in Java, JavaScript, TypeScript, Python, and many other languages.</p>
+<p>Most scripting languages (shell script, Windows batch, and sometimes PowerShell) and some low level languages like C don&rsquo;t have exceptions. In these cases you have to check return codes every time you call a function or an external application, and it sucks. You don&rsquo;t have to look far to find scripts filled primarily with error handling code. For the rest of us, there is something much easier and better.</p>
+<h2 id="the-exception-pattern">The Exception Pattern</h2>
+<p>Here is an example of the exception pattern being used well:</p>
+<pre><code class="language-csharp">public string GetMagicString()
+{
+    using var reader = new StreamReader(&quot;magic.txt&quot;);
+    var magicString = reader.ReadLine();
+    if (String.IsNullOrEmpty(magicString))
+        throw new InvalidOperationException(&quot;magic.txt did not contain any text&quot;);
+    return magicString;
+}
+</code></pre>
+<p>If you don&rsquo;t already know how exceptions work you can read about them in <a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/">Microsoft&rsquo;s documentation</a>.</p>
+<p>You may have noticed that no exceptions are being handled in the function, which is the point. This depends on the built-in exception that will be thrown being good enough. This is because I expect the file to be created by the installer in normal deployments. I could wrap this in a try/catch block and do something, but what would I do? If you were about to say &ldquo;return null&rdquo; then you lose 10 points. You should always favour exposing problems quickly and clearly rather than ignoring them or pushing them down the line.</p>
+<p>If I couldn&rsquo;t expect the file to exist, if say <code>magic.txt</code> was a special override file that was only created in certain circumstances, I would write the function like this:</p>
+<pre><code class="language-csharp">public string GetMagicString()
+{
+    try
+    {
+        using var reader = new StreamReader(&quot;magic.txt&quot;);
+        var magicString = reader.ReadLine();
+        if (String.IsNullOrEmpty(magicString))
+            throw new InvalidOperationException(&quot;magic.txt did not contain any text&quot;);
+        return magicString;
+    }
+    catch (FileNotFoundException)
+    {
+        return DefaultMagicString;
+    }
+}
+</code></pre>
+<p>Notice that I am only catching the specific file not found exception. I could have caught any exception, but that has its own dangers. Another possible exception is the <code>UnauthorizedAccessException</code>. If that happens, I&rsquo;d rather notify the user than silently ignore the file.</p>
+<p>I added a bit of guard code that can throw the <code>InvalidOperationException</code>. Even if it&rsquo;s an unlikely problem, I prefer to surface problems like this earlier. They typically save time later when debugging. I&rsquo;m keeping this code in the second example even while I have access to a default value because I think an empty file is more likely a mistake than intentional. It could be intentional for some use case I don&rsquo;t know about, but it is always easier to ease restrictions than it is to add new ones in a deployed application, so I&rsquo;d rather be more strict early.</p>
+<p>The <code>using var</code> declaration is a relatively new C# feature that generates an implicit using block. It causes <code>reader</code> to be disposed before the function exits, be it successfully or a because of a thrown exception. Because the stream is opening and potentially locking a file, we want to make sure it is cleaned up quickly. Cleaning up resources in all cases is something we should always be mindful of as well, but in most modern languages you can use features like <code>using</code> to make this task similarly invisible.</p>
+<h2 id="global-error-handling">Global Error Handling</h2>
+<p>So where do exceptions get handled? Generally you should have an error handler somewhere, as high up the stack as is reasonable. You only have to write it once in one place, and reducing repetition has a lot of advantages. Your error handler can do any fancy stuff you want it to, and you can change the behavior of your error handling without making sweeping changes across your application.</p>
+<p>Most of our applications are iterating on some atomic unit of work. Web servers iterate over web requests. Background processors iterate over messages in a queue or scheduled tasks. It makes sense to implement error handlers at the level where these are invoked, especially if there is a good chance that another similar unit of work could succeed.</p>
+<p>In a web api the error handler can usually be added as a wrapper around every request through some hook in the framework. Common implementations will log the exception and return a 500-level status code. Fancier implementations will return more nuanced codes depending on the type of the exception (like return a <code>400</code> for <code>ArgumentException</code> or anything derived from it). Your web framework of choice probably already does this for you.</p>
+<p>Some errors, however, aren&rsquo;t recoverable. For example, without complicated retry logic, many applications will be in a bad state if their startup logic fails somehow. You might have one global handler for all your startup code, but its behavior should probably be to output some useful diagnostic information and exit. There may be other errors that indicate poor application health beyond startup, but this is often pretty challenging to deal with reliably.</p>
+<p>.Net also has a few special exceptions that can&rsquo;t be caught normally. Most exceptions mean that the operation you attempted failed, but these uncatchables indicate that the runtime environment could now be in a bad state. The dreaded <code>StackOverflowException</code> is an example of this. In these cases exiting and getting restarted is the only safe thing to do. The framework is going to do that regardless of your error handling so you don&rsquo;t need to add special logic for it.</p>
+<h2 id="throwing-good-exceptions">Throwing Good Exceptions</h2>
+<p>The best thing to do when you detect unexpected conditions is often throwing an exception. The exception message should clearly describe what the problem is. Remember that you or one of your peers will be reading this message about 6 months from now when a test fails or a bug gets reported. Sometimes I like to include advice about fixing the problem in the exception, but use this sparingly; it&rsquo;s much less helpful when the advice has become outdated and sends users on wild goose chases.</p>
+<p>It sometimes makes sense to create a new exception type for your error cases. I can&rsquo;t remember where I once read that exceptions should have the same level of abstraction as the interface that throws them&hellip; It&rsquo;s not terrible advice, but I don&rsquo;t think it&rsquo;s worth the trouble for most cases. If you&rsquo;re building a framework it might make sense. If you&rsquo;re checking for an empty file after reading its contents it may not.</p>
+<p>One case where I do create custom exceptions is when I&rsquo;m writing a unit test. For really trivial stuff (like argument null) you probably don&rsquo;t need a unit test, but for anything that should be tested, use a custom exception. If you&rsquo;re asserting on any exception being thrown your test could be marked as passing when it should be failing. If you derive your custom exception from a built-in or another more common exception, your callers won&rsquo;t normally need to handle your specific type, but they could if they wanted to.</p>
+<p>If you are not creating your own type, try to use a specific and appropriate exception type, either built-in or custom. <code>InvalidOperationException</code> and <code>ArgumentException</code> give better hints the developer in the future than a simple <code>Exception</code>.</p>
+<p>It&rsquo;s also a good practice to include the inner exception whenever you generate a new exception in response to a failure lower in the stack. These details can be very helpful if the new exception is ever thrown unexpectedly.</p>
+<h2 id="what-about-performance">What About Performance?</h2>
+<p>One common argument against throwing exceptions is that it causes a performance hit. It&rsquo;s true, it does takes time to capture the stack trace, and allocating a new object on the heap isn&rsquo;t free. It depends on your circumstance of course, but I think in 99% of scenarios this cost is too miniscule to matter, and certainly far cheaper than the wasted time of developers who can&rsquo;t find bugs.</p>
+<p>If your exceptional case is something you expect to hit often inside a tight loop though, it may actually matter. The <code>TryFunction</code> pattern is the common alternative in .Net. The drawback is that because your return value is typically boolean you can&rsquo;t easily add new failure cases as safely as you can with exceptions. You could include more information in another output parameter, but that can also impact your callers whenever the list changes. It also means every caller needs to check the function response, or even worse, they can forget to and the app can continue running in a weird state without realizing the call failed.</p>
+<h2 id="what-about-leaking-security-sensitive-information">What About Leaking Security Sensitive Information?</h2>
+<p>Another argument I&rsquo;ve heard against good error handling is to prevent leaking information to attackers, but I think this is mostly bad advice too. For any software that is distributed, a malicious user can easily find tools to look inside and see how it&rsquo;s wired. For server-side code you should at least share the error details with yourself in your own log files. If you need to withhold information from potential hackers then do that in your global error handler.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/design/">design</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/c/">c#</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/.net/">.net</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/quality/">quality</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/practices/">practices</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f&amp;text=Sustainable%20Errors&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f&amp;title=Sustainable%20Errors" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f&amp;title=Sustainable%20Errors" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f&amp;title=Sustainable%20Errors" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2f2023-05-29-sustainable-errors%2f&amp;description=Sustainable%20Errors" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/2024-06-24-pragmatic-potato-tech-stack/">The Pragmatic Potato Tech Stack</a></li>
+                
+                    <li><a href="/2024-05-27-cross-cutting-concerns/">Cross-Cutting Concerns - Ten Approaches</a></li>
+                
+                    <li><a href="/2024-04-24-writing-code-for-better-reviews/">Writing Code for Better Reviews</a></li>
+                
+                    <li><a href="/2024-03-27-the-true-cost-of-dependencies/">The True Cost of Dependencies</a></li>
+                
+                    <li><a href="/2024-02-28-being-honest-and-positive-at-work/">Being Honest and Positive at Work</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
+<footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://pragmaticpotato.com/" title="Website">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://linkedin.com/in/jessemcdowell" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/jessemcdowell" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="about">Jesse McDowell</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">Jesse Builds Software</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.128.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="http://localhost:1313/js/katex.min.js"></script>
+<script defer src="http://localhost:1313/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="http://localhost:1313/js/jquery-3.7.0.slim.min.js"></script>
+<script src="http://localhost:1313/js/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="http://localhost:1313/js/photoswipe.min.js"></script>
+<script src="http://localhost:1313/js/photoswipe-ui-default.min.js"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

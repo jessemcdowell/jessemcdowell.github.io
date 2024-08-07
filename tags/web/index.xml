@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 01 Nov 2023 10:34:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Blog: Hexo-generated static site hosted on GitHub Pages</title>
+      <link>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</link>
+      <pubDate>Wed, 01 Nov 2023 10:34:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</guid>
+      <description>A couple of years ago I switched this blog from a WordPress site hosted on GoDaddy to a statically generated site. The new setup is faster, more secure, and cheaper to operate. And it was easy to do!&#xA;Static vs Dynamic websites WordPress is a very popular blogging platform. You can use it hosted on WordPress.com, or any number of other web providers that offer it. Because it&amp;rsquo;s open source, you can also host it yourself easily.</description>
+    </item>
+    <item>
+      <title>Controller Led Navigation in Angular</title>
+      <link>http://localhost:1313/2014/04/controller-led-navigation-in-angular/</link>
+      <pubDate>Tue, 01 Apr 2014 15:59:35 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/controller-led-navigation-in-angular/</guid>
+      <description>I recently tried AngularJS for a pet project. I watched a great tutorial about the platform, then dove in head first. You can see what I built here: MysterySolver&#xA;I enjoyed Angular. It was straightforward to use, and allowed me to bang out a lot of functionality without much cumbersome boilerplate code. Jasmine, the testing framework set up in the bootstrap source, was also pretty slick. I really liked how I could nest a bunch of test blocks inside of each other to reuse common setup code.</description>
+    </item>
+    <item>
+      <title>64-bit IIS vs. 32-bit Assemblies</title>
+      <link>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</link>
+      <pubDate>Thu, 11 Nov 2010 16:45:38 +0000</pubDate>
+      <guid>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</guid>
+      <description>I found my first 64-bit bug at work. I was moving a windows service built for the &amp;lsquo;Any CPU&amp;rsquo; to a 64-bit server. It started fine on the new server, and gave no indication of poor health in the logs, but one key function was malfunctioning. I&amp;rsquo;m not exactly sure what the cause is, but I know that the hash of any binary file was resulting in the same value. The service does some direct memory manipulation which is a likely culprit.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/performance/</link>
+    <description>Recent content in Performance on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Fri, 14 Jun 2013 22:30:44 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Server Graphs: Connected Users</title>
+      <link>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</link>
+      <pubDate>Fri, 14 Jun 2013 22:30:44 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</guid>
+      <description>I&amp;rsquo;ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monitor hanging off a wall showing a graph of connected users. It won&amp;rsquo;t give you detailed diagnostic information, but it is a good indicator for the health of your servers, and your product generally. If you learn to notice certain patterns in your user graph, it can also save you precious time when things go wrong.</description>
+    </item>
+    <item>
+      <title>Doubling Data for Performance Testing</title>
+      <link>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</link>
+      <pubDate>Thu, 11 Aug 2011 21:22:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</guid>
+      <description>Or: The Most Impressive T-SQL Script I&amp;rsquo;ve Ever Written&#xA;I was recently working on a new application. After three months in the field, users were starting to complain about performance issues. We had done some limited performance tuning for the first release, and more as part of the second release, but new issues were popping up as more data got entered into the system. We could have continued fixing issues as they came up, one release at a time, but we wanted to get ahead of the problem, and the client wanted to know that the system would remain usable without developer intervention for a few years at least.</description>
+    </item>
+  </channel>
+</rss>

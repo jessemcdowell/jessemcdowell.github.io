@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/howto/</link>
+    <description>Recent content in Howto on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Thu, 14 Dec 2023 10:17:07 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Switching from Google Podcasts to Spotify</title>
+      <link>http://localhost:1313/posts/2023-12-14-switching-from-google-podcasts-to-spotify/</link>
+      <pubDate>Thu, 14 Dec 2023 10:17:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-12-14-switching-from-google-podcasts-to-spotify/</guid>
+      <description>Back in September Google announced that Google Podcasts will be shut down. It is supposed to remain available until April of 2024 and be available for exporting data until June. I chose not to wait.&#xA;I have been using Spotify happily for music for years now, so I decided to give it a try. I didn&amp;rsquo;t do any research or look for other options. I had some confidence that it would be a reasonable option however because Spotify has been putting a lot of effort and money into its podcast offering.</description>
+    </item>
+  </channel>
+</rss>

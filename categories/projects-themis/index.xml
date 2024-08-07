@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects Themis on Jesse Builds Software</title>
+    <link>http://localhost:1313/categories/projects-themis/</link>
+    <description>Recent content in Projects Themis on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 28 Jul 2010 21:53:02 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/projects-themis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shared Resource Schedule Service</title>
+      <link>http://localhost:1313/2010/07/shared-resource-schedule-service/</link>
+      <pubDate>Wed, 28 Jul 2010 21:53:02 +0000</pubDate>
+      <guid>http://localhost:1313/2010/07/shared-resource-schedule-service/</guid>
+      <description>I think I&amp;rsquo;ve got a new project to work on at home. We&amp;rsquo;ve got this problem at work coordinating a few shared resources in Outlook (like a couple of meeting rooms and a projector), but we couldn&amp;rsquo;t find any good solutions out there short of installing Exchange Server.&#xA;I&amp;rsquo;ve been wanting to play around with Entity Framework a bit, so this should be a good candidate. Perhaps I can slap a UI on it using Silverlight and Ria Services.</description>
+    </item>
+  </channel>
+</rss>

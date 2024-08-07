@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatic Potato on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/pragmatic-potato/</link>
+    <description>Recent content in Pragmatic Potato on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Mon, 24 Jun 2024 12:02:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pragmatic-potato/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Pragmatic Potato Tech Stack</title>
+      <link>http://localhost:1313/posts/2024-06-24-pragmatic-potato-tech-stack/</link>
+      <pubDate>Mon, 24 Jun 2024 12:02:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-24-pragmatic-potato-tech-stack/</guid>
+      <description>I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It&amp;rsquo;s not that simple though.&#xA;I&amp;rsquo;m going to be writing about the technology stack I&amp;rsquo;m using to run my company, and why I made the choices I did.</description>
+    </item>
+    <item>
+      <title>Announcing Pragmatic Potato Software</title>
+      <link>http://localhost:1313/posts/2023-11-30-announcing-pragmatic-potato-software/</link>
+      <pubDate>Thu, 30 Nov 2023 14:07:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-30-announcing-pragmatic-potato-software/</guid>
+      <description>I am very pleased to announce the launch of my new company, Pragmatic Potato Software.&#xA;Pragmatic Potato is helping customers with software architecture and development. We can help with architectural investigations, software design, development process, interviewing, and even development. You can find out more about the kind of services we&amp;rsquo;re offering on our spiffy new website: pragmaticpotato.com/services/.&#xA;If you&amp;rsquo;re interested, contact me through my website. Let&amp;rsquo;s have a quick conversation and see if we can help you.</description>
+    </item>
+  </channel>
+</rss>

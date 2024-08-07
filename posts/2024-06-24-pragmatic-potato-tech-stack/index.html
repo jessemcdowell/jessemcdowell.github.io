@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>The Pragmatic Potato Tech Stack - </title>
+
+  <meta name="description" content="I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It&rsquo;s not that simple though.
+I&rsquo;m going to be writing about the technology stack I&rsquo;m using to run my company, and why I made the choices I did.">
+  <meta name="author" content="Jesse McDowell"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Jesse Builds Software",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/posts\/2024-06-24-pragmatic-potato-tech-stack\/",
+          "name": "The pragmatic potato tech stack"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Jesse McDowell"
+  },
+  "headline": "The Pragmatic Potato Tech Stack",
+  "description" : "I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It\u0026rsquo;s not that simple though.\nI\u0026rsquo;m going to be writing about the technology stack I\u0026rsquo;m using to run my company, and why I made the choices I did.",
+  "inLanguage" : "en",
+  "wordCount":  1437 ,
+  "datePublished" : "2024-06-24T12:02:43\u002b00:00",
+  "dateModified" : "2024-06-24T12:02:43\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+  "keywords" : [ "architecture, design, pragmatic potato, reviews" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/posts\/2024-06-24-pragmatic-potato-tech-stack\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="The Pragmatic Potato Tech Stack" />
+<meta property="og:description" content="I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It&rsquo;s not that simple though.
+I&rsquo;m going to be writing about the technology stack I&rsquo;m using to run my company, and why I made the choices I did.">
+<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:url" content="http://localhost:1313/posts/2024-06-24-pragmatic-potato-tech-stack/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jesse Builds Software" />
+
+  <meta name="twitter:title" content="The Pragmatic Potato Tech Stack" />
+  <meta name="twitter:description" content="I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. …">
+  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.128.2">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Jesse Builds Software"><link rel="stylesheet" href="http://localhost:1313/css/katex.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/bootstrap.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="http://localhost:1313/css/fonts.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="http://localhost:1313/css/photoswipe.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/photoswipe.default-skin.min.css" />
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">Jesse Builds Software</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Links</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pragmaticpotato.ca/">Pragmatic Potato Software</a>
+                
+                  <a href="/resources">Resources</a>
+                
+                  <a href="/mysterysolver">Mystery Solver</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Jesse Builds Software" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="Jesse Builds Software" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              
+                <h1>The Pragmatic Potato Tech Stack</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>I <a href="/2023/11/Announcing-Pragmatic-Potato-Software/">recently launched my new company</a>, <a href="https://pragmaticpotato.com/">Pragmatic Potato Software Inc</a>. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It&rsquo;s not that simple though.</p>
+<p>I&rsquo;m going to be writing about the technology stack I&rsquo;m using to run my company, and why I made the choices I did. There is a lot more to a company than its technology, but I&rsquo;m not an expert in setting those up.</p>
+<p>I made these choices for my company, keeping in mind my needs and values. I would probably recommend something similar for another small company, but it would depend. I didn&rsquo;t perform an exhaustive search for each decision. Most options are going to be good enough, and even if I make a poor choice, I can replace most of these with a few hours of work while my company is small. I did put some effort into it though, and I&rsquo;m happy to share that with you.</p>
+<p>Here is some more of the context that guided my decisions:</p>
+<ul>
+<li>Pragmatic Potato Software is a small (single employee) software architecture and development consulting company based in Burnaby, Canada.</li>
+<li>I want to minimize the time I&rsquo;m spending managing infrastructure because I&rsquo;d rather spend that time helping customers and potentially earning income.</li>
+<li>I am pretty technically capable, and can handle setting up and hosting my own infrastructure. I also don&rsquo;t need to worry much about usability: I am happy to use a code editor when I want to update the text on my website.</li>
+<li>I have modest expectations for traffic and customer interactions, so I should be able to use free or low-cost services for most things. I would like to keep my costs down.</li>
+</ul>
+<h2 id="domain-registration-cloudflare-and-porkbun">Domain Registration: Cloudflare and Porkbun</h2>
+<p>For any kind of web presence, you need a domain name. Of all the registrars I&rsquo;ve used, my favourite is <a href="https://www.cloudflare.com/products/registrar/">Cloudflare Registrar</a>. They famously don&rsquo;t make any profit on their domain offering, so it is also the best price you can get. I used them for the <code>pragmaticpotato.com</code> domain.</p>
+<p>Because I have a Canadian company, I also registered <code>pragmaticpotato.ca</code>, and have it set up to redirect to the .com site. At the time of this writing Cloudflare can&rsquo;t register .ca domains, so I am using Porkbun for that one.</p>
+<h2 id="website-hugo-static-site-hosted-on-cloudflare-pages">Website: Hugo static site hosted on Cloudflare Pages</h2>
+<p><a href="/2023/11/This-Blog-Hexo-generated-static-site-hosted-on-GitHub-Pages/">I&rsquo;ve written before about my preference for static websites</a>. They are the simplest thing that can possibly work, and that&rsquo;s often a good starting point. I can&rsquo;t imagine anything I&rsquo;d want to do on this website that&rsquo;d require a dynamic back end, so this should be good enough for a long time.</p>
+<p>I originally planned to use Hexo for the website because I already use it for this blog, but I had trouble finding a template that I liked for a business landing page. I ended up using <a href="https://gohugo.io/">Hugo</a>. It is very similar to Hexo, but I found several templatse that I liked.</p>
+<p>Having used both, I now prefer Hugo. One feature I appreciate is its ability to extend templates through partials rather than modifying the templates directly. This allows some pretty direct customizations, and should make it easier to take updates in the future. I used this functionality to tune the page metadata for search engines and social links. In the template I chose the templates was broken up into several partials to make these sorts of customizations trivial.</p>
+<p>The hardest part of putting the website together was writing the text, and I went through several iterations to get it just the way I wanted. Then my friends told me it was garbage, so I rewrote most of it again!</p>
+<p>I&rsquo;m using <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> to host the content. It&rsquo;s very similar to GitHub Pages (which I use for this blog), but I like that it&rsquo;s a bit more configurable. I also found the build system a little easier to set up. I liked it enough that I will probably end up moving this blog over at some point too.</p>
+<h2 id="contact-form-fabform">Contact Form: FabForm</h2>
+<p>I&rsquo;m using <a href="https://fabform.io/">FabForm</a> for the contact form on the website. It is a simple service that was trivial to set up. I also find the one-time pricing much more reasonable than the higher (over time) monthly fees of other popular options. Using this allows me to accept messages on the website without needing a dynamic back-end.</p>
+<h2 id="stock-photography-unsplash-and-squoosh">Stock Photography: Unsplash and Squoosh</h2>
+<p>I used a few stock photos on the website to make it feel more engaging. <a href="https://unsplash.com/">Unsplash</a> has a massive library of free, high-resolution photos taken by professionals. I made a point of including an attribution page, but that isn&rsquo;t necessary with their licence. I used <a href="https://squoosh.app/">Squoosh</a> to resize and compress the images for efficient load times.</p>
+<p>I also hired a professional photographer to take some pictures of me to make the website more personal. This was a particularly fun process, and I&rsquo;m thrilled with the results. The photographer was very reasonable. My new clothing was the most expensive part.</p>
+<h2 id="website-analytics-cloudflare-web-analytics">Website Analytics: Cloudflare Web Analytics</h2>
+<p>I am using <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Website Analytics</a> for the website, mostly because it was easily available. I also appreciate that they collect minimal information, and in a way that doesn&rsquo;t require popups to comply with modern privacy laws.</p>
+<h2 id="email-zoho-workplace">Email: Zoho Workplace</h2>
+<p>Microsoft 365 and Google Workspace are the two big players for email and office application, and I did consider each of them. I ended up going with <a href="https://www.zoho.com/workplace/">Zoho Workplace</a> because it is much cheaper and comes bundled with more stuff.</p>
+<p>Setting it up was an easy process. Even setting up email for my custom domain was easy. I had it all up and working in less than an hour.</p>
+<p>I don&rsquo;t recommend trying to run your own email server, even for medium-sized businesses. Email used to be an open system that anyone could participate in, but with all the spam and especially with the spam prevention mechanisms today, it can be difficult to keep your emails out of spam boxes.</p>
+<h2 id="document-editing--storage-zoho-workplace--evernote">Document Editing &amp; Storage: Zoho Workplace &amp; Evernote</h2>
+<p>I&rsquo;m gradually moving my (few) stored files over to <a href="https://www.zoho.com/workdrive/">Zoho WorkDrive</a>. I was using a little bit of Google and a bit of Microsoft, but ultimately found their free options too limiting. The final straw for me was editing a contract. I spent a couple of hours trying to get the numbered lists and cross-section links right in the free online Microsoft Word and Google Docs before giving up. Zoho Writer has limitations too, but it proved the easiest to use.</p>
+<p>Almost all of my work notes and planning content is in <a href="https://evernote.com/">Evernote</a>, which I&rsquo;ve been using for many years. It&rsquo;s not great for some kinds of content (like sheets), but it is extremely searchable, which makes it fast for pretty much all other information.</p>
+<h2 id="task-management-trello--evernote">Task Management: Trello &amp; Evernote</h2>
+<p>I&rsquo;ve been using <a href="https://trello.com/">Trello</a> for years to organize myself. I use it primarily to track the things I&rsquo;m working on in the short term. It&rsquo;s especially easy to slap cards into a list and put them in a sensible order. I mix personal and professional tasks in the same list to reduce friction as I go through the day.</p>
+<p>For my longer term backlog, I&rsquo;m using notes in <a href="https://evernote.com/">Evernote</a>. It isn&rsquo;t a great tool for project management, but it&rsquo;s good enough for now.</p>
+<h2 id="video-conferencing-zoho-meeting">Video Conferencing: Zoho Meeting</h2>
+<p>Because I&rsquo;m already using Zoho Workplace, I get <a href="https://www.zoho.com/meeting/">Zoho Meeting</a> included, and it works great. It looks and performs a lot like Zoom, but I don&rsquo;t have to pay extra for it. It&rsquo;s not quite as smooth as Google Meet (which has a particularly streamlined experience), but it has a few more features that I sometimes want.</p>
+<h2 id="appointment-scheduling-zoho-bookings">Appointment Scheduling: Zoho Bookings</h2>
+<p>Zoho also has <a href="https://www.zoho.com/bookings/">Zoho Bookings</a> which allows customers to schedule meetings with me themselves. This can save a lot of emailing when someone needs to talk to me. I have it integrated with my Google calendar (which I use for my personal and family schedules), so it can automatically avoid conflicts with my other obligations.</p>
+<h2 id="bookkeeping-outsourced">Bookkeeping: Outsourced</h2>
+<p>Another key part of a business is keeping appropriate financial records. I spent some time looking into software for managing this, but I have decided so far not to bother. My accountant is happy to take care of this for me, and they can do it far faster than I can. Even though I&rsquo;m the kind of person that likes to keep records up to date, and to see the numbers for myself, I would rather spend that time helping customers instead.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/architecture/">architecture</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/design/">design</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/pragmatic-potato/">pragmatic potato</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/reviews/">reviews</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f&amp;text=The%20Pragmatic%20Potato%20Tech%20Stack&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f&amp;title=The%20Pragmatic%20Potato%20Tech%20Stack" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f&amp;title=The%20Pragmatic%20Potato%20Tech%20Stack" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f&amp;title=The%20Pragmatic%20Potato%20Tech%20Stack" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2f2024-06-24-pragmatic-potato-tech-stack%2f&amp;description=The%20Pragmatic%20Potato%20Tech%20Stack" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/posts/2024-05-27-cross-cutting-concerns/">Cross-Cutting Concerns - Ten Approaches</a></li>
+                
+                    <li><a href="/posts/2024-03-27-the-true-cost-of-dependencies/">The True Cost of Dependencies</a></li>
+                
+                    <li><a href="/posts/2024-01-31-my-experience-with-the-dvorak-keyboard-layout/">My Experience with the Dvorak Keyboard Layout</a></li>
+                
+                    <li><a href="/posts/2023-12-14-switching-from-google-podcasts-to-spotify/">Switching from Google Podcasts to Spotify</a></li>
+                
+                    <li><a href="/posts/2023-11-30-announcing-pragmatic-potato-software/">Announcing Pragmatic Potato Software</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/posts/2024-05-27-cross-cutting-concerns/" data-toggle="tooltip" data-placement="top" title="Cross-Cutting Concerns - Ten Approaches">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://pragmaticpotato.com/" title="Website">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://linkedin.com/in/jessemcdowell" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/jessemcdowell" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="about">Jesse McDowell</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">Jesse Builds Software</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.128.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="http://localhost:1313/js/katex.min.js"></script>
+<script defer src="http://localhost:1313/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="http://localhost:1313/js/jquery-3.7.0.slim.min.js"></script>
+<script src="http://localhost:1313/js/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="http://localhost:1313/js/photoswipe.min.js"></script>
+<script src="http://localhost:1313/js/photoswipe-ui-default.min.js"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

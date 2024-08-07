@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/leadership/</link>
+    <description>Recent content in Leadership on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 28 Feb 2024 11:37:11 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Being Honest and Positive at Work</title>
+      <link>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</link>
+      <pubDate>Wed, 28 Feb 2024 11:37:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</guid>
+      <description>Two things that are important to me are being honest and treating everyone with dignity. However, some situations make it difficult to do both at the same time. It is possible, though. It takes effort, creativity, and a bit of trust, but it gets easier with practice.&#xA;When I talk about being honest, I actually mean being candid. Candor means both being honest and also communicating in good faith. Many fantasy authors have written about characters who never lie but are also fundamentally dishonest.</description>
+    </item>
+    <item>
+      <title>Breaking Past Senior Developer</title>
+      <link>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</link>
+      <pubDate>Fri, 29 Jan 2021 19:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</guid>
+      <description>Developing software is an excellent career. Software has touched almost every aspect of our world, and its impact is always expanding. Many new things have become possible because of software, things that couldn&amp;rsquo;t have been dreamed of even ten years ago. The industry is continuing to expand. Tools are getting better. New opportunities are appearing everywhere&amp;hellip; So why haven&amp;rsquo;t you gotten a promotion in ten years?&#xA;In the early days of my career, I got new responsibilities, promotions, and raises fairly regularly.</description>
+    </item>
+    <item>
+      <title>Infiltrating an Organization (or: Joining a New Team)</title>
+      <link>http://localhost:1313/2016/08/infiltrating-an-organization/</link>
+      <pubDate>Wed, 31 Aug 2016 22:23:42 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/infiltrating-an-organization/</guid>
+      <description>It takes some time to integrate into a new team. I always feel like an outsider at first. As I build friendships and trust, I&amp;rsquo;m able to contribute with increasing effectiveness. Having noticed some patterns, I&amp;rsquo;ve been able to make the process faster and smoother using a few simple tricks.&#xA;Tuckman&amp;rsquo;s Stages of Group Development describe what happens when a team is formed. His theory has four stages: forming, storming, norming, and performing.</description>
+    </item>
+    <item>
+      <title>Working Together and Having Fun</title>
+      <link>http://localhost:1313/2011/01/working-together-and-having-fun/</link>
+      <pubDate>Sun, 30 Jan 2011 11:46:45 +0000</pubDate>
+      <guid>http://localhost:1313/2011/01/working-together-and-having-fun/</guid>
+      <description>We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation to get right. It can be thankless work too; the only time a user notices a release is when it goes badly. We do our releases early on a week day to minimize impact, so if anything does go wrong, there&amp;rsquo;s not many bodies around to help out.</description>
+    </item>
+  </channel>
+</rss>

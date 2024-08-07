@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/c%23/</link>
+    <description>Recent content in C# on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Mon, 29 May 2023 09:57:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sustainable Errors</title>
+      <link>http://localhost:1313/posts/2023-05-29-sustainable-errors/</link>
+      <pubDate>Mon, 29 May 2023 09:57:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-29-sustainable-errors/</guid>
+      <description>Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.</description>
+    </item>
+    <item>
+      <title>The Average Test</title>
+      <link>http://localhost:1313/2011/04/the-average-test/</link>
+      <pubDate>Sat, 30 Apr 2011 16:08:30 +0000</pubDate>
+      <guid>http://localhost:1313/2011/04/the-average-test/</guid>
+      <description>I was conducting technical interviews recently for a senior developer position. I like to talk about a bunch of things, but there is one question I particularly enjoy asking each candidate. Write an implementation for this:&#xA;int Average(int a, int b) { } It&amp;rsquo;s a great question because it&amp;rsquo;s a simple problem, and anyone that comes through the door should know the formula without having to ask. It&amp;rsquo;s interesting how people react to it sometimes, but I chalk it up to interview jitters.</description>
+    </item>
+  </channel>
+</rss>

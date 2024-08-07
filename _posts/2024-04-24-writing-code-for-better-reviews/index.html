@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Writing Code for Better Reviews - </title>
+
+  <meta name="description" content="I believe code reviews are a high-value activity (which I&rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.
+Make your intentions understood Good commit messages and review titles are important.">
+  <meta name="author" content="Jesse McDowell"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Jesse Builds Software",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/_posts\/2024-04-24-writing-code-for-better-reviews\/",
+          "name": "Writing code for better reviews"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Jesse McDowell"
+  },
+  "headline": "Writing Code for Better Reviews",
+  "description" : "I believe code reviews are a high-value activity (which I\u0026rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.\nMake your intentions understood Good commit messages and review titles are important.",
+  "inLanguage" : "en",
+  "wordCount":  1019 ,
+  "datePublished" : "2024-04-24T14:37:05\u002b00:00",
+  "dateModified" : "2024-04-24T14:37:05\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+  "keywords" : [ "practices, quality, code reviews" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/_posts\/2024-04-24-writing-code-for-better-reviews\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Writing Code for Better Reviews" />
+<meta property="og:description" content="I believe code reviews are a high-value activity (which I&rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.
+Make your intentions understood Good commit messages and review titles are important.">
+<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:url" content="http://localhost:1313/_posts/2024-04-24-writing-code-for-better-reviews/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Jesse Builds Software" />
+
+  <meta name="twitter:title" content="Writing Code for Better Reviews" />
+  <meta name="twitter:description" content="I believe code reviews are a high-value activity (which I&rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier …">
+  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.128.2">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Jesse Builds Software"><link rel="stylesheet" href="http://localhost:1313/css/katex.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/bootstrap.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="http://localhost:1313/css/fonts.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="http://localhost:1313/css/photoswipe.min.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/photoswipe.default-skin.min.css" />
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">Jesse Builds Software</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Links</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pragmaticpotato.ca/">Pragmatic Potato Software</a>
+                
+                  <a href="/resources">Resources</a>
+                
+                  <a href="/mysterysolver">Mystery Solver</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Jesse Builds Software" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="Jesse Builds Software" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="_posts-heading">
+              
+                <h1>Writing Code for Better Reviews</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>I believe code reviews are a high-value activity (which <a href="/2024/01/Optimal-Code-Reviews/">I&rsquo;ve written about before</a>), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.</p>
+<h2 id="make-your-intentions-understood">Make your intentions understood</h2>
+<p>Good commit messages and review titles are important. It may be (and in fact, should be) obvious from your code change what you&rsquo;re trying to do, but a good message is still important. There are lots of cases where someone needs to scan the change list, and good messages make this a lot easier. It also helps your reviewer understand what you&rsquo;re doing.</p>
+<p>The key to a good commit message is describing your intention. &ldquo;Added some code&rdquo; may be correct, but it&rsquo;s not helpful. &ldquo;Check for invalid email addresses&rdquo; explains why you added the code. Your audience is a future developer trying to figure out why a feature broke, and what they care about is getting a quick picture of what you could have changed.</p>
+<p>A little humour can be fun sometimes, but be careful with this. Small tasteful jokes are fine, but sarcasm or jokes that obscure your meaning will just slow others down.</p>
+<h2 id="group-changes-by-intention-one-intention-at-a-time">Group changes by intention, one intention at a time</h2>
+<p>I tend to meander through changes as opposed to attacking them linearly, and I think this is pretty common. I run into small things while I&rsquo;m wandering through the code, and I want to fix them right away. I could take a note and come back later, but this sometimes feels like moving backwards. The compromise that I normally go with is fixing the side-thing anyway, but presenting it separately.</p>
+<p>If the change is very small (ex: a typo in a private method name - the fix will only affect a couple lines of code in one file) it may be okay to tuck it in. If it&rsquo;s only a few changes but spread across a few files, putting it in its own commit is better.</p>
+<p>The worst offender is the sweeping change. No matter how much a typo in a widely used function name might bother, adding a couple of hundred lines of noise to the review is absolutely going to slow it down. A new, separate review is a great way to present these. It&rsquo;s a lot easier to verify simple changes if they are the only kind of change present. With Git and GitHub, it&rsquo;s pretty easy to rebase a single sweeping change commit into its own branch and put it up for for review immediately.</p>
+<p>Some &ldquo;simple&rdquo; fixes are not as simple as they seem, and could introduce a bug. If there is any doubt at all, it may be worth separating these changes so that they get separate scrutiny in the test and documentation pipelines. This usually means creating a new issue in your issue tracker. If they&rsquo;re small enough, and if your tools allow it, you might still be able to include the change (in its own commit) in your same code review.</p>
+<h2 id="break-up-large-changes-into-multiple-reviews">Break up large changes into multiple reviews</h2>
+<p>Sometimes a single change is big enough that you may want to break it into smaller pieces. For most cases, multiple commits may be enough, but for the largest changes you may want multiple reviews. This can be especially kind for a reviewer, or helpful if a change spans multiple areas of expertise.</p>
+<p>One common and sensible rule is that every review should be able to build and pass tests before it is merged. That needs to be the first consideration when breaking a change down into smaller reviews. It can be temping to break up reviews by folder, or application layer, or some other simple delineation, but it will make it harder for reviewers to understand what is happening.</p>
+<h2 id="avoid-high-noise-low-value-changes">Avoid high-noise, low-value changes</h2>
+<p>Reordering code, rearranging imports, or running automatic reformatting functions can create a lot of changed lines in a review tool. Worse, it can sometimes be mistaken for removal and re-addition of code, making it harder to notice any changes made at the same time. This also makes it harder to track the true history for your lines of code. Sometimes there is enough value to justify the noise, but make the decision consciously.</p>
+<h2 id="establish-shared-hygiene-to-reduce-noise">Establish shared hygiene to reduce noise</h2>
+<p>Using an explicit <code>.editorconfig</code> is an easy starting point. Automatic reformatting tools can save a lot of time. The noise should be minimal if everyone follows the same rules.</p>
+<p>There are some other practices that can help reduce noise:</p>
+<ul>
+<li>use trailing commas in lists (if your language supports it) - this prevents the last line from changing when a new line is added</li>
+<li>keep large lists in alphabetical order - this makes it easier to find code, and prevents the temptation to regroup and reorder things</li>
+<li>keep code files small (ex: one class per file)</li>
+<li>keep auto-generated code in separate files from custom code (ex: partial classes)</li>
+</ul>
+<h2 id="rebase-with-care">Rebase with care</h2>
+<p>Avoid rebasing when a review is underway. Sometimes a rebase is necessary, but it can disrupt the change history that reviewers are in the middle of processing. GitHub can sometimes be pretty bad with this. It&rsquo;s okay to rebase before anyone has looked at your review. If you have no choice, see if you can delay the rebasing until all feedback has been addressed and accepted.</p>
+<h2 id="review-your-work-before-asking-others">Review your work before asking others</h2>
+<p>Quickly scan your changes before sharing them with others. I have caught innumerable typos or accidental changes this way. You could leave them in the review, but it wastes time for your reviewers, and it makes you look sloppy. It can also add an unnecessary iteration to the review process if there was no other feedback.</p>
+<h2 id="understand-your-review-tool">Understand your review tool</h2>
+<p>There can be subtle differences in the reviewing experience depending on the tools and process your team is using. Take time to understand how your tool works, and make sure you follow the processes your peers prefer.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/practices/">practices</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/quality/">quality</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/code-reviews/">code reviews</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f&amp;text=Writing%20Code%20for%20Better%20Reviews&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f&amp;title=Writing%20Code%20for%20Better%20Reviews" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f&amp;title=Writing%20Code%20for%20Better%20Reviews" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f&amp;title=Writing%20Code%20for%20Better%20Reviews" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2f_posts%2f2024-04-24-writing-code-for-better-reviews%2f&amp;description=Writing%20Code%20for%20Better%20Reviews" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/_posts/2024-03-27-the-true-cost-of-dependencies/">The True Cost of Dependencies</a></li>
+                
+                    <li><a href="/_posts/2024-02-28-being-honest-and-positive-at-work/">Being Honest and Positive at Work</a></li>
+                
+                    <li><a href="/_posts/2024-01-04-optimal-code-reviews/">Optimal Code Reviews</a></li>
+                
+                    <li><a href="/_posts/2023-11-21-using-architectural-decision-records/">Using Architectural Decision Records</a></li>
+                
+                    <li><a href="/_posts/2023-10-03-getting-unstuck-without-a-rubber-duck/">Getting Unstuck Without a Rubber Duck</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/_posts/2024-03-27-the-true-cost-of-dependencies/" data-toggle="tooltip" data-placement="top" title="The True Cost of Dependencies">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="http://localhost:1313/_posts/2024-05-27-cross-cutting-concerns/" data-toggle="tooltip" data-placement="top" title="Cross-Cutting Concerns - Ten Approaches">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://pragmaticpotato.com/" title="Website">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://linkedin.com/in/jessemcdowell" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/jessemcdowell" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="about">Jesse McDowell</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">Jesse Builds Software</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.128.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="http://localhost:1313/js/katex.min.js"></script>
+<script defer src="http://localhost:1313/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="http://localhost:1313/js/jquery-3.7.0.slim.min.js"></script>
+<script src="http://localhost:1313/js/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="http://localhost:1313/js/photoswipe.min.js"></script>
+<script src="http://localhost:1313/js/photoswipe-ui-default.min.js"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

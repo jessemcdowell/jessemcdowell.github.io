@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jesse Builds Software</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Mon, 24 Jun 2024 12:02:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Pragmatic Potato Tech Stack</title>
+      <link>http://localhost:1313/posts/2024-06-24-pragmatic-potato-tech-stack/</link>
+      <pubDate>Mon, 24 Jun 2024 12:02:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-06-24-pragmatic-potato-tech-stack/</guid>
+      <description>I recently launched my new company, Pragmatic Potato Software Inc. The creation of a company itself is pretty easy, but setting up everything you need to do business can become overwhelming quickly. There are a lot of compelling options available, each promising the moon. It&amp;rsquo;s not that simple though.&#xA;I&amp;rsquo;m going to be writing about the technology stack I&amp;rsquo;m using to run my company, and why I made the choices I did.</description>
+    </item>
+    <item>
+      <title>Cross-Cutting Concerns - Ten Approaches</title>
+      <link>http://localhost:1313/posts/2024-05-27-cross-cutting-concerns/</link>
+      <pubDate>Mon, 27 May 2024 13:18:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-05-27-cross-cutting-concerns/</guid>
+      <description>One often (and ironically) repeated rule in programming is: don&amp;rsquo;t repeat yourself. We repeat it so much we even have an abbreviation: DRY. There are good reasons for this advice. Duplicating and modifying code can be a quick and easy way to get a feature done, but it can also lead to problems over time. It&amp;rsquo;s harder to understand code when the valuable logic is mixed with reams of low-value boilerplate.</description>
+    </item>
+    <item>
+      <title>Writing Code for Better Reviews</title>
+      <link>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</link>
+      <pubDate>Wed, 24 Apr 2024 14:37:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</guid>
+      <description>I believe code reviews are a high-value activity (which I&amp;rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.&#xA;Make your intentions understood Good commit messages and review titles are important.</description>
+    </item>
+    <item>
+      <title>The True Cost of Dependencies</title>
+      <link>http://localhost:1313/posts/2024-03-27-the-true-cost-of-dependencies/</link>
+      <pubDate>Wed, 27 Mar 2024 15:35:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-27-the-true-cost-of-dependencies/</guid>
+      <description>I used to use Getform for a contact form on my consulting company website. I recently received an email from them announcing that their free tier was dropping from 50 submissions per month to a lifetime limit of 25. This makes it useless for anything more than a trial, and their lowest tier is a more expensive than other similar options.&#xA;I&amp;rsquo;m not here to complain about companies taking back free offerings.</description>
+    </item>
+    <item>
+      <title>Being Honest and Positive at Work</title>
+      <link>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</link>
+      <pubDate>Wed, 28 Feb 2024 11:37:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-02-28-being-honest-and-positive-at-work/</guid>
+      <description>Two things that are important to me are being honest and treating everyone with dignity. However, some situations make it difficult to do both at the same time. It is possible, though. It takes effort, creativity, and a bit of trust, but it gets easier with practice.&#xA;When I talk about being honest, I actually mean being candid. Candor means both being honest and also communicating in good faith. Many fantasy authors have written about characters who never lie but are also fundamentally dishonest.</description>
+    </item>
+    <item>
+      <title>My Experience with the Dvorak Keyboard Layout</title>
+      <link>http://localhost:1313/posts/2024-01-31-my-experience-with-the-dvorak-keyboard-layout/</link>
+      <pubDate>Wed, 31 Jan 2024 09:57:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-01-31-my-experience-with-the-dvorak-keyboard-layout/</guid>
+      <description>I&amp;rsquo;ve been happily using the Dvorak keyboard layout for more than 25 years. I switched because I thought typing faster would be a benefit in my career. I can type faster, and it also reduces the strain on my wrists. It does have some drawbacks though. If you had asked me before writing this post I would have told you that I love it, but now I&amp;rsquo;m not so sure.</description>
+    </item>
+    <item>
+      <title>Optimal Code Reviews</title>
+      <link>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</link>
+      <pubDate>Thu, 04 Jan 2024 14:11:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</guid>
+      <description>I am a strong advocate for code reviews. They have many advantages including improving code quality and team communication. On the other hand, they take a lot of time and add yet another delay to the development pipeline. With the wrong team culture, they can create hard feelings and discourage honest collaboration. This is a heavy price to pay, and yet, I&amp;rsquo;ve seen many teams that do them without ever talking about how or why.</description>
+    </item>
+    <item>
+      <title>Switching from Google Podcasts to Spotify</title>
+      <link>http://localhost:1313/posts/2023-12-14-switching-from-google-podcasts-to-spotify/</link>
+      <pubDate>Thu, 14 Dec 2023 10:17:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-12-14-switching-from-google-podcasts-to-spotify/</guid>
+      <description>Back in September Google announced that Google Podcasts will be shut down. It is supposed to remain available until April of 2024 and be available for exporting data until June. I chose not to wait.&#xA;I have been using Spotify happily for music for years now, so I decided to give it a try. I didn&amp;rsquo;t do any research or look for other options. I had some confidence that it would be a reasonable option however because Spotify has been putting a lot of effort and money into its podcast offering.</description>
+    </item>
+    <item>
+      <title>Announcing Pragmatic Potato Software</title>
+      <link>http://localhost:1313/posts/2023-11-30-announcing-pragmatic-potato-software/</link>
+      <pubDate>Thu, 30 Nov 2023 14:07:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-30-announcing-pragmatic-potato-software/</guid>
+      <description>I am very pleased to announce the launch of my new company, Pragmatic Potato Software.&#xA;Pragmatic Potato is helping customers with software architecture and development. We can help with architectural investigations, software design, development process, interviewing, and even development. You can find out more about the kind of services we&amp;rsquo;re offering on our spiffy new website: pragmaticpotato.com/services/.&#xA;If you&amp;rsquo;re interested, contact me through my website. Let&amp;rsquo;s have a quick conversation and see if we can help you.</description>
+    </item>
+    <item>
+      <title>Using Architectural Decision Records</title>
+      <link>http://localhost:1313/posts/2023-11-21-using-architectural-decision-records/</link>
+      <pubDate>Tue, 21 Nov 2023 17:51:51 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-21-using-architectural-decision-records/</guid>
+      <description>Architectural Decision Records are a simple technique that promotes good architectural thinking and better collaboration. They don&amp;rsquo;t need to be big or complicated to be effective, but they do take some time, and are yet another step between setting goals and delivering value. If you use them in the right circumstances they can be a big help.&#xA;What is an Architectural Decision Record? An Architectural Decision Record (often abbreviated ADR) is just as the name implies: a document that describes an architectural decision.</description>
+    </item>
+    <item>
+      <title>This Blog: Hexo-generated static site hosted on GitHub Pages</title>
+      <link>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</link>
+      <pubDate>Wed, 01 Nov 2023 10:34:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-01-this-blog-hexo-generated-static-site-hosted-on-github-pages/</guid>
+      <description>A couple of years ago I switched this blog from a WordPress site hosted on GoDaddy to a statically generated site. The new setup is faster, more secure, and cheaper to operate. And it was easy to do!&#xA;Static vs Dynamic websites WordPress is a very popular blogging platform. You can use it hosted on WordPress.com, or any number of other web providers that offer it. Because it&amp;rsquo;s open source, you can also host it yourself easily.</description>
+    </item>
+    <item>
+      <title>Review: Grammarly Premium</title>
+      <link>http://localhost:1313/posts/2023-10-19-review-grammarly-premium/</link>
+      <pubDate>Thu, 19 Oct 2023 08:50:37 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-10-19-review-grammarly-premium/</guid>
+      <description>I spend a fair bit of time working on this blog. More than I probably should given my unimpressive view metrics. It does help me to crystalize my thoughts and practice articulating points that are important to me, but I&amp;rsquo;m spending an awful lot of time doing it. Ultimately, I write because I enjoy writing. I just wish I could spend less time per post.&#xA;For a while there I was getting hammered by ads from Grammarly, and in a fit of frustration, or maybe I was avoiding yet another hour of editing, I signed up.</description>
+    </item>
+    <item>
+      <title>Getting Unstuck Without a Rubber Duck</title>
+      <link>http://localhost:1313/posts/2023-10-03-getting-unstuck-without-a-rubber-duck/</link>
+      <pubDate>Tue, 03 Oct 2023 18:03:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-10-03-getting-unstuck-without-a-rubber-duck/</guid>
+      <description>Building software is a mostly creative endeavour, and as such, it sometimes resists progress. No matter how hard you try to push forward, if you are truly stuck, continuing on the same path is unlikely to work. Fortunately, there are a few different tricks you can use to get going again.&#xA;Take a rest The easiest way I&amp;rsquo;ve found to get back on track is to take a break. When in the office this was often making a cup of tea or eating a snack in the break room.</description>
+    </item>
+    <item>
+      <title>Choosing Powerful Names</title>
+      <link>http://localhost:1313/posts/2023-09-18-choosing-powerful-names/</link>
+      <pubDate>Mon, 18 Sep 2023 12:44:36 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-09-18-choosing-powerful-names/</guid>
+      <description>A junior developer needs to strengthen their technical skills to advance. An intermediate developer needs to strengthen their organizational skills to advance. Senior developers need to master these and also demonstrate that they can move multiple teams forward together. Influencing people (and especially developers) is no easy task, but a positive reputation can do a lot of the heavy lifting. One of the easiest ways to amplify your reputation is to put some extra effort in when choosing a name.</description>
+    </item>
+    <item>
+      <title>Case of the Slow Matchmaking Routine</title>
+      <link>http://localhost:1313/posts/2023-09-05-case-of-the-slow-matchmaking-routine/</link>
+      <pubDate>Tue, 05 Sep 2023 15:08:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-09-05-case-of-the-slow-matchmaking-routine/</guid>
+      <description>The most challenging bug I&amp;rsquo;ve ever fixed was a performance issue in a matchmaking routine. Matchmaking is the process of finding players to compete against each other in a video game. An excellent matchmaking algorithm doesn&amp;rsquo;t just stick players together randomly; it tries to make the game more fun by balancing power levels and preventing anyone from waiting too long for a match.&#xA;About six weeks before a game I was working on was scheduled to be feature complete, we discovered our routine couldn&amp;rsquo;t handle our load targets.</description>
+    </item>
+    <item>
+      <title>Regarding Test Coverage Targets</title>
+      <link>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</link>
+      <pubDate>Mon, 21 Aug 2023 11:28:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</guid>
+      <description>Unit tests are undeniably a good thing, but you only realize the full benefits of them when you have enough tests that you can make changes with confidence. If you can make a change, run your tests, and be comfortable enough to ship your changes, then you and your team can get work done much faster. More drastic changes to the shared code become feasible. Life gets better.&#xA;It makes sense then that teams want to ensure that code is sufficiently covered with tests.</description>
+    </item>
+    <item>
+      <title>My Architectural Report Template</title>
+      <link>http://localhost:1313/posts/2023-08-08-my-architectural-report-template/</link>
+      <pubDate>Tue, 08 Aug 2023 12:45:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-08-08-my-architectural-report-template/</guid>
+      <description>As an architect I&amp;rsquo;ve been asked to answer a lot of hard questions. I used to waste time figuring out how to structure my answers, preventing me from getting into a good flow sooner. Now I have a simple template that is easy to use, easy to read, and saves me that wasted time up front.&#xA;This template works for simple reports that are only a couple of pages, but can easily be adjusted or expanded for more complicated or much larger documents.</description>
+    </item>
+    <item>
+      <title>Design by Dogma Antipattern</title>
+      <link>http://localhost:1313/posts/2023-07-30-design-by-dogma-antipattern/</link>
+      <pubDate>Sun, 30 Jul 2023 13:41:17 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-30-design-by-dogma-antipattern/</guid>
+      <description>Always use a NoSQL database so your app can scale.&#xA;NoSQL databases can be more scalable, but schema-on-read has other drawbacks. NoSQL databases are much less capable of transactional changes. Relationships are difficult or impossible. Designing schemas to be efficient is much harder, and requires more up-front knowledge about your problem. NoSQL databases are sometimes the right tool for the job, but they are not the right tool for every job.</description>
+    </item>
+    <item>
+      <title>Horizontal One-on-Ones and Talking Practice</title>
+      <link>http://localhost:1313/posts/2023-07-18-horizontal-one-on-ones-and-talking-practice/</link>
+      <pubDate>Tue, 18 Jul 2023 15:35:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-18-horizontal-one-on-ones-and-talking-practice/</guid>
+      <description>When I was promoted to the role of architect it was a new role in the organization. The stakeholders I had to work with were not used to talking to an architect, and weren&amp;rsquo;t sure what I did or when I should be involved in a conversation. I started using recurring one-on-one meetings with each stakeholder separately. It worked great. It&amp;rsquo;s also made me a much better communicator.&#xA;One of the first and most important lessons I learned as an architect is that you can&amp;rsquo;t design a good architecture without a good understanding of its requirements.</description>
+    </item>
+    <item>
+      <title>Case of the Appearing Users</title>
+      <link>http://localhost:1313/posts/2023-07-10-case-of-the-appearing-users/</link>
+      <pubDate>Mon, 10 Jul 2023 13:18:09 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-07-10-case-of-the-appearing-users/</guid>
+      <description>A couple of years after solving The Case of The Disappearing Users, I was assigned another high profile bug where new users were being spontaneously created. They were being generated without a name or any profile information, but still filling up space in lists and appearing on schedules. A couple of other developers had tried fixing it but had no luck, so it was assigned to me.&#xA;I went through my usual bag of tricks: searched recent changes, searched for insert statements, tried to create empty users manually (and couldn&amp;rsquo;t).</description>
+    </item>
+    <item>
+      <title>Automating Non-Non-Downtime Upgrades in Kubernetes with ArgoCD</title>
+      <link>http://localhost:1313/posts/2023-06-26-automating-non-non-downtime-upgrades-in-kubernetes-with-argocd/</link>
+      <pubDate>Mon, 26 Jun 2023 10:55:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-06-26-automating-non-non-downtime-upgrades-in-kubernetes-with-argocd/</guid>
+      <description>I recently worked on a project to move a complicated legacy application onto Kubernetes. It was quite an undertaking, but in the end we were successful. One of the biggest challenges was figuring out how to automate our legacy deployment process, one where the whole application has to be stopped completely for schema upgrades to run.&#xA;The normal &amp;ldquo;Kubernetes way&amp;rdquo; to upgrade an application is by changing the Deployment resource. With its default RollingUpdate strategy it will delete a pod with the old definition, start a pod with the new definition, wait for it to be healthy, then repeat continuously until the change is fully applied.</description>
+    </item>
+    <item>
+      <title>Importance of Alignment</title>
+      <link>http://localhost:1313/posts/2023-06-12-importance-of-alignment/</link>
+      <pubDate>Mon, 12 Jun 2023 13:56:44 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-06-12-importance-of-alignment/</guid>
+      <description>Unless you work entirely alone, alignment is a big deal. When you are well aligned with your company&amp;rsquo;s goals you are a more valuable employee. When you are well aligned with your manager they can keep you on the right track and be an ally against obstacles. When you are well aligned with your peers you can keep each other focused on the most important work.&#xA;On the other hand, when you have poor alignment you can see all sorts of problems.</description>
+    </item>
+    <item>
+      <title>Polyglot Unconference 2023</title>
+      <link>http://localhost:1313/posts/2023-05-31-polyglot-unconference-2023/</link>
+      <pubDate>Wed, 31 May 2023 22:22:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-31-polyglot-unconference-2023/</guid>
+      <description>I recently had the pleasure of attending the 2023 Polyglot Unconference in Vancouver, put on by the Polyglot Software Association. I&amp;rsquo;ve been attending these for years. It is my favourite local conference.&#xA;An unconference, sometimes called an open spaces conference, is a participant-driven event where attendees choose the topics of discussion and provide the content themselves. They are meant to be open and inviting, and build interpersonal relationships. This year was no exception.</description>
+    </item>
+    <item>
+      <title>Sustainable Errors</title>
+      <link>http://localhost:1313/posts/2023-05-29-sustainable-errors/</link>
+      <pubDate>Mon, 29 May 2023 09:57:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-29-sustainable-errors/</guid>
+      <description>Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.</description>
+    </item>
+    <item>
+      <title>Is the Bug Fun?</title>
+      <link>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</link>
+      <pubDate>Mon, 15 May 2023 10:47:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</guid>
+      <description>There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any piece of software, bugs are found through testing or user reports, triaged, then assigned to developers. Unlike normal business software they also ask the question, &amp;ldquo;is the bug fun?&amp;rdquo;&#xA;There are plenty of unintended features (bugs) in games that became beloved. Attack combos were an accident in Street Fighter II, but they became so popular that they are a part of basically every fighting game now.</description>
+    </item>
+    <item>
+      <title>Case of the Disappearing Users</title>
+      <link>http://localhost:1313/posts/2023-05-01-case-of-the-disappearing-users/</link>
+      <pubDate>Mon, 01 May 2023 08:26:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-01-case-of-the-disappearing-users/</guid>
+      <description>Many years ago I worked on a program that had a serious problem: the users in one customer&amp;rsquo;s system were getting deleted periodically. When a user was deleted, any data linked with them was also deleted. We could restore the data from backups, but it was a difficult process, and having a system that loses data wasn&amp;rsquo;t great for our reputation, so we wanted to resolve it quickly. Our VP of development tried to find the issue first, but after a day without any progress he assigned the issue to me.</description>
+    </item>
+    <item>
+      <title>How to Fix a Bug</title>
+      <link>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</link>
+      <pubDate>Mon, 24 Apr 2023 08:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</guid>
+      <description>Building applications can be tricky, and it&amp;rsquo;s inevitable that mistakes will be made. As a result, we programmers spend a lot of time fixing bugs. Sometimes they are easy, but sometimes they can be pretty tough to figure out.&#xA;I&amp;rsquo;ve fixed a lot of bugs in my career, and to be honest with you, I usually enjoy the process. These days I am typically assigned the super urgent bugs that nobody else can figure out, and I kind of like it that way.</description>
+    </item>
+    <item>
+      <title>How to Report a Bug</title>
+      <link>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</link>
+      <pubDate>Fri, 10 Mar 2023 21:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</guid>
+      <description>Nobody likes bugs, least of all programmers. No matter how hard we try to catch them early, some will always escape into circulation. Until computers are smart enough to do what we meant instead of what we said, users are going to keep finding bugs, and we&amp;rsquo;re going to keep fixing them.&#xA;Before a bug is fixed, it needs to be reported. Unfortunately it&amp;rsquo;s not uncommon to receive incomplete reports. We can spend a lot of time hunting and making guesses, and sometimes that&amp;rsquo;s enough, but if we can&amp;rsquo;t figure out the problem it&amp;rsquo;s pretty hard to fix it.</description>
+    </item>
+    <item>
+      <title>Breaking Past Senior Developer</title>
+      <link>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</link>
+      <pubDate>Fri, 29 Jan 2021 19:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</guid>
+      <description>Developing software is an excellent career. Software has touched almost every aspect of our world, and its impact is always expanding. Many new things have become possible because of software, things that couldn&amp;rsquo;t have been dreamed of even ten years ago. The industry is continuing to expand. Tools are getting better. New opportunities are appearing everywhere&amp;hellip; So why haven&amp;rsquo;t you gotten a promotion in ten years?&#xA;In the early days of my career, I got new responsibilities, promotions, and raises fairly regularly.</description>
+    </item>
+    <item>
+      <title>Brewing Your Own Iced Tea</title>
+      <link>http://localhost:1313/2018/06/brewing-your-own-iced-tea/</link>
+      <pubDate>Wed, 13 Jun 2018 21:29:59 +0000</pubDate>
+      <guid>http://localhost:1313/2018/06/brewing-your-own-iced-tea/</guid>
+      <description>There are few things more refreshing than a cold glass of good iced tea. I&amp;rsquo;ve tried iced tea from a lot of places, but the best I&amp;rsquo;ve had to this day is my own recipe. It&amp;rsquo;s so easy that I can&amp;rsquo;t in good conscience keep it secret. It&amp;rsquo;s also far cheaper than anything you can buy in a can or bottle, and a lot healthier because it doesn&amp;rsquo;t require any kind of sweetener.</description>
+    </item>
+    <item>
+      <title>Infiltrating an Organization (or: Joining a New Team)</title>
+      <link>http://localhost:1313/2016/08/infiltrating-an-organization/</link>
+      <pubDate>Wed, 31 Aug 2016 22:23:42 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/infiltrating-an-organization/</guid>
+      <description>It takes some time to integrate into a new team. I always feel like an outsider at first. As I build friendships and trust, I&amp;rsquo;m able to contribute with increasing effectiveness. Having noticed some patterns, I&amp;rsquo;ve been able to make the process faster and smoother using a few simple tricks.&#xA;Tuckman&amp;rsquo;s Stages of Group Development describe what happens when a team is formed. His theory has four stages: forming, storming, norming, and performing.</description>
+    </item>
+    <item>
+      <title>Why I Only Drink Loose Tea</title>
+      <link>http://localhost:1313/2014/06/why-i-only-drink-loose-tea/</link>
+      <pubDate>Sun, 01 Jun 2014 15:47:35 +0000</pubDate>
+      <guid>http://localhost:1313/2014/06/why-i-only-drink-loose-tea/</guid>
+      <description>When I was a child, I drank tea because my parents wouldn&amp;rsquo;t let me drink coffee. I would soak a tea bag in hot water until it made a dark, bitter liquid, then dump in milk and sugar until it was overly sweet, and mostly flavourless. I would sip it to fit in with adults, but I wouldn&amp;rsquo;t say that it was something I enjoyed.&#xA;As a young adult, I tried loose tea on the advice of a friend.</description>
+    </item>
+    <item>
+      <title>Controller Led Navigation in Angular</title>
+      <link>http://localhost:1313/2014/04/controller-led-navigation-in-angular/</link>
+      <pubDate>Tue, 01 Apr 2014 15:59:35 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/controller-led-navigation-in-angular/</guid>
+      <description>I recently tried AngularJS for a pet project. I watched a great tutorial about the platform, then dove in head first. You can see what I built here: MysterySolver&#xA;I enjoyed Angular. It was straightforward to use, and allowed me to bang out a lot of functionality without much cumbersome boilerplate code. Jasmine, the testing framework set up in the bootstrap source, was also pretty slick. I really liked how I could nest a bunch of test blocks inside of each other to reuse common setup code.</description>
+    </item>
+    <item>
+      <title>Reading Server Graphs: Connected Users</title>
+      <link>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</link>
+      <pubDate>Fri, 14 Jun 2013 22:30:44 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</guid>
+      <description>I&amp;rsquo;ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monitor hanging off a wall showing a graph of connected users. It won&amp;rsquo;t give you detailed diagnostic information, but it is a good indicator for the health of your servers, and your product generally. If you learn to notice certain patterns in your user graph, it can also save you precious time when things go wrong.</description>
+    </item>
+    <item>
+      <title>InstallUtil and BadImageFormatException - Facepalm</title>
+      <link>http://localhost:1313/2012/04/installutil-and-badimageformatexception/</link>
+      <pubDate>Sat, 14 Apr 2012 23:09:18 +0000</pubDate>
+      <guid>http://localhost:1313/2012/04/installutil-and-badimageformatexception/</guid>
+      <description>I had a frustrating issue at work this week: one that was easy to fix, but embarrassingly difficult to find. I came pretty close to giving up, which is not a solution I often explore, but in the end we figured it out and got everything working.&#xA;A member of our operations team was installing a Windows service I&amp;rsquo;d built to monitor some stuff in our production environment. I&amp;rsquo;ve made a few windows services in my day, and installed them many times on many machines.</description>
+    </item>
+    <item>
+      <title>Choosing Priorities</title>
+      <link>http://localhost:1313/2012/03/choosing-priorities/</link>
+      <pubDate>Thu, 08 Mar 2012 21:50:05 +0000</pubDate>
+      <guid>http://localhost:1313/2012/03/choosing-priorities/</guid>
+      <description>During the summer I started a difficult but important journey to reorganize my life. The first step was organizing my daily tasks. I was successful, but becoming productive again has created new issues.&#xA;When you change from trying to do everything to doing what&amp;rsquo;s most important, you need to decide what important means. Figuring this out for myself has proven difficult. I still don&amp;rsquo;t have all the answers, but I am constantly making progress.</description>
+    </item>
+    <item>
+      <title>Sharpening The Saw</title>
+      <link>http://localhost:1313/2011/10/sharpening-the-saw/</link>
+      <pubDate>Mon, 24 Oct 2011 18:49:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/sharpening-the-saw/</guid>
+      <description>One of the best things about working in the software business is the high rate of change. Not only do we work with machines that radically change in capability every few years, but new techniques and technologies are constantly appearing on the scene. It is a fascinating new frontier that never gets dull.&#xA;One of the worst things about working in the software business is the high rate of change. If you only focus on your job and stop paying attention, you could wake up one day unemployed with an obsolete skill set.</description>
+    </item>
+    <item>
+      <title>Managing Priorities Outside of Work</title>
+      <link>http://localhost:1313/2011/10/managing-priorities-outside-of-work/</link>
+      <pubDate>Thu, 06 Oct 2011 19:55:07 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/managing-priorities-outside-of-work/</guid>
+      <description>I&amp;rsquo;ve been fortunate to take some serious down time during the summer. After working pretty much non-stop for ten years, things have piled up. I took some time to rest, then got to work on some personal projects that have been neglected far too long.&#xA;What I&amp;rsquo;ve learned, however, is that it takes more than time to get things done. After about a month, pretty much all I&amp;rsquo;d achieved was completing a couple video games, and putting all the things I wanted to do into one very long list.</description>
+    </item>
+    <item>
+      <title>Doubling Data for Performance Testing</title>
+      <link>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</link>
+      <pubDate>Thu, 11 Aug 2011 21:22:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/08/doubling-data-for-performance-testing/</guid>
+      <description>Or: The Most Impressive T-SQL Script I&amp;rsquo;ve Ever Written&#xA;I was recently working on a new application. After three months in the field, users were starting to complain about performance issues. We had done some limited performance tuning for the first release, and more as part of the second release, but new issues were popping up as more data got entered into the system. We could have continued fixing issues as they came up, one release at a time, but we wanted to get ahead of the problem, and the client wanted to know that the system would remain usable without developer intervention for a few years at least.</description>
+    </item>
+    <item>
+      <title>The Critical Path</title>
+      <link>http://localhost:1313/2011/06/the-critical-path/</link>
+      <pubDate>Sat, 25 Jun 2011 09:58:08 +0000</pubDate>
+      <guid>http://localhost:1313/2011/06/the-critical-path/</guid>
+      <description>For the last ten years, if you had asked, I would have told you with some conviction that a &amp;ldquo;critical path&amp;rdquo; is a kind of test script that tests the essential functionality of a system. If the app passes it&amp;rsquo;s critical path test, I would have said, it may not delight users, but it&amp;rsquo;s unlikely that they&amp;rsquo;ll storm your basement with torches and pitchforks.&#xA;It came up at work during a discussion about interview questions.</description>
+    </item>
+    <item>
+      <title>Consulting - A Brave New World</title>
+      <link>http://localhost:1313/2011/05/consulting-a-brave-new-world/</link>
+      <pubDate>Mon, 23 May 2011 22:20:41 +0000</pubDate>
+      <guid>http://localhost:1313/2011/05/consulting-a-brave-new-world/</guid>
+      <description>I&amp;rsquo;ve taken a big step in my career. I&amp;rsquo;ve become a software consultant.&#xA;The decision to leave my job of three and a half years wasn&amp;rsquo;t an easy one. I was working with some fantastic people, building the best software we could, but at the end of the day I wasn&amp;rsquo;t learning. The work was challenging, but the challenges were mostly non-technical. In this business, if you&amp;rsquo;re not moving forward you may as well lay down and die.</description>
+    </item>
+    <item>
+      <title>The Average Test</title>
+      <link>http://localhost:1313/2011/04/the-average-test/</link>
+      <pubDate>Sat, 30 Apr 2011 16:08:30 +0000</pubDate>
+      <guid>http://localhost:1313/2011/04/the-average-test/</guid>
+      <description>I was conducting technical interviews recently for a senior developer position. I like to talk about a bunch of things, but there is one question I particularly enjoy asking each candidate. Write an implementation for this:&#xA;int Average(int a, int b) { } It&amp;rsquo;s a great question because it&amp;rsquo;s a simple problem, and anyone that comes through the door should know the formula without having to ask. It&amp;rsquo;s interesting how people react to it sometimes, but I chalk it up to interview jitters.</description>
+    </item>
+    <item>
+      <title>Working Together and Having Fun</title>
+      <link>http://localhost:1313/2011/01/working-together-and-having-fun/</link>
+      <pubDate>Sun, 30 Jan 2011 11:46:45 +0000</pubDate>
+      <guid>http://localhost:1313/2011/01/working-together-and-having-fun/</guid>
+      <description>We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation to get right. It can be thankless work too; the only time a user notices a release is when it goes badly. We do our releases early on a week day to minimize impact, so if anything does go wrong, there&amp;rsquo;s not many bodies around to help out.</description>
+    </item>
+    <item>
+      <title>When to Add an ORM Tool</title>
+      <link>http://localhost:1313/2011/01/when-to-add-an-orm-tool/</link>
+      <pubDate>Mon, 03 Jan 2011 12:33:03 +0000</pubDate>
+      <guid>http://localhost:1313/2011/01/when-to-add-an-orm-tool/</guid>
+      <description>I&amp;rsquo;m working on the code that parses VCalendar data so that it can be processed. I&amp;rsquo;m copying the data I care about into a simple data structure that can represent a calendar request in any format. Any logic that interacts with calendar requests would use this internal structure. I want it to be simple, only having the stuff that I need, but I don&amp;rsquo;t want to completely re-invent the wheel either, so I will use the VCalendar format as a guideline.</description>
+    </item>
+    <item>
+      <title>Teaching IT</title>
+      <link>http://localhost:1313/2010/12/teaching-it/</link>
+      <pubDate>Fri, 24 Dec 2010 22:28:12 +0000</pubDate>
+      <guid>http://localhost:1313/2010/12/teaching-it/</guid>
+      <description>My company runs a 24/7 site with a substantial number of users and connections to partner systems all over the world. We do what we can to make the system fault tolerant, but problems can still appear at any time of day or night. Ideally we would have a technical support team that&amp;rsquo;s staffed around the clock, but that not in the cards for now.&#xA;We used to have a system where anyone that could fix a problem would get a text message, and whoever was closest to a computer would respond.</description>
+    </item>
+    <item>
+      <title>Invitations and the VCard Format</title>
+      <link>http://localhost:1313/2010/12/invitations-and-the-vcard-format/</link>
+      <pubDate>Thu, 16 Dec 2010 12:59:22 +0000</pubDate>
+      <guid>http://localhost:1313/2010/12/invitations-and-the-vcard-format/</guid>
+      <description>My next goal for the Themis project is to parse an invitation from an email. I am starting with invitations generated by MS Outlook because that&amp;rsquo;s my target audience, but a peak inside of a Google Calendar invitation gives me hope that I&amp;rsquo;ll be able to support multiple calendars without much trouble.&#xA;Outlook invitations are sent in the VCalendar format, content type &amp;ldquo;text/calendar&amp;rdquo;. The standard was published as RFC 2445 in 1998.</description>
+    </item>
+    <item>
+      <title>64-bit IIS vs. 32-bit Assemblies</title>
+      <link>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</link>
+      <pubDate>Thu, 11 Nov 2010 16:45:38 +0000</pubDate>
+      <guid>http://localhost:1313/2010/11/64-bit-iis-vs-32-bit-assemblies/</guid>
+      <description>I found my first 64-bit bug at work. I was moving a windows service built for the &amp;lsquo;Any CPU&amp;rsquo; to a 64-bit server. It started fine on the new server, and gave no indication of poor health in the logs, but one key function was malfunctioning. I&amp;rsquo;m not exactly sure what the cause is, but I know that the hash of any binary file was resulting in the same value. The service does some direct memory manipulation which is a likely culprit.</description>
+    </item>
+    <item>
+      <title>SQLite vs. SQL CE 3.5 with Entity Framework 4</title>
+      <link>http://localhost:1313/2010/10/sqlite-vs-sql-ce-3-5-with-entity-framework-4/</link>
+      <pubDate>Sun, 31 Oct 2010 22:19:23 +0000</pubDate>
+      <guid>http://localhost:1313/2010/10/sqlite-vs-sql-ce-3-5-with-entity-framework-4/</guid>
+      <description>My wife and I have been taking a Japanese class. I&amp;rsquo;m enjoying it quite a bit, even though learning languages has never been easy for me. I need to work hard to memorize all the new words, and that means lots and lots of practice.&#xA;My wife bought a pack of index cards. This is what a normal person would do. To me, it seems like defeat. Why use paper when there&amp;rsquo;s a computer in the room?</description>
+    </item>
+    <item>
+      <title>IE9 Try and Fail</title>
+      <link>http://localhost:1313/2010/09/ie9-try-and-fail/</link>
+      <pubDate>Wed, 22 Sep 2010 20:07:53 +0000</pubDate>
+      <guid>http://localhost:1313/2010/09/ie9-try-and-fail/</guid>
+      <description>I decided to give IE9 a try. What&amp;rsquo;s not to like about a browser that&amp;rsquo;s supposed to be faster, cleaner, and support new HTML features?&#xA;They really nailed the faster and cleaner parts. I didn&amp;rsquo;t find the user interface in IE8 too busy, but seeing the improvement I&amp;rsquo;m happy for the extra space.&#xA;Plunking a site onto my task bar like it were an application is pretty awesome. There are a couple of websites that I&amp;rsquo;ll do this for without hesitation.</description>
+    </item>
+    <item>
+      <title>Themis: System Design</title>
+      <link>http://localhost:1313/2010/09/themis-system-design/</link>
+      <pubDate>Tue, 14 Sep 2010 22:29:40 +0000</pubDate>
+      <guid>http://localhost:1313/2010/09/themis-system-design/</guid>
+      <description>I&amp;rsquo;m charging forward on the Shared Resource Schedule Service. There are a lot of things I&amp;rsquo;m getting into place before I start writing code. Don&amp;rsquo;t try to tell me that I&amp;rsquo;m not being agile either, you always need to design a little to write good code. The key to being agile is designing only as much as you need, and being prepared to change your mind later.&#xA;The Name The first order of business was to choose a name.</description>
+    </item>
+    <item>
+      <title>My First Open Source Project</title>
+      <link>http://localhost:1313/2010/09/my-first-open-source-project/</link>
+      <pubDate>Sat, 04 Sep 2010 19:52:29 +0000</pubDate>
+      <guid>http://localhost:1313/2010/09/my-first-open-source-project/</guid>
+      <description>I&amp;rsquo;ve been spending time on the first part of the shared resource service project: &amp;ldquo;Receive event invitations by email and send an acceptance email&amp;rdquo;. I hadn&amp;rsquo;t considered the difficulty I would face receiving emails. This is the most important part of the application, and if I can&amp;rsquo;t make it work, there&amp;rsquo;s really no point to continue.&#xA;I don&amp;rsquo;t want to write my own POP3 library, I&amp;rsquo;ve done that before and it&amp;rsquo;s much more complicated than it appears.</description>
+    </item>
+    <item>
+      <title>Changing From an iPod to a Creative Zen</title>
+      <link>http://localhost:1313/2010/08/changing-from-an-ipod-to-a-creative-zen/</link>
+      <pubDate>Tue, 31 Aug 2010 14:22:15 +0000</pubDate>
+      <guid>http://localhost:1313/2010/08/changing-from-an-ipod-to-a-creative-zen/</guid>
+      <description>The time finally came for me to replace my iPod with something new. I was using aniPod click wheelthat I got as a warranty replacement back in 2004.It was good to me, but I felt that it was time to look at other options.If iTunes ran a little better on my PC, I probably would have just bought another iPod without a second thought.&#xA;Hardware It took me quite a while to choose a new device.</description>
+    </item>
+    <item>
+      <title>SQL Management Studio Express with VS 2010 Express</title>
+      <link>http://localhost:1313/2010/08/ssmse-with-vs2010-express/</link>
+      <pubDate>Tue, 10 Aug 2010 20:16:53 +0000</pubDate>
+      <guid>http://localhost:1313/2010/08/ssmse-with-vs2010-express/</guid>
+      <description>I had some fun trying to install SQL Management Studio on my home computer over the weekend. I was successful in the end, but it was a rough journey.&#xA;These seem to be the things that can lead you into my scenario:&#xA;Windows 7 Visual Web Developer 2010 Express (which installs SQL Server 2008 Express) These are the things I ran into trying to install SQL Management Studio (both from an SQL 2008 standard disk, and a download of the express version from the Microsoft web site):</description>
+    </item>
+    <item>
+      <title>Shared Resource Service Requirements</title>
+      <link>http://localhost:1313/2010/08/shared-resource-service-requirements/</link>
+      <pubDate>Sun, 08 Aug 2010 21:12:53 +0000</pubDate>
+      <guid>http://localhost:1313/2010/08/shared-resource-service-requirements/</guid>
+      <description>I want to start my project by dividing up the various things the system needs to do, then put them into the order I plan to approach them. I want to start with requirements that are the most risky and most important to success first, and work my way down the list until I finish with items that are neither risky nor important.&#xA;This approach gives me several advantages. It&amp;rsquo;s not an issue in this case since I don&amp;rsquo;t have any deadlines to meet, but if this were a professional project and a deadline had to be pushed up, I am more likely to have a product that does the most essential things.</description>
+    </item>
+    <item>
+      <title>Shared Resource Schedule Service</title>
+      <link>http://localhost:1313/2010/07/shared-resource-schedule-service/</link>
+      <pubDate>Wed, 28 Jul 2010 21:53:02 +0000</pubDate>
+      <guid>http://localhost:1313/2010/07/shared-resource-schedule-service/</guid>
+      <description>I think I&amp;rsquo;ve got a new project to work on at home. We&amp;rsquo;ve got this problem at work coordinating a few shared resources in Outlook (like a couple of meeting rooms and a projector), but we couldn&amp;rsquo;t find any good solutions out there short of installing Exchange Server.&#xA;I&amp;rsquo;ve been wanting to play around with Entity Framework a bit, so this should be a good candidate. Perhaps I can slap a UI on it using Silverlight and Ria Services.</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/2010/07/my-first-post/</link>
+      <pubDate>Tue, 27 Jul 2010 22:22:21 +0000</pubDate>
+      <guid>http://localhost:1313/2010/07/my-first-post/</guid>
+      <description>I&amp;rsquo;ve finally gone and done it.&#xA;To be honest, creating my own blog wasn&amp;rsquo;t foremost in my thoughts until fairly recently. Scott Hanselman had a couple of interesting videos on his blog that finally convinced me to do it.&#xA;I hope you like it.</description>
+    </item>
+  </channel>
+</rss>

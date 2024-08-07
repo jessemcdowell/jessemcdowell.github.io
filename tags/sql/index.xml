@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/sql/</link>
+    <description>Recent content in Sql on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Tue, 10 Aug 2010 20:16:53 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Management Studio Express with VS 2010 Express</title>
+      <link>http://localhost:1313/2010/08/ssmse-with-vs2010-express/</link>
+      <pubDate>Tue, 10 Aug 2010 20:16:53 +0000</pubDate>
+      <guid>http://localhost:1313/2010/08/ssmse-with-vs2010-express/</guid>
+      <description>I had some fun trying to install SQL Management Studio on my home computer over the weekend. I was successful in the end, but it was a rough journey.&#xA;These seem to be the things that can lead you into my scenario:&#xA;Windows 7 Visual Web Developer 2010 Express (which installs SQL Server 2008 Express) These are the things I ran into trying to install SQL Management Studio (both from an SQL 2008 standard disk, and a download of the express version from the Microsoft web site):</description>
+    </item>
+  </channel>
+</rss>

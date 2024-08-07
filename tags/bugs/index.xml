@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugs on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/bugs/</link>
+    <description>Recent content in Bugs on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Mon, 15 May 2023 10:47:52 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bugs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is the Bug Fun?</title>
+      <link>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</link>
+      <pubDate>Mon, 15 May 2023 10:47:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</guid>
+      <description>There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any piece of software, bugs are found through testing or user reports, triaged, then assigned to developers. Unlike normal business software they also ask the question, &amp;ldquo;is the bug fun?&amp;rdquo;&#xA;There are plenty of unintended features (bugs) in games that became beloved. Attack combos were an accident in Street Fighter II, but they became so popular that they are a part of basically every fighting game now.</description>
+    </item>
+    <item>
+      <title>How to Fix a Bug</title>
+      <link>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</link>
+      <pubDate>Mon, 24 Apr 2023 08:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</guid>
+      <description>Building applications can be tricky, and it&amp;rsquo;s inevitable that mistakes will be made. As a result, we programmers spend a lot of time fixing bugs. Sometimes they are easy, but sometimes they can be pretty tough to figure out.&#xA;I&amp;rsquo;ve fixed a lot of bugs in my career, and to be honest with you, I usually enjoy the process. These days I am typically assigned the super urgent bugs that nobody else can figure out, and I kind of like it that way.</description>
+    </item>
+    <item>
+      <title>How to Report a Bug</title>
+      <link>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</link>
+      <pubDate>Fri, 10 Mar 2023 21:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</guid>
+      <description>Nobody likes bugs, least of all programmers. No matter how hard we try to catch them early, some will always escape into circulation. Until computers are smart enough to do what we meant instead of what we said, users are going to keep finding bugs, and we&amp;rsquo;re going to keep fixing them.&#xA;Before a bug is fixed, it needs to be reported. Unfortunately it&amp;rsquo;s not uncommon to receive incomplete reports. We can spend a lot of time hunting and making guesses, and sometimes that&amp;rsquo;s enough, but if we can&amp;rsquo;t figure out the problem it&amp;rsquo;s pretty hard to fix it.</description>
+    </item>
+  </channel>
+</rss>

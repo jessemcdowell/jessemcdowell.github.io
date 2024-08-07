@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 31 May 2023 22:22:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Polyglot Unconference 2023</title>
+      <link>http://localhost:1313/posts/2023-05-31-polyglot-unconference-2023/</link>
+      <pubDate>Wed, 31 May 2023 22:22:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-31-polyglot-unconference-2023/</guid>
+      <description>I recently had the pleasure of attending the 2023 Polyglot Unconference in Vancouver, put on by the Polyglot Software Association. I&amp;rsquo;ve been attending these for years. It is my favourite local conference.&#xA;An unconference, sometimes called an open spaces conference, is a participant-driven event where attendees choose the topics of discussion and provide the content themselves. They are meant to be open and inviting, and build interpersonal relationships. This year was no exception.</description>
+    </item>
+    <item>
+      <title>Sharpening The Saw</title>
+      <link>http://localhost:1313/2011/10/sharpening-the-saw/</link>
+      <pubDate>Mon, 24 Oct 2011 18:49:26 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/sharpening-the-saw/</guid>
+      <description>One of the best things about working in the software business is the high rate of change. Not only do we work with machines that radically change in capability every few years, but new techniques and technologies are constantly appearing on the scene. It is a fascinating new frontier that never gets dull.&#xA;One of the worst things about working in the software business is the high rate of change. If you only focus on your job and stop paying attention, you could wake up one day unemployed with an obsolete skill set.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People Management on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/people-management/</link>
+    <description>Recent content in People Management on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Mon, 12 Jun 2023 13:56:44 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/people-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importance of Alignment</title>
+      <link>http://localhost:1313/posts/2023-06-12-importance-of-alignment/</link>
+      <pubDate>Mon, 12 Jun 2023 13:56:44 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-06-12-importance-of-alignment/</guid>
+      <description>Unless you work entirely alone, alignment is a big deal. When you are well aligned with your company&amp;rsquo;s goals you are a more valuable employee. When you are well aligned with your manager they can keep you on the right track and be an ally against obstacles. When you are well aligned with your peers you can keep each other focused on the most important work.&#xA;On the other hand, when you have poor alignment you can see all sorts of problems.</description>
+    </item>
+    <item>
+      <title>Breaking Past Senior Developer</title>
+      <link>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</link>
+      <pubDate>Fri, 29 Jan 2021 19:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-01-29-breaking-past-senior-developer/</guid>
+      <description>Developing software is an excellent career. Software has touched almost every aspect of our world, and its impact is always expanding. Many new things have become possible because of software, things that couldn&amp;rsquo;t have been dreamed of even ten years ago. The industry is continuing to expand. Tools are getting better. New opportunities are appearing everywhere&amp;hellip; So why haven&amp;rsquo;t you gotten a promotion in ten years?&#xA;In the early days of my career, I got new responsibilities, promotions, and raises fairly regularly.</description>
+    </item>
+    <item>
+      <title>Working Together and Having Fun</title>
+      <link>http://localhost:1313/2011/01/working-together-and-having-fun/</link>
+      <pubDate>Sun, 30 Jan 2011 11:46:45 +0000</pubDate>
+      <guid>http://localhost:1313/2011/01/working-together-and-having-fun/</guid>
+      <description>We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation to get right. It can be thankless work too; the only time a user notices a release is when it goes badly. We do our releases early on a week day to minimize impact, so if anything does go wrong, there&amp;rsquo;s not many bodies around to help out.</description>
+    </item>
+    <item>
+      <title>Teaching IT</title>
+      <link>http://localhost:1313/2010/12/teaching-it/</link>
+      <pubDate>Fri, 24 Dec 2010 22:28:12 +0000</pubDate>
+      <guid>http://localhost:1313/2010/12/teaching-it/</guid>
+      <description>My company runs a 24/7 site with a substantial number of users and connections to partner systems all over the world. We do what we can to make the system fault tolerant, but problems can still appear at any time of day or night. Ideally we would have a technical support team that&amp;rsquo;s staffed around the clock, but that not in the cards for now.&#xA;We used to have a system where anyone that could fix a problem would get a text message, and whoever was closest to a computer would respond.</description>
+    </item>
+  </channel>
+</rss>

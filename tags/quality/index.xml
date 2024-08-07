@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quality on Jesse Builds Software</title>
+    <link>http://localhost:1313/tags/quality/</link>
+    <description>Recent content in Quality on Jesse Builds Software</description>
+    <generator>Hugo</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 24 Apr 2024 14:37:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Code for Better Reviews</title>
+      <link>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</link>
+      <pubDate>Wed, 24 Apr 2024 14:37:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-24-writing-code-for-better-reviews/</guid>
+      <description>I believe code reviews are a high-value activity (which I&amp;rsquo;ve written about before), but they take time and slow down your development process. With a few simple tricks, you can make it easier for reviewers to understand your changes, allowing them to give you better feedback faster. Not only does this save everyone time, but it also improves the quality of your code.&#xA;Make your intentions understood Good commit messages and review titles are important.</description>
+    </item>
+    <item>
+      <title>The True Cost of Dependencies</title>
+      <link>http://localhost:1313/posts/2024-03-27-the-true-cost-of-dependencies/</link>
+      <pubDate>Wed, 27 Mar 2024 15:35:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-27-the-true-cost-of-dependencies/</guid>
+      <description>I used to use Getform for a contact form on my consulting company website. I recently received an email from them announcing that their free tier was dropping from 50 submissions per month to a lifetime limit of 25. This makes it useless for anything more than a trial, and their lowest tier is a more expensive than other similar options.&#xA;I&amp;rsquo;m not here to complain about companies taking back free offerings.</description>
+    </item>
+    <item>
+      <title>Optimal Code Reviews</title>
+      <link>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</link>
+      <pubDate>Thu, 04 Jan 2024 14:11:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-01-04-optimal-code-reviews/</guid>
+      <description>I am a strong advocate for code reviews. They have many advantages including improving code quality and team communication. On the other hand, they take a lot of time and add yet another delay to the development pipeline. With the wrong team culture, they can create hard feelings and discourage honest collaboration. This is a heavy price to pay, and yet, I&amp;rsquo;ve seen many teams that do them without ever talking about how or why.</description>
+    </item>
+    <item>
+      <title>Regarding Test Coverage Targets</title>
+      <link>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</link>
+      <pubDate>Mon, 21 Aug 2023 11:28:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-08-21-regarding-test-coverage-targets/</guid>
+      <description>Unit tests are undeniably a good thing, but you only realize the full benefits of them when you have enough tests that you can make changes with confidence. If you can make a change, run your tests, and be comfortable enough to ship your changes, then you and your team can get work done much faster. More drastic changes to the shared code become feasible. Life gets better.&#xA;It makes sense then that teams want to ensure that code is sufficiently covered with tests.</description>
+    </item>
+    <item>
+      <title>Sustainable Errors</title>
+      <link>http://localhost:1313/posts/2023-05-29-sustainable-errors/</link>
+      <pubDate>Mon, 29 May 2023 09:57:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-29-sustainable-errors/</guid>
+      <description>Making a program work for the happy path is not always easy, but given enough time I believe pretty much anyone could do it. When a professional takes on the task however they will make it work for more than just the happy path, and do it with code that is easy to debug, and easy for others to understand and change. Since so much of what we end up dealing with are exceptional flows, we need a concise way to deal with them.</description>
+    </item>
+    <item>
+      <title>Is the Bug Fun?</title>
+      <link>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</link>
+      <pubDate>Mon, 15 May 2023 10:47:52 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-05-15-is-the-bug-fun/</guid>
+      <description>There are many things about producing video games that are surprising, but one of the weirdest has to be the approach to bugs. Like any piece of software, bugs are found through testing or user reports, triaged, then assigned to developers. Unlike normal business software they also ask the question, &amp;ldquo;is the bug fun?&amp;rdquo;&#xA;There are plenty of unintended features (bugs) in games that became beloved. Attack combos were an accident in Street Fighter II, but they became so popular that they are a part of basically every fighting game now.</description>
+    </item>
+    <item>
+      <title>How to Fix a Bug</title>
+      <link>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</link>
+      <pubDate>Mon, 24 Apr 2023 08:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-24-how-to-fix-a-bug/</guid>
+      <description>Building applications can be tricky, and it&amp;rsquo;s inevitable that mistakes will be made. As a result, we programmers spend a lot of time fixing bugs. Sometimes they are easy, but sometimes they can be pretty tough to figure out.&#xA;I&amp;rsquo;ve fixed a lot of bugs in my career, and to be honest with you, I usually enjoy the process. These days I am typically assigned the super urgent bugs that nobody else can figure out, and I kind of like it that way.</description>
+    </item>
+    <item>
+      <title>How to Report a Bug</title>
+      <link>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</link>
+      <pubDate>Fri, 10 Mar 2023 21:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-03-10-how-to-report-a-bug/</guid>
+      <description>Nobody likes bugs, least of all programmers. No matter how hard we try to catch them early, some will always escape into circulation. Until computers are smart enough to do what we meant instead of what we said, users are going to keep finding bugs, and we&amp;rsquo;re going to keep fixing them.&#xA;Before a bug is fixed, it needs to be reported. Unfortunately it&amp;rsquo;s not uncommon to receive incomplete reports. We can spend a lot of time hunting and making guesses, and sometimes that&amp;rsquo;s enough, but if we can&amp;rsquo;t figure out the problem it&amp;rsquo;s pretty hard to fix it.</description>
+    </item>
+    <item>
+      <title>Reading Server Graphs: Connected Users</title>
+      <link>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</link>
+      <pubDate>Fri, 14 Jun 2013 22:30:44 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/reading-server-graphs-connected-users/</guid>
+      <description>I&amp;rsquo;ve spent the last several years working on multi-user server systems in two different companies. Both those companies had a giant monitor hanging off a wall showing a graph of connected users. It won&amp;rsquo;t give you detailed diagnostic information, but it is a good indicator for the health of your servers, and your product generally. If you learn to notice certain patterns in your user graph, it can also save you precious time when things go wrong.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,3 +1,4 @@
+https://jessemcdowell.ca/2024/10/Exporting-to-Google-Sheets-API-from-CSharp/
 https://jessemcdowell.ca/2024/09/Using-WeeChat-on-Windows-11/
 https://jessemcdowell.ca/2024/08/Rocketbook-vs-Whiteboard/
 https://jessemcdowell.ca/resources/

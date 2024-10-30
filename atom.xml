@@ -1181,7 +1181,7 @@
     <link href="https://jessemcdowell.ca/2011/01/working-together-and-having-fun/"/>
     <id>https://jessemcdowell.ca/2011/01/working-together-and-having-fun/</id>
     <published>2011-01-30T19:46:45.000Z</published>
-    <updated>2024-08-07T05:04:17.773Z</updated>
+    <updated>2024-10-29T07:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>We did one of our monthly releases at work this week. Releases can be stressful and frustrating, and take a lot of methodical preparation to get right. It can be thankless work too; the only time a user notices a release is when it goes badly. We do our releases early on a week day to minimize impact, so if anything does go wrong, there’s not many bodies around to help out. It’s not much fun, but it’s important work that needs to be done.</p><p>One thing that makes the experience considerably more enjoyable for me is the team of coworkers that come in to help. There’s a handful of us, each with our own responsibilities. I deploy the applications while someone else monitors the database and another person tests the system to make sure it’s running normally. We back each other up, help out where we can, and make decisions together when they need to be made quickly.</p><p>Pressure is never a desirable thing in a work environment, but one benefit is that it quickly builds trust between anyone facing it together. The people I work with are really fantastic: smart, dedicated, and fun. We come from different cultures, like different kinds of food, have different hobbies and different tastes in music, but we still find things to talk about, reasons to laugh and smile.</p><p>I’ve been trying ways to make releases more fun. We had a pot luck breakfast once, and a release soundtrack from team favourites another time. This time I made breakfast burritos, and as a joke, a doughnut salad topped with an espresso sauce. We played a few songs during the waiting periods, and had as much fun as anyone could that early in the morning.</p><img src="/2011/01/working-together-and-having-fun/DoughnutSalad.jpg" class="" title="A plate of chopped doughnuts topped with an espresso jelly."><p>Thanks to the people involved, this release went well despite a few hiccups.</p>]]></content>
     
@@ -1199,6 +1199,8 @@
     <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
     <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
+    
+    <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
   </entry>
   

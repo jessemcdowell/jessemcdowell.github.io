@@ -18,5 +18,3 @@ jobs:
           honorRobotExclusions: false
           ignorePatterns: "github,google,cloudflare,linkedin.com/in/jessemcdowell/,nuget,duckdns.org,visualstudio.com,amazon"
           recursiveLinks: true
-      - name: Output results
-        run: echo "${{steps.link-report.outputs.result}}" >> $GITHUB_OUTPUT

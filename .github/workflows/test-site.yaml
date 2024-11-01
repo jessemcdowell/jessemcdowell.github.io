@@ -16,7 +16,7 @@ jobs:
         with:
           url: "https://jessemcdowell.ca"
           honorRobotExclusions: false
-          ignorePatterns: "github,google,cloudflare,linkedin.com/in/jessemcdowell/,nuget"
+          ignorePatterns: "github,google,cloudflare,linkedin.com/in/jessemcdowell/,nuget,duckdns.org,visualstudio.com,"
           recursiveLinks: true
       - shell: bash
         run: |

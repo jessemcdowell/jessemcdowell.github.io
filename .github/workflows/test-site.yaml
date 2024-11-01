@@ -22,7 +22,7 @@ jobs:
         run: |
           ${{ steps.link-report.outputs.result }} > link-result.txt
       - name: Upload link report results
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: results
           path: link-results.txt

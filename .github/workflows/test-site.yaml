@@ -19,4 +19,4 @@ jobs:
           ignorePatterns: "github,google"
           recursiveLinks: false
       - name: Get the result
-        run: echo "${{steps.link-report.outputs.result}}"
+        run: echo "${{steps.link-report.outputs.result}}" >> $GITHUB_OUTPUT

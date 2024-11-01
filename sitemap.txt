@@ -1,10 +1,13 @@
+https://jessemcdowell.ca/2010/08/changing-from-an-ipod-to-a-creative-zen/
+https://jessemcdowell.ca/2012/03/choosing-priorities/
+https://jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
+https://jessemcdowell.ca/mysterysolver/
 https://jessemcdowell.ca/2011/01/working-together-and-having-fun/
 https://jessemcdowell.ca/2024/10/Exporting-to-Google-Sheets-API-from-CSharp/
 https://jessemcdowell.ca/2024/09/Using-WeeChat-on-Windows-11/
 https://jessemcdowell.ca/2024/08/Rocketbook-vs-Whiteboard/
 https://jessemcdowell.ca/resources/
 https://jessemcdowell.ca/resources/architectural-report-template/
-https://jessemcdowell.ca/mysterysolver/
 https://jessemcdowell.ca/2024/06/Pragmatic-Potato-Tech-Stack/
 https://jessemcdowell.ca/2024/05/Cross-Cutting-Concerns/
 https://jessemcdowell.ca/2024/04/Writing-Code-for-Better-Reviews/
@@ -33,7 +36,6 @@ https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/
 https://jessemcdowell.ca/2023/04/How-to-Fix-a-Bug/
 https://jessemcdowell.ca/2018/06/brewing-your-own-iced-tea/
 https://jessemcdowell.ca/2014/06/why-i-only-drink-loose-tea/
-https://jessemcdowell.ca/2014/04/controller-led-navigation-in-angular/
 https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/
 https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/
 https://jessemcdowell.ca/2011/10/managing-priorities-outside-of-work/
@@ -49,7 +51,6 @@ https://jessemcdowell.ca/2023/03/How-to-Report-a-Bug/
 https://jessemcdowell.ca/2021/01/breaking-past-senior-developer/
 https://jessemcdowell.ca/2010/07/shared-resource-schedule-service/
 https://jessemcdowell.ca/2010/08/shared-resource-service-requirements/
-https://jessemcdowell.ca/2010/08/changing-from-an-ipod-to-a-creative-zen/
 https://jessemcdowell.ca/2010/08/ssmse-with-vs2010-express/
 https://jessemcdowell.ca/2010/09/my-first-open-source-project/
 https://jessemcdowell.ca/2010/09/ie9-try-and-fail/
@@ -59,7 +60,6 @@ https://jessemcdowell.ca/2010/12/invitations-and-the-vcard-format/
 https://jessemcdowell.ca/2011/06/the-critical-path/
 https://jessemcdowell.ca/2011/08/doubling-data-for-performance-testing/
 https://jessemcdowell.ca/2011/10/sharpening-the-saw/
-https://jessemcdowell.ca/2012/03/choosing-priorities/
 https://jessemcdowell.ca/2016/08/infiltrating-an-organization/
 https://jessemcdowell.ca/licence/
 https://jessemcdowell.ca/

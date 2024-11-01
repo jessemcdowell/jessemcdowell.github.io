@@ -16,7 +16,13 @@ jobs:
         with:
           url: "https://jessemcdowell.ca"
           honorRobotExclusions: false
-          ignorePatterns: "github,google"
-          recursiveLinks: false
-      - name: Output result
-        run: echo "results=${{steps.link-report.outputs.result}}" >> $GITHUB_OUTPUT
+          ignorePatterns: "github,google,cloudflare"
+          recursiveLinks: true
+      - shell: bash
+        run: |
+          ${{ steps.link-report.outputs.result }} > link-result.txt
+      - name: Upload link report results
+        uses: actions/upload-artifact@v1
+        with:
+          name: results
+          path: link-results.txt

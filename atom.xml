@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2024-10-06T21:36:43.972Z</updated>
+  <updated>2024-11-04T15:02:12.841Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Abandoning Household Organization</title>
+    <link href="https://jessemcdowell.ca/2024/11/Abandoning-Household-Organization/"/>
+    <id>https://jessemcdowell.ca/2024/11/Abandoning-Household-Organization/</id>
+    <published>2024-11-04T15:02:12.000Z</published>
+    <updated>2024-11-04T15:02:12.841Z</updated>
+    
+    <content type="html"><![CDATA[<p>I have been trying to improve the organization of my household for years. My wife and I have been using shared Google calendars for over a decade, but there are plenty of issues we could still improve. It was only minor challenges when it was just the two of us, but once we had a child, the systems we had started to show their limits.</p><p>I quit my job with the dream of building my own product, but I started without any particular ideas about what to build. It didn’t take long before I was considering working on this exact problem. Not only was it something I would benefit from, but it was also something I would find interesting, and could enjoy building and maintaining by myself.</p><p>My first urge was to start coding. I had a clear idea of what I wanted, and my head was spinning with potential designs. However, years of experience have taught me the importance of starting with solid research, so I started there instead.</p><p>The first thing I discovered was that there are already several products specifically for this problem. I tried a few out, and while they were not all fantastic, a couple of them were pretty good. There were some differences, but they mostly all had the same core features: a shared calendar, a shared task list, and a shared shopping list.</p><p>Many had been around for years. Some were free. The fact that none of them seemed to be particularly successful was my first hint that there was a problem.</p><p>My next step was putting together a survey and sending it out via my social networks. I got 67 responses. It’s certainly not enough for any kind of scientific validity, but it was enough to notice some trends. I found many people who had the same kinds of problems I did, and most wanted to use technology to help. Desire is normally a good thing for an entrepreneur to find, but there had to be a reason that quality products that had existed for years weren’t working.</p><p>In the survey, I also asked participants if they would participate in a one-on-one virtual interview in exchange for a gift card. Most agreed. I selected a handful, and set up some meetings.</p><p>One of the people I spoke with had used and abandoned two of the best products I’d tried. I asked him about it, and his answers are the reason I decided to abandon this problem. He thought technology was a great idea, but he couldn’t make his partner use it. He tried using it on his own, but it didn’t help, it just became another chore for him to manage.</p><p>I had originally approached this problem like business software, but there is a fundamental difference between a workplace and a family: it’s easier to motivate an employee than a member of your family. It’s not enough to make something that appeals to one member of the family, a successful app would have to be intrinsically motivating to everyone in the household. This is an extremely high bar to clear.</p><p>If I take a holistic view of household organization, I don’t think another piece of software is the most effective solution. A shared calendar is the main thing a family needs, and there are some good free options. If you need more, there are a few free apps already. If you want to stay offline, you can use a whiteboard, or even a piece of paper hung on the wall. All that leaves for me is to show people how to use these things, but writing a self-help book or teaching a class isn’t what I want to work on.</p><p>The interviews weren’t a complete waste, however. Some of the people I talked to had very organized households, and those conversations were insightful. Here were a few ideas that stood out to me:</p><ul><li>Having a weekly planning ritual makes sure everyone knows what’s happening, and creates an opportunity to discuss issues. This seems to be especially helpful for larger households, households with multiple generations, and&#x2F;or households with children old enough to contribute.</li><li>Planning week by week (as opposed to day-by-day) simplifies the process and makes family routines more predictable.</li><li>Having a calendar that everyone can see, be it through software or posted on the wall, gives everyone the same view of the week.</li><li>Assigning chores to specific people, and making them accountable for those chores, helps to make sure that those chores get done.</li></ul><p>The exercise of researching the market, talking to people, and learning about the problem was interesting and enjoyable. It cost me some time and a bit of money, but I have no regrets. Maybe some of it will help with my next idea.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I have been trying to improve the organization of my household for years. My wife and I have been using shared Google calendars for over </summary>
+      
+    
+    
+    
+    
+    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="household organization" scheme="https://jessemcdowell.ca/tags/household-organization/"/>
+    
+  </entry>
   
   <entry>
     <title>Exporting to Google Sheets API from C#</title>
@@ -36,9 +60,9 @@
     
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
-    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
-    
     <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
+    
+    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
     
   </entry>
   
@@ -471,9 +495,9 @@
     
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-    <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
-    
     <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
+    
+    <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
     
   </entry>
   

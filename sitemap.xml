@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2024/02/Being-Honest-and-Positive-at-Work/</loc>
+    <loc>https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2024/03/The-True-Cost-of-Dependencies/</loc>
+    <loc>https://jessemcdowell.ca/2024/02/Being-Honest-and-Positive-at-Work/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/11/This-Blog-Hexo-generated-static-site-hosted-on-GitHub-Pages/</loc>
+    <loc>https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/</loc>
+    <loc>https://jessemcdowell.ca/2023/11/This-Blog-Hexo-generated-static-site-hosted-on-GitHub-Pages/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</loc>
+    <loc>https://jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/05/Case-of-the-Disappearing-Users/</loc>
+    <loc>https://jessemcdowell.ca/2023/05/Is-the-Bug-Fun/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -488,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2010/08/shared-resource-service-requirements/</loc>
+    <loc>https://jessemcdowell.ca/2010/07/shared-resource-schedule-service/</loc>
     
     <lastmod>2021-01-30</lastmod>
     
@@ -497,7 +497,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2010/07/shared-resource-schedule-service/</loc>
+    <loc>https://jessemcdowell.ca/2010/08/shared-resource-service-requirements/</loc>
     
     <lastmod>2021-01-30</lastmod>
     
@@ -533,6 +533,15 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/2010/11/64-bit-iis-vs-32-bit-assemblies/</loc>
+    
+    <lastmod>2021-01-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/2010/12/invitations-and-the-vcard-format/</loc>
     
     <lastmod>2021-01-30</lastmod>
@@ -552,15 +561,6 @@
   
   <url>
     <loc>https://jessemcdowell.ca/2011/08/doubling-data-for-performance-testing/</loc>
-    
-    <lastmod>2021-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/2010/11/64-bit-iis-vs-32-bit-assemblies/</loc>
     
     <lastmod>2021-01-30</lastmod>
     
@@ -689,6 +689,13 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/tags/web/</loc>
+    <lastmod>2024-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/tags/people-management/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -752,13 +759,6 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/web/</loc>
-    <lastmod>2024-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jessemcdowell.ca/tags/learning/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -815,14 +815,14 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/video-games/</loc>
+    <loc>https://jessemcdowell.ca/tags/war-stories/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/war-stories/</loc>
+    <loc>https://jessemcdowell.ca/tags/video-games/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -878,14 +878,14 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/pragmatic-potato/</loc>
+    <loc>https://jessemcdowell.ca/tags/howto/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/howto/</loc>
+    <loc>https://jessemcdowell.ca/tags/pragmatic-potato/</loc>
     <lastmod>2024-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

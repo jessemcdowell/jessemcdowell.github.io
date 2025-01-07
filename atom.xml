@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2024-12-02T22:53:53.000Z</updated>
+  <updated>2025-01-07T05:35:01.375Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Household Organization: Hallway Whiteboard</title>
+    <link href="https://jessemcdowell.ca/2025/01/Household-Organization-Hallway-Whiteboard/"/>
+    <id>https://jessemcdowell.ca/2025/01/Household-Organization-Hallway-Whiteboard/</id>
+    <published>2025-01-07T05:35:01.000Z</published>
+    <updated>2025-01-07T05:35:01.375Z</updated>
+    
+    <content type="html"><![CDATA[<p>A couple of years ago I received my Makeway kit. It was a kickstarter project that included an assortment of tracks and tricks for marbles, all suspended on a vertical surface by magnets. For this reason, I mounted a large whiteboard (with a metal backing) in the hallway of our apartment.</p><p>About a year ago, after conducting the <a href="https://jessemcdowell.ca/2024/11/Abandoning-Household-Organization/">household organization surveys</a>, I started using the whiteboard as a physical weekly calendar for my family. I used some thin black masking tape to make a grid that would withstand the whiteboard eraser. I also got some small magnetic dry-erase rectangles to simplify rescheduling common recurring tasks.</p><img src="/2025/01/Household-Organization-Hallway-Whiteboard/whiteboard.jpg" class="" title="A whiteboard mounted on the wall with a weekly calendar marked out in tape, and a small marble track set up over top of it."><p>The biggest benefit of the mounted calendar has been the process of updating the board once a week. It forces me to look through all the calendars. This is when I’ll notice scheduling conflicts and allows me to make adjustments to keep the week flowing smoothly.</p><p>Although it’s the biggest benefit, the need to manually update the board is also the biggest drawback. Since we primarily use online calendars, the board can quickly get out of date when things change, and for us, they can change a lot as the week progresses. It also doesn’t include the weather, which is very handy when planning outdoor activities.</p><p>When the board was a novelty, my wife and I would regularly stop to look, but now that we’re used to it, it takes intention to notice it. This means we can’t use the whiteboard to communicate changes to the schedule.</p><p>The whiteboard calendar hasn’t been worthless, but it hasn’t radically improved our organization either. A larger family might have better results. If you’re curious, a piece of paper taped to the wall would be easier to start out.</p><p>The whiteboard itself has been good. It’s been great to have a central place to write notes, draw pictures, and otherwise play around. The marble tracks have been tremendously fun as well, and we can set them up over top of our schedule.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;A couple of years ago I received my Makeway kit. It was a kickstarter project that included an assortment of tracks and tricks for marble</summary>
+      
+    
+    
+    
+    
+    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+    <category term="household organization" scheme="https://jessemcdowell.ca/tags/household-organization/"/>
+    
+  </entry>
   
   <entry>
     <title>Encoding Time Series Data</title>
@@ -425,9 +449,9 @@
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
-    
     <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
+    
+    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
     
   </entry>
   
@@ -523,9 +547,9 @@
     
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-    <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
-    
     <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
+    
+    <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
     
   </entry>
   

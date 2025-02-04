@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-01-07T05:35:01.375Z</updated>
+  <updated>2025-02-04T03:40:53.014Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Case of the Premature Power Outage</title>
+    <link href="https://jessemcdowell.ca/2025/02/Case-of-the-Premature-Power-Outage/"/>
+    <id>https://jessemcdowell.ca/2025/02/Case-of-the-Premature-Power-Outage/</id>
+    <published>2025-02-04T03:40:52.000Z</published>
+    <updated>2025-02-04T03:40:53.014Z</updated>
+    
+    <content type="html"><![CDATA[<p>Many years ago I worked on a large system with a number of interconnected services that had grown organically over the years. As new services were added, they became dependent on each other in ways that nobody on the team fully understood. When our hosting provider announced a planned outage, we had to figure out how to safely shut the system off, and more importantly, how to safely and quickly start it back up again afterward. We had never done either of these things before, so we put a lot of effort in to make sure it would go smoothly.</p><p>I’ll never forget the day. About a week before the planned outage, we were in a big meeting of all the teams. We were talking through our shutdown script, moving things around and making sure everyone agreed on the order. It seemed like we could shut down smoothly if we followed the steps, and one false move could break everything. About 30 minutes into the meeting, someone came running in to announce that the whole system had just gone down.</p><p>We rushed back to our desks and started checking. It wasn’t all down, but a bunch of things had gone down at once, and one of those things was our main firewall appliance.</p><p>We reached out to the data centre operators to get more information. The planned outage was for an upgrade to one of the two power feeds, and they had electricians preparing the new lines in advance. One of those electricians had accidentally hit a live wire with his drill, knocking out one of the feeds.</p><p>Normally this wouldn’t be a problem because of the second, redundant feed. Unfortunately, this was when we learned that the data centre operators had not always connected each device to the separate power sources correctly. Our firewall, for example, had both of its plugs connected to the affected feed. Our database servers and NAS were powered with redundancy, though, so some parts of the system were able to keep working.</p><p>We immediately asked for the firewall to be fixed, and as we figured out each remaining server that was down, we asked for them to be corrected as well. Many customers in the data centre had similar issues, so the operators were overwhelmed, and responses got slower and slower. Things were almost working for us again when suddenly everything went down again.</p><p>Fifteen minutes later, we got an email (sent half an hour earlier) that the data centre had to be completely shut down. The building’s air conditioning did not have a redundant power supply, and the building had reached 60°C (140°F). Cutting the building power was the only choice they had; the operators weren’t able to safely enter the building anymore.</p><p>Several hours later, the data centre was restored. We didn’t know what state things were in, and the operators didn’t have a lot of time to help us, so they just turned everything on, and we took it from there.</p><p>It was a late night, but we had everything going by the end of the same day. Thanks to diligent administration, redundant storage, and our design to support regular incremental upgrades, we had no meaningful data loss, and most systems worked correctly on startup. The worst of it was a couple of behind-the-scenes services with interdependencies that had to be restarted a few times.</p><p>It was a sobering experience. We had a happy ending, but it could have gone very differently if one of the key systems hadn’t been designed or configured correctly. We had excellent, experienced people on our staff, and that helped a lot, but even experienced people make mistakes.</p><p>Regular testing is the only way to know for sure that your redundancy plans are good enough. If it’s something your business needs, you had better make sure you’re testing it. Using upgrade procedures that kill processes without shutdown warnings is a great way to make this a regular practice. <a href="https://netflixtechblog.com/tagged/chaos-engineering">Netflix’s Chaos Engineering approach</a>, which involves routinely and automatically breaking things in production, demands major respect also. Recovery drills are tedious and time-consuming, but they too are an important part of ensuring system continuity.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Many years ago I worked on a large system with a number of interconnected services that had grown organically over the years. As new serv</summary>
+      
+    
+    
+    
+    
+    <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
+    
+    <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
+    
+  </entry>
   
   <entry>
     <title>Household Organization: Hallway Whiteboard</title>
@@ -112,9 +136,9 @@
     
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
-    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
-    
     <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
+    
+    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
     
   </entry>
   
@@ -449,9 +473,9 @@
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
-    
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
     
   </entry>
   
@@ -547,9 +571,9 @@
     
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
-    
     <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
+    
+    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
     
   </entry>
   
@@ -942,9 +966,9 @@
     
     <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
-    
     <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
+    
+    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
     
   </entry>
   

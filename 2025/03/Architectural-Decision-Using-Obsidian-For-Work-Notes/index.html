@@ -1,0 +1,560 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>Architectural Decision: Using Obsidian For Work Notes - 2025-01 | Jesse Builds Software</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=UA-17968343-1" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-17968343-1');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "19dbe594294e444cab1e984fe13d4e7a"}'></script><meta name="generator" content="Hexo 7.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Architectural Decision: Using Obsidian For Work Notes - 2025-01</h1><a id="logo" href="/.">Jesse Builds Software</a><p class="description">Jesse's thoughts on building quality software.</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/about/"><i class="fa fa-user"> About</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Architectural Decision: Using Obsidian For Work Notes - 2025-01</h1><div class="post-meta">2025-03-02</div><div class="post-content"><style type="text/css" style="display: none">
+table {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+table th, table td {
+    min-width: 6rem;
+    max-width: 12rem;
+    white-space: normal;
+}
+</style>
+
+<p>I have been feeling frustrated with my personal organization of late. I had a bit of time before starting a new project, so I put some time into improving my process. The post below is a simplified version of the notes I took while I looked for alternatives. I’m sharing this as an example of how I do research, and as a more realistic example of <a href="/resources/architectural-report-template/">the architectural report structure I typically use</a>, which <a href="/2023/11/Using-Architectural-Decision-Records/">I’ve written about before</a>.</p>
+<p>According to my records, I spent 28 hours working on the decision. This breaks down to about 22 hours testing the eight finalists, 4 hours researching options, at a summary level, and 2 hours of planning. Of the time spent testing, I spent between 30 and 240 minutes each for 7 of the 8 finalists. I spent 8 hours testing Obsidian, though most of that was testing and improving the processes I ended up using.</p>
+<p>I started this task thinking purely about about improving my working notes and personal task list, but as I dug further in, it became apparent that I could centralize many of the different organizational tools I use. That process is still under way as of this writing, but I must say, it feels pretty nice every time I delete another productivity app.</p>
+<h2 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h2><p>This document is a decision record explaining my choice for replacing my organizational system. Theoretically, it is intended for myself as a way to guide my thinking, but in reality, I am only writing it out in this form to share on my blog. The real document I used as the first draft for this post is similar, but a lot rougher, and with other unimportant details jumbled in.</p>
+<p><em>Some of this text is inserted purely as commentary for the blog post, and would not normally be included in a decision record document. I have marked such text with italics, this paragraph included.</em></p>
+<h2 id="Context"><a href="#Context" class="headerlink" title="Context"></a>Context</h2><ul>
+<li>My personal backlog is spread across two email accounts, Trello, Remember The Milk, a few Evernote notes, and occasionally project management systems used by my customers. I would like to have one place where I can see all of my priorities so that I can easily find the next most important thing to work on, and to ensure important tasks don’t get dropped.</li>
+<li>I am spending a fair bit of time fiddling with cards in Trello, trying to update them, reset them, and change the dates on them. I don’t feel like I ever have a good view of my priorities there. I am also worried that important tasks are getting dropped because of it’s limitations.</li>
+<li>Remember The Milk is great for managing recurring tasks, but it doesn’t work for anything more complicated than simple chores. Some of my projects have a lot of research notes, open questions, and subtasks that are best kept all together. Trello can handle more complexity in a card, but I still find it limiting for a project that is more than a couple days of work.</li>
+<li>Keeping a backlog spread between notes in Evernote and Trello lists causes unnecessary work reconciling the two. I also end up searching both when I want to find notes from something I’ve done in the past.</li>
+</ul>
+<h2 id="Decision"><a href="#Decision" class="headerlink" title="Decision"></a>Decision</h2><ul>
+<li>Try using Obsidian<ul>
+<li>Use a minimal number of vaults</li>
+<li>Set up the Tasks plugin</li>
+<li>Create a daily note template that includes incomplete tasks scheduled for that day and a view of my calendar</li>
+</ul>
+</li>
+<li>Migrate one type of information at a time. Migrate new types as I get more accustomed to Obsidian.</li>
+</ul>
+<h2 id="Options-Evaluated"><a href="#Options-Evaluated" class="headerlink" title="Options Evaluated"></a>Options Evaluated</h2><h3 id="Finalists"><a href="#Finalists" class="headerlink" title="Finalists"></a>Finalists</h3><p>I tested each of these applications before choosing Obsidian.</p>
+<p><em>The table below is what I call a decision matrix. I put options across the top, and questions down the side. I don’t particularly like tables for this sort of data, but so far, they’re the best solution I’ve found. A nice feature of this format is that I can keep expanding the list of questions as I learn more about the available options and the problem I’m trying to solve.</em></p>
+<p><em>I don’t go out of my way to answer every question for every option. When an option stacks up enough limitations or blockers, or I just have a feeling that it’s not what I’m looking for, I focus my attention on something else. The tabular format makes it easy to see when I’ve done this, but also makes it possible to pick up where I left off if all the other options prove to be worse.</em></p>
+<p><em>I like to use background shading in the cells (green, yellow, and red) to mark answers that are notable strengths, weaknesses, or blockers. For the sake of this blog post, I’ve added emoji to the cells instead.</em></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Obsidian</th>
+<th>Logseq</th>
+<th>Amplenote</th>
+<th>Tana</th>
+<th>Joplin</th>
+<th>Eidos</th>
+<th>Columns</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Decision</td>
+<td>✅<br>Powerful for note management. Tons of plugins. Healthy community. Local storage and markdown notes make it easy to extend or migrate away.<br><br>Not sure if it will be powerful enough for  my chaotic brainstorming.<br></td>
+<td>⚠️<br>Looks pretty powerful for brainstorming and task management. Might not be ideal for general notes, though. Probably not ideal for sharing with wife.</td>
+<td>Looks promising and very usable, but it doesn’t seem to be as promising as Obsidian.<br>Tasks and calendars are cool, but I don’t feel like they are as powerful.<br>Vendor lock-in is also a significant deterrant.</td>
+<td>⛔<br>Very cool UI, great features, but there is vendor lock-in, and it’s not extensible.</td>
+<td>⛔<br>Useability is too poor. I don’t think I could handle using it. My wife would find it worse.</td>
+<td>⛔<br>Cool idea, but it doesn’t seem mature enough.</td>
+<td>⛔<br>Useful way to manage lists, but not powerful enough for anything else.</td>
+</tr>
+<tr>
+<td>Strengths</td>
+<td>Lots of plugins<br>A bit easier for my wife to use</td>
+<td>Great for storing knowledge and maybe brainstorming and task management</td>
+<td>Excellent for scheduling tasks.</td>
+<td>Included Meeting agent (though it’s not integrated with Zoho)<br>Inbox concept is cool<br>Smooth UI<br>Can attach notes to stuff in the calendar<br>Integrated AI</td>
+<td>Collaboration features</td>
+<td>Very Extensible</td>
+<td>Really good at lists</td>
+</tr>
+<tr>
+<td>Drawbacks</td>
+<td>Switching between edit and view mode is annoying, but plugins might be able to help with this</td>
+<td>Would be difficult to share things with my wife<br>Harder to learn and use</td>
+<td>Todos are first-class, but don’t really fit into the notes. They’re more like reminders than artifacts.<br>Less powerful features with drawings and code. No executable code.</td>
+<td></td>
+<td>Useability is pretty poor</td>
+<td>Weird activation key<br>Doesn’t seem finished yet</td>
+<td>⛔<br>Not good at anything except checklists</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>✅<br>Really fast</td>
+<td>⚠️<br>A bit sluggish, but might improve with database version.</td>
+<td>Seems pretty fast</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Price</td>
+<td>Sync: $4&#x2F;m&#x2F;user USD <br>Commercial: $50&#x2F;y USD (two or more employees)</td>
+<td>✅<br>Free, Open Source</td>
+<td>⚠️<br>Free Forever (which makes me nervous about longevity) Commercial: $6&#x2F;m (+more sync)</td>
+<td>$90&#x2F;yr</td>
+<td>Free &#x2F; $80&#x2F;yr</td>
+<td>Free, Open Source</td>
+<td></td>
+</tr>
+<tr>
+<td>Syncing</td>
+<td>Obsidian Sync is supposed to be good.<br>Other syncing solutions are available.</td>
+<td><a target="_blank" rel="noopener" href="https://docs.logseq.com/#/page/logseq%20sync">Logseq Sync</a> (Paid Feature) Or: sync files yourself or: store them in git!</td>
+<td>Naturally online.</td>
+<td>Naturally online.</td>
+<td>Do it yourself, or use their cloud. OneDrive supported also.</td>
+<td>Self-hosted API: <a target="_blank" rel="noopener" href="https://github.com/mayneyao/eidos-api-agent-node">https://github.com/mayneyao/eidos-api-agent-node</a></td>
+<td>Cloud-based</td>
+</tr>
+<tr>
+<td>Test: Make a daily Plan with projects and chores</td>
+<td>Very powerful tasks plugin queries tasks from multiple notes. Takes a bit of work to set up.</td>
+<td>Can use todo items across any area of notes. Can then write queries to surface these in the daily journal.</td>
+<td>Really good at this. Can easy drop items into the calendar. Daily jots for notes and tasks. Buttons for bringing incomplete tasks over from previous day. Cannot view work and personal calendars together though. In the instructions they say that people don’t really want this… hrmm</td>
+<td>✅<br>Can make anything a todo item, and it’s automatically put into appropriate lists.</td>
+<td>⛔<br>Terrible ux</td>
+<td>Can build my own list…</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td>Test: Recreate Mule project notes</td>
+<td>✅<br>Easily with hierarchal tasks, and notes, and anything else I want</td>
+<td>✅<br>Hierarchy, namespaces, todo, with optional schedules. Fantastic!</td>
+<td>⚠️<br>It’s easy to make pages, and to make tasks that are pages, and tasks that are nested… but it doesn’t feel like a first class thing.</td>
+<td>Fine</td>
+<td>⚠️<br>Kind of like evernote, but worse experience</td>
+<td></td>
+<td>⛔<br>Too complicated<br><br>Has chat-style notes, but they’re too limiting</td>
+</tr>
+<tr>
+<td>Handling Tasks</td>
+<td>✅<br>With tasks plugin <a target="_blank" rel="noopener" href="https://github.com/obsidian-tasks-group/obsidian-tasks">https://github.com/obsidian-tasks-group/obsidian-tasks</a></td>
+<td>✅<br>Relatively easy with TODO. Has multiple statuses such as complete and cancelled</td>
+<td>Easy to add tasks to notes or other things Very easy to schedule tasks.<br><br>Tasks that are completed are removed from notes.</td>
+<td><code>Ctrl+Enter</code><br>Limited statuses<br>Can create multiple similar supertags with different fields</td>
+<td>It has some functionality, but it’s not pleasant to use</td>
+<td><code>Ctrl + Enter</code></td>
+<td>Easy, efficient</td>
+</tr>
+<tr>
+<td>Handling Subtasks</td>
+<td>✅<br>Very easy with nesting</td>
+<td>✅<br>Very easy with nesting</td>
+<td>⚠️<br>You can nest tasks, but they exist somewhat independently of their notes, and the relationships don’t get maintained. If you complete the parent, the children get completed.</td>
+<td>Easy</td>
+<td>Not capable natively</td>
+<td>Infinite hierarchy</td>
+<td>Only one level</td>
+</tr>
+<tr>
+<td>Handling recurring tasks</td>
+<td>✅<br>Yes</td>
+<td>✅<br>Yes</td>
+<td>✅<br>Yes. And easy to do.</td>
+<td>⚠️<br>Nope, but there are workarounds</td>
+<td>⛔<br>Supposed to be possible, but can’t figure it out</td>
+<td></td>
+<td>⛔<br>Can’t handle it</td>
+</tr>
+<tr>
+<td>Handling drawings</td>
+<td>✅<br>Excalidraw and Canvas pages.<br><br>Ink plugin looks interesting.</td>
+<td>✅<br>Yes, and infinite canvas boards <br><code>/draw</code></td>
+<td>Excalidraw</td>
+<td>No</td>
+<td>Can draw freehand and use text. rearranging objects, but no built-in shapes.</td>
+<td></td>
+<td>⛔<br>pictures, not notes</td>
+</tr>
+<tr>
+<td>Handling Code</td>
+<td>✅<br>Yes. And it can run it too!</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes, but it seems a bit buggy.</td>
+<td>Yes, but the UI got buggy when it was added.</td>
+<td></td>
+<td>Markdown code blocks are supported</td>
+</tr>
+<tr>
+<td>Inline executable code?</td>
+<td>✅<br>Math plugin<br>Any code I want with Execute Code plugin</td>
+<td>✅<br>math, with variables and functions</td>
+<td>No</td>
+<td>No</td>
+<td>⚠️<br>Yes. Math via plugins.</td>
+<td></td>
+<td>Don’t think so</td>
+</tr>
+<tr>
+<td>Handling Diagrams</td>
+<td>✅<br>Canvas: Nice block-and-arrow diagrams Excalidraw and Mermaid support!</td>
+<td>✅<br>Embedded mermaid!</td>
+<td>⚠️<br>There’s a plugin, but it doesn’t work very well</td>
+<td>No</td>
+<td>Can embed mermaid drawings directly</td>
+<td></td>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Test: Reading List</td>
+<td>It’s possible with dataview or folder table plugins, but it’ll take some work to set it up. Kanban board may work too.</td>
+<td>Should be fine</td>
+<td>Not good at lists</td>
+<td>Yes. With fields and sorting</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Test: Development Recommendations</td>
+<td>Pretty easy, but may want to customize it a bit.</td>
+<td>✅<br>Should be excellent</td>
+<td></td>
+<td>Should be okay. Linking across content seems harder.</td>
+<td></td>
+<td></td>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Test: Brainstorming</td>
+<td>Should be fine. Canvas is cool for brainstorming. Easy to dump notes on board.</td>
+<td>✅<br>Should be great for this</td>
+<td></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Test: Storing Receipts</td>
+<td>⛔<br>It can do it, but with synching mechanism, they have to be downloaded to all devices that access them, even phones.</td>
+<td>⛔<br>Probably not good at this</td>
+<td></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Handles Tables</td>
+<td>Markdown tables. Some plugins to make editing them more tolerable.</td>
+<td></td>
+<td></td>
+<td>Not markup ones</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tabulation?</td>
+<td><a target="_blank" rel="noopener" href="https://github.com/blacksmithgu/obsidian-dataview">obsidian-dataview plugin</a></td>
+<td></td>
+<td>No</td>
+<td>Yes, with fields</td>
+<td></td>
+<td></td>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Grouping &#x2F; sorting data</td>
+<td>Yes, via dataview plugin.</td>
+<td>Advanced queries are possible, but the syntax is a bit crazy looking.</td>
+<td></td>
+<td>Some pretty powerful built-in queries</td>
+<td></td>
+<td></td>
+<td>Nope</td>
+</tr>
+<tr>
+<td>Data Organization</td>
+<td>Vaults (separated), Folders, Files. Daily Journal</td>
+<td>Pages, Namespaces, Tags, Daily Journal</td>
+<td></td>
+<td>Similar to Logseq</td>
+<td></td>
+<td>Folders (recursive) Documents Lists</td>
+<td></td>
+</tr>
+<tr>
+<td>searching</td>
+<td>✅<br>Embedded queries. Plugins for more advanced cases.</td>
+<td>Embedded queries. Language is bizarrely complicated.</td>
+<td></td>
+<td>✅<br>Built-in queries.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Links to other applications</td>
+<td>Supports links</td>
+<td>Supports links</td>
+<td></td>
+<td>Yes</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Integrate live data from other applications</td>
+<td>Not built in</td>
+<td>iframes with inline html</td>
+<td></td>
+<td>No</td>
+<td>✅<br>Markdown: <a target="_blank" rel="noopener" href="https://joplinapp.org/plugins/plugin/github.hegerdes.joplin_remote_note_pull/">Remote-Note-Pull</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Scan from Rocketbook</td>
+<td>⚠️<br>Not built in, but maybe possible with integrations</td>
+<td></td>
+<td>Mail-to-note feature</td>
+<td>Not built in</td>
+<td>Email -&gt; Note with Joplin Cloud</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mobile Usability</td>
+<td>✅<br>Excellent</td>
+<td></td>
+<td></td>
+<td>Nice inbox for dumping things in.<br>Can access notes via web, but editing looks tedious</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Can my wife use it?</td>
+<td>⚠️<br>Obsidian Sync can be used for sharing a vault with multiple people. Can only share at the vault level, though.</td>
+<td>⛔<br>Sharing between users is not officially supported. It would be hard for her to use.</td>
+<td>Probably. It supports sharing via tags</td>
+<td>She probably wouldn’t like it</td>
+<td>Too difficult to use</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Automation &#x2F; integration</td>
+<td>✅<br>Plugin: Local REST Api<br>Local markdown files.</td>
+<td>✅<br>It’s all just markdown files! Also an API</td>
+<td>There is an API</td>
+<td>API for Pro account</td>
+<td>Local API</td>
+<td>Local API for integrations</td>
+<td></td>
+</tr>
+<tr>
+<td>Client Type</td>
+<td>Installed app</td>
+<td>Application or Web Page</td>
+<td>PWA, or Installed App</td>
+<td>Web page</td>
+<td>Executable, Mobile</td>
+<td>Local Web App Can be self-hosted</td>
+<td></td>
+</tr>
+<tr>
+<td>License</td>
+<td>Proprietary</td>
+<td>AGPL-3.0</td>
+<td>Proprietary</td>
+<td>Proprietary</td>
+<td>AGPL-3.0</td>
+<td>AGPL-3.0</td>
+<td></td>
+</tr>
+<tr>
+<td>What is it written in?</td>
+<td>NA</td>
+<td>Clojure &amp; TypeScript</td>
+<td>NA</td>
+<td>NA</td>
+<td>TypeScript &amp; Rust</td>
+<td>TypeScript</td>
+<td></td>
+</tr>
+<tr>
+<td>Plugins?</td>
+<td>✅<br>A lot of them!</td>
+<td>✅<br>Yes. There are a LOT of them around.</td>
+<td>⚠️<br>Yes, but doesn’t seem like a healthy ecosystem</td>
+<td>⛔<br>Not supported</td>
+<td>Yes. Seems to be a healthy ecosystem.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Plugin languages supported?</td>
+<td>TypeScript, JavaScript</td>
+<td>TypeScript</td>
+<td></td>
+<td></td>
+<td>TypeScript</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Where is data hosted</td>
+<td>Locally, wherever you want, or Cloud: USA</td>
+<td>Locally or wherever you want</td>
+<td>Their cloud</td>
+<td>Google Cloud</td>
+<td>Local or Numerous Cloud Options</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Offline Mode</td>
+<td>Yes</td>
+<td>Yes</td>
+<td></td>
+<td>⛔<br>No</td>
+<td>Yes</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Data Encryption</td>
+<td>⚠️<br>None locally. <br>E2E encryption in their sync option.</td>
+<td>⚠️<br>None locally. Transmit as you want.</td>
+<td></td>
+<td>⛔<br>“data is encrypted both at rest and in transit”</td>
+<td>E2E Encryption is possible, but not enabled by default.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Export capability</td>
+<td>✅<br>Local storage is markdown. Lots of plugins for exporting.</td>
+<td>✅<br>It’s just mardown files PDF Export<br>Slide generator</td>
+<td></td>
+<td>JSON or Markdown</td>
+<td>JEX format (Joplin Export file) - meant for backup PDF<br>Markdown</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Import from Evernote</td>
+<td>Supported <a target="_blank" rel="noopener" href="https://help.obsidian.md/import/evernote">https://help.obsidian.md/import/evernote</a></td>
+<td></td>
+<td></td>
+<td>⛔<br>Not supported</td>
+<td>Supports ENEX files Links may not work where titles differ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Company Health</td>
+<td>Based in Oakville, Ontario Active Development Appears to be private, small company.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="Obsidian-Alternatives-Evaluated"><a href="#Obsidian-Alternatives-Evaluated" class="headerlink" title="Obsidian Alternatives Evaluated"></a>Obsidian Alternatives Evaluated</h3><p>Obsidian was a bit different from most of the other options that made it to the finalist stage. Once it began to stand out as a frontrunner, I did a quick search for apps similar to Obsidian, and tested the following two as a result:</p>
+<ul>
+<li><strong>Amplenote</strong> - included in matrix above</li>
+<li><strong>Affine.pro</strong> - disqualified pretty quickly because there was no mobile option and had a very small library of plugins</li>
+</ul>
+<h3 id="Initial-Scan-for-Options"><a href="#Initial-Scan-for-Options" class="headerlink" title="Initial Scan for Options"></a>Initial Scan for Options</h3><p>The following were discovered and briefly researched to decide if they should be evaluated further.</p>
+<p> <em>I only evaluated these options on a few criteria that were easy to look up. This allowed me to narrow the field quickly, as opposed to testing each one in detail. I went in interested in network-style tools, and excited by the prospect of something open source, extensible, and based on a transparent data format.</em></p>
+<p> <em>Because of the limitations of tables, and because I usually have a lot more options that questions in this phase, I’ve swapped the table axes from my usual for a decision matrix.</em></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Price</th>
+<th>Handling tasks</th>
+<th>Handling Subtasks</th>
+<th>Mixed Content Support</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>✅<br>Tana</td>
+<td>$90&#x2F;yr</td>
+<td>Okay</td>
+<td>⚠️<br>Seems possible with tags, but complicated.</td>
+<td>✅<br>Good</td>
+<td>Seems like a popular new thing. Powerful note features with fields and supertags.</td>
+</tr>
+<tr>
+<td>✅<br>Columns</td>
+<td></td>
+<td>It’s all lists</td>
+<td></td>
+<td></td>
+<td>Lots and lots of lists.</td>
+</tr>
+<tr>
+<td>Routine</td>
+<td>Free</td>
+<td></td>
+<td></td>
+<td></td>
+<td>⛔<br>Lots of incomplete features</td>
+</tr>
+<tr>
+<td>boostnote.io</td>
+<td>$8&#x2F;user&#x2F;month</td>
+<td>Maybe</td>
+<td>Can’t tell</td>
+<td>Code formatting. Diagrams. Links to other apps.</td>
+<td>✅<br>Open source client</td>
+</tr>
+<tr>
+<td>✅<br>Eidos</td>
+<td>✅<br>Free. Open Source. Locally Hosted.<br><br></td>
+<td></td>
+<td></td>
+<td>Supports Extensions. Can execute code. Supports spreadsheets</td>
+<td>Locally hosted, offline. Has local API. Offline LLM support.</td>
+</tr>
+<tr>
+<td>✅<br>Joplin</td>
+<td>Pro: $80&#x2F;yr Free if you host your own data</td>
+<td>Can insert tasks</td>
+<td></td>
+<td>Plugins. Rich Text and markdown support. Supports extensions. Code blocks. OCR!!</td>
+<td>Open data. You can store it yourself or use their cloud option. Seems like a better, free Evernote</td>
+</tr>
+<tr>
+<td>Milanote</td>
+<td>$12&#x2F;yr</td>
+<td>Tasks</td>
+<td>⛔<br>Doesn’t appear to</td>
+<td>Notes. Todo lists. Photos in a visual canvas.</td>
+<td>Very visual. Good for brainstorming.</td>
+</tr>
+<tr>
+<td>✅<br>Logseq</td>
+<td>✅<br>Open Source.</td>
+<td>✅<br>Tasks can be inter-mixed in notes. Use queries to access them later. Grouped by blocks too.</td>
+<td>✅<br>Seems like it’s possible to build pages with piles of tasks embedded in them.</td>
+<td></td>
+<td>Networked outliner. Use tags to link things together.</td>
+</tr>
+<tr>
+<td>✅<br>Obsidian</td>
+<td>Sync $4&#x2F;month</td>
+<td>✅<br>Kanban plugins.</td>
+<td></td>
+<td>✅<br>Canvas. Supports plugins. Tasks. Indenting. Code blocks.</td>
+<td>✅<br>A popular choice</td>
+</tr>
+</tbody></table>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p><em>It was a bit of a process to do the research, but I’m glad that I did. Moving all my organization systems has the potential to be time consuming. The greater the cost of making a mistake, the more up-front effort is justified. This also gave me an opportunity to explore various options and styles and get better informed on how I could organize everything.</em></p>
+<p><em>Now that I’m a few weeks into the switch, I’m still loving Obsidian. I have a few more things to migrate, but generally it has been better than my expectation in every regard.</em></p>
+</div><div class="tags"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architectural/" rel="tag">architectural</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/" rel="tag">architecture</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/decision/" rel="tag">decision</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/practices/" rel="tag">practices</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reviews/" rel="tag">reviews</a></li></ul></div><div class="post-nav"><a class="next" href="/2025/02/Case-of-the-Premature-Power-Outage/">Case of the Premature Power Outage</a></div><script src="https://utteranc.es/client.js" repo="jessemcdowell/jessemcdowell-blog-comments" issue-term="title" theme="github-light" crossorigin="anonymous" async></script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://jessemcdowell.ca"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> Links</i></div><ul></ul><a href="https://pragmaticpotato.com/" title="Pragmatic Potato Software" target="_blank">Pragmatic Potato Software</a><ul></ul><a href="/resources/" title="Resources" target="_blank">Resources</a><ul></ul><a href="/mysterysolver/" title="Mystery Solver" target="_blank">Mystery Solver</a><ul></ul><a href="/licence/" title="Licence" target="_blank">Licence</a></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> Tags</i></div><div class="tagcloud"><a href="/tags/blogging/" style="font-size: 15px;">blogging</a> <a href="/tags/design/" style="font-size: 15px;">design</a> <a href="/tags/sql/" style="font-size: 15px;">sql</a> <a href="/tags/devops/" style="font-size: 15px;">devops</a> <a href="/tags/gadgets/" style="font-size: 15px;">gadgets</a> <a href="/tags/ioc/" style="font-size: 15px;">ioc</a> <a href="/tags/unit-testing/" style="font-size: 15px;">unit testing</a> <a href="/tags/open-source/" style="font-size: 15px;">open source</a> <a href="/tags/database/" style="font-size: 15px;">database</a> <a href="/tags/entity-framework/" style="font-size: 15px;">entity framework</a> <a href="/tags/net/" style="font-size: 15px;">.net</a> <a href="/tags/debugging/" style="font-size: 15px;">debugging</a> <a href="/tags/web/" style="font-size: 15px;">web</a> <a href="/tags/people-management/" style="font-size: 15px;">people management</a> <a href="/tags/food/" style="font-size: 15px;">food</a> <a href="/tags/leadership/" style="font-size: 15px;">leadership</a> <a href="/tags/c/" style="font-size: 15px;">c#</a> <a href="/tags/interviewing/" style="font-size: 15px;">interviewing</a> <a href="/tags/career/" style="font-size: 15px;">career</a> <a href="/tags/consulting/" style="font-size: 15px;">consulting</a> <a href="/tags/project-management/" style="font-size: 15px;">project management</a> <a href="/tags/performance/" style="font-size: 15px;">performance</a> <a href="/tags/learning/" style="font-size: 15px;">learning</a> <a href="/tags/practices/" style="font-size: 15px;">practices</a> <a href="/tags/tea/" style="font-size: 15px;">tea</a> <a href="/tags/quality/" style="font-size: 15px;">quality</a> <a href="/tags/angular/" style="font-size: 15px;">angular</a> <a href="/tags/js/" style="font-size: 15px;">js</a> <a href="/tags/recipes/" style="font-size: 15px;">recipes</a> <a href="/tags/bugs/" style="font-size: 15px;">bugs</a> <a href="/tags/war-stories/" style="font-size: 15px;">war stories</a> <a href="/tags/video-games/" style="font-size: 15px;">video games</a> <a href="/tags/community/" style="font-size: 15px;">community</a> <a href="/tags/kubernetes/" style="font-size: 15px;">kubernetes</a> <a href="/tags/argocd/" style="font-size: 15px;">argocd</a> <a href="/tags/architecture/" style="font-size: 15px;">architecture</a> <a href="/tags/resources/" style="font-size: 15px;">resources</a> <a href="/tags/reviews/" style="font-size: 15px;">reviews</a> <a href="/tags/pragmatic-potato/" style="font-size: 15px;">pragmatic potato</a> <a href="/tags/github/" style="font-size: 15px;">github</a> <a href="/tags/howto/" style="font-size: 15px;">howto</a> <a href="/tags/code-reviews/" style="font-size: 15px;">code reviews</a> <a href="/tags/household-organization/" style="font-size: 15px;">household organization</a> <a href="/tags/nodejs/" style="font-size: 15px;">nodejs</a> <a href="/tags/typescript/" style="font-size: 15px;">typescript</a> <a href="/tags/architectural/" style="font-size: 15px;">architectural</a> <a href="/tags/decision/" style="font-size: 15px;">decision</a></div></div><div class="widget"><div class="widget-title">Subscribe</div><ul></ul><i class="fa fa-rss"></i><a href="/atom.xml" title="Atom" target="_blank"> Atom</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">Jesse Builds Software.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="Copy Successed!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>

@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/resources/</loc>
+    <loc>https://jessemcdowell.ca/resources/architectural-report-template/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/resources/architectural-report-template/</loc>
+    <loc>https://jessemcdowell.ca/resources/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/11/This-Blog-Hexo-generated-static-site-hosted-on-GitHub-Pages/</loc>
+    <loc>https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -254,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/11/Using-Architectural-Decision-Records/</loc>
+    <loc>https://jessemcdowell.ca/2023/11/This-Blog-Hexo-generated-static-site-hosted-on-GitHub-Pages/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -281,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/09/Choosing-Powerful-Names/</loc>
+    <loc>https://jessemcdowell.ca/2023/09/Case-of-the-Slow-Matchmaking-Routine/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2023/09/Case-of-the-Slow-Matchmaking-Routine/</loc>
+    <loc>https://jessemcdowell.ca/2023/09/Choosing-Powerful-Names/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
+    <loc>https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -425,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2013/06/reading-server-graphs-connected-users/</loc>
+    <loc>https://jessemcdowell.ca/2012/04/installutil-and-badimageformatexception/</loc>
     
     <lastmod>2024-08-07</lastmod>
     
@@ -560,6 +560,15 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/2010/09/ie9-try-and-fail/</loc>
+    
+    <lastmod>2021-01-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/2010/11/64-bit-iis-vs-32-bit-assemblies/</loc>
     
     <lastmod>2021-01-30</lastmod>
@@ -569,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/2010/09/ie9-try-and-fail/</loc>
+    <loc>https://jessemcdowell.ca/2011/08/doubling-data-for-performance-testing/</loc>
     
     <lastmod>2021-01-30</lastmod>
     
@@ -588,15 +597,6 @@
   
   <url>
     <loc>https://jessemcdowell.ca/2011/06/the-critical-path/</loc>
-    
-    <lastmod>2021-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/2011/08/doubling-data-for-performance-testing/</loc>
     
     <lastmod>2021-01-30</lastmod>
     
@@ -648,13 +648,6 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/gadgets/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jessemcdowell.ca/tags/design/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -670,6 +663,13 @@
   
   <url>
     <loc>https://jessemcdowell.ca/tags/devops/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jessemcdowell.ca/tags/gadgets/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -697,6 +697,20 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/tags/database/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jessemcdowell.ca/tags/entity-framework/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/tags/net/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -718,35 +732,7 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/database/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/tags/entity-framework/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jessemcdowell.ca/tags/people-management/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/tags/c/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/tags/interviewing/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -767,13 +753,6 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/project-management/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jessemcdowell.ca/tags/career/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -788,7 +767,28 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/tags/c/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jessemcdowell.ca/tags/interviewing/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/tags/performance/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jessemcdowell.ca/tags/project-management/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -830,14 +830,14 @@
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/tea/</loc>
+    <loc>https://jessemcdowell.ca/tags/recipes/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jessemcdowell.ca/tags/recipes/</loc>
+    <loc>https://jessemcdowell.ca/tags/tea/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -907,6 +907,13 @@
   </url>
   
   <url>
+    <loc>https://jessemcdowell.ca/tags/howto/</loc>
+    <lastmod>2025-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jessemcdowell.ca/tags/github/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -915,13 +922,6 @@
   
   <url>
     <loc>https://jessemcdowell.ca/tags/pragmatic-potato/</loc>
-    <lastmod>2025-04-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jessemcdowell.ca/tags/howto/</loc>
     <lastmod>2025-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

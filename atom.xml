@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-04-06T02:44:30.152Z</updated>
+  <updated>2025-05-10T02:33:22.932Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Disambiguating Scalability</title>
+    <link href="https://jessemcdowell.ca/2025/05/Disambiguating-Scalability/"/>
+    <id>https://jessemcdowell.ca/2025/05/Disambiguating-Scalability/</id>
+    <published>2025-05-10T02:33:22.000Z</published>
+    <updated>2025-05-10T02:33:22.932Z</updated>
+    
+    <content type="html"><![CDATA[<p>Although it was years ago, I still remember the conversation vividly. I was having my regular check-in with the CTO. It was also sunny outside, and the view from his office was particularly nice that day.</p><p>He asked me, “Is our app scalable?” After a moment of thought, I answered, “Yes.”</p><p>I spent the next few years remembering that conversation, wondering what would have happened if I had asked what he meant by scalable.</p><p>We used a cloud-based architecture with automated deployments. We could go a lot further scaling horizontally, and if that failed, we could easily generate new environments. If a lot of customers were to show up with cash in hand, it would be no problem for us to put them on the system.</p><p>That was, unfortunately, not what he meant. He was involved in a possible deal with a single giant customer, and he wanted to know if we could support them. That was a much harder thing for us to achieve.</p><p>He couldn’t tell me why he was asking. I also don’t think that one conversation caused any significant issues or miscalculations… but since then I am reminded of that moment any time someone uses the world scalability.</p><p>For that reason, I’ve been cataloging the different ways that the word is being used. Here are the meanings I’ve found:</p><h2 id="Lots-of-users"><a href="#Lots-of-users" class="headerlink" title="Lots of users"></a>Lots of users</h2><p>I think this is what most people mean when they say scalable. In the land of B2C (Business to Consumer), this is certainly a problem that businesses want to have.</p><p>Cloud architectures can handle this kind of growth pretty easily. You need a database that’s twice as big? Sure, let me hit this button here and it’ll be provisioned in a minutes. Need a fourth server? No problem, it’ll be up in 5 minutes.</p><p>Compared to the olden times of dedicated rack space, this is magical. You can skip a lot of testing and planning when resources can be brought online in minutes instead of weeks.</p><p>It should be noted that the cloud providers charge a premium for this convenience, but if your income is doubling, it usually isn’t a problem to double your infrastructure costs as well.</p><h2 id="Rapid-addition-of-users"><a href="#Rapid-addition-of-users" class="headerlink" title="Rapid addition of users"></a>Rapid addition of users</h2><p>This is similar to lots of users, and similarly, cloud architectures can make it easier to handle, but there is a limit to how far you can push it.</p><p>For example, imagine working on a video game. It’s only been out for a week, so your player counts are still in four-digits. Now imagine your company has placed an ad in the Superbowl, and it is a success. Within a few hours you are approaching 6-digit user counts, and more people are trying to sign up.</p><p>At a small company, this would be a make-or-break moment. Your cloud architecture could help, but adding 100x capacity is maybe not something you can do with a couple of button clicks in the cloud console.</p><p>You could (and probably should) provision some extra servers before running a major advertising campaign, but you can’t go overboard there either. You have to pay for the resources you’ve activated even if the paying customers don’t show up.</p><p>This is a much more complicated problem to deal with, but there are a lot of things you can do. Here are a few off the top of my head:</p><ul><li>use serverless back-end technologies that scale automatically, such as document databases and cloud functions</li><li>put as much of the logic into the client as you can. You only need to scale the components in the back-end, so the smaller they are, the less work you have to do</li><li>lean on established third-parties for critical and sensitive stuff like payment processing and user authentication. Even if they take a bigger cut than roll-your-own alternatives, they can also reduce your risks.</li><li>use more static content and less dynamic content. CDNs cost less than custom servers, deliver bits faster for a global audience, and are designed to handle traffic spikes</li><li>use a smaller-scale test campaign before the big one to get a better idea of the potential interest in a larger campaign</li><li>build in mechanisms that allow you to temporarily lower the server load if things get bad. For example, you could use a configuration service to increase client polling intervals, or temporarily disable more computation-intensive features</li><li>add a waiting list at the starting page in case everything else fails</li></ul><h2 id="Saving-money-when-traffic-drops"><a href="#Saving-money-when-traffic-drops" class="headerlink" title="Saving money when traffic drops"></a>Saving money when traffic drops</h2><p>A lot of B2B (Business to Business) software experiences the significant majority of its load between 8am and 5pm from Monday to Friday. B2C stuff can be spread out a bit more, but it tends to have natural rhythms too.</p><p>If you’re a fresh start-up, scaling up quickly is the priority. A few years into the journey, however, accountants start to ask about the cost per customer, and shrinking that number becomes increasingly important. Running idle servers in the middle of the night is wasteful, and you pay for it out of your profits.</p><p>Serverless cloud technologies can help here, as can environment orchestration technologies. Kubernetes is excellent at handling this, but it requires a significant investment of time and resources to use it.</p><p>Autoscaling is a simple concept, but there are lots of challenges to using it successfully. Orchestration code can have bugs like any software. Now imagine deploying a bug that adds an extra server every minute even though it’s unnecessary. Now imagine deploying that bug on Friday afternoon before a long weekend. How much money will you have spent before you check the operations dashboard on Tuesday morning?</p><p>These systems need checks, alerts, testing, and staff available to deal with problems. If you only need two servers for your entire customer base, you shouldn’t be worrying about this. If you’re spending millions-per-year on cloud resources, it’s probably worth hiring a team of IT experts to cut that down%.</p><h2 id="Very-big-customers"><a href="#Very-big-customers" class="headerlink" title="Very big customers"></a>Very big customers</h2><p>As I mentioned in the introduction, I discovered this particular meaning in a memorable way. This is more of a risk in the B2B space.</p><p>It can feel really wonderful when a huge company shows up and offers to drop some serious cash on the table. If things are tight, it can be hard for executives to refuse this kind of deal. It’s hard even when times are good.</p><p>Unfortunately, large customers can be very different from small customers, and it can affect a lot more than your server architecture. For example:</p><ul><li>any entity in your data model that scales linearly with the customer size needs a UI&#x2F;UX that supports it, such as:<ul><li>drop-down lists with searching &#x2F; filtering &#x2F; paging capabilities</li><li>list pages with good filtering &#x2F; paging capabilities</li><li>dashboard pages that operate smoothly when the quantity of data behind them jumps massively</li></ul></li><li>the queries powering routine reports might hit the database a lot harder when your biggest customer runs them</li><li>if the customer can’t be naturally divided into pieces (ex, state, region, store), you need to make sure one environment can handle everything. If it can be split, you need to make sure some admin features work across multiple environments</li><li>large customers often have more complicated requirements around user permissions and security controls</li><li>if a customer makes up more than 50% of your company revenue, they can make it really difficult to refuse feature requests, even absurd ones</li></ul><p>It’s hard to make an excellent product for a single audience, but it’s considerably harder to make an excellent product for two. When you support a bunch of small customers and one big one, you effectively have two audiences. This will strain your product managers, designers, developers, testers, trainers, and so on.</p><p>If you’re the kind of person who’s reading my blog, however, I assume this kind of decision won’t be yours to make… so if you end up in this position, you’ll have to find a way to make it work anyway. Good luck. :)</p><h2 id="Sustainable-practices"><a href="#Sustainable-practices" class="headerlink" title="Sustainable practices"></a>Sustainable practices</h2><p>As a technically focused person, this one rubbed me the wrong way at first. I’ve had to accept that some people use the word scalable a bit more poetically.</p><p>That being said, it is still important to remember that the impacts of heavy utilization can be personal as much as they are technical. It doesn’t matter how much money the shareholders are making, at some point your employees are going to start quitting when they can’t sleep at night or take weekends off.</p><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Shared vocabulary is a powerful way to communicate big ideas efficiently, but it always has the danger of communicating different ideas just as quickly. This is why we should use examples, use case statements, and diagrams to make sure we are understood clearly. If the difference between one meaning and the other can be measured in person-years of labour, it’s worth your time to make sure you’re talking about the same thing!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Although it was years ago, I still remember the conversation vividly. I was having my regular check-in with the CTO. It was also sunny ou</summary>
+      
+    
+    
+    
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
+    
+    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
+    
+    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
+    
+    <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
+    
+  </entry>
   
   <entry>
     <title>My Computer Setup</title>
@@ -244,9 +274,9 @@ table th, table</summary>
     
     
     
-    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
-    
     <category term="gadgets" scheme="https://jessemcdowell.ca/tags/gadgets/"/>
+    
+    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
     
@@ -348,9 +378,9 @@ table th, table</summary>
     
     
     
-    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
-    
     <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
+    
+    <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
     <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
@@ -535,9 +565,9 @@ table th, table</summary>
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
-    
     <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
+    
+    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
     
   </entry>
   
@@ -1028,9 +1058,9 @@ table th, table</summary>
     
     <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-    <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
-    
     <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
+    
+    <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-05-10T02:33:22.932Z</updated>
+  <updated>2025-06-29T03:38:08.618Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Favourite Japanese Word</title>
+    <link href="https://jessemcdowell.ca/2025/06/My-Favourite-Japanese-Word/"/>
+    <id>https://jessemcdowell.ca/2025/06/My-Favourite-Japanese-Word/</id>
+    <published>2025-06-29T06:38:08.000Z</published>
+    <updated>2025-06-29T03:38:08.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>I spent a few years studying Japanese with my wife. It was challenging, interesting, and fun. We met a lot of cool people in our classes, some of whom are still good friends. I found it so interesting, in fact, that I have also developed a love of talking about it. Fun for me, and a nuisance for anyone around me.</p><p>There are a lot of things I could write about, but I’m just going to share one Japanese word. It is my favourite word. If I could wave a magic wand and import it into English, I would do so with little thought.</p><p>The word is: Ganbaru</p><p>In Japanese, it can be spelled either as 頑張る, or phonetically as がんばる. You can look at <a href="https://jisho.org/search/ganbaru">the definition in Jisho.org</a> for more info or the pronunciation, but it should be pretty easy for an English speaker to pronounce it well enough from its romaji.</p><p>Ganbaru is a verb that has a bunch of meanings all bundled together:</p><ul><li>Good luck</li><li>You can do it</li><li>I believe in you</li><li>Don’t give up</li><li>Hang in there</li><li>Keep going</li><li>Give it everything you have</li></ul><p>It is normally used in its imperative form: 頑張って (ganbatte). You can add a suffix: 頑張ってください (ganbatte kudasai), which is like adding please in English.</p><p>The phrase can be very positive and friendly, as you would expect, but it can also be considerably more snarky, depending on context. If someone asks you to help with something crazy, it can just as easily (and still fairly politely) tell them that they are on their own. Kind of like “good luck with that” in English.</p><p>Now that you know my favourite word, and my hopeless wish to bring it into English, you have the perfect response to give me…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I spent a few years studying Japanese with my wife. It was challenging, interesting, and fun. We met a lot of cool people in our classes,</summary>
+      
+    
+    
+    
+    
+    <category term="japanese" scheme="https://jessemcdowell.ca/tags/japanese/"/>
+    
+  </entry>
   
   <entry>
     <title>Disambiguating Scalability</title>
@@ -34,9 +56,9 @@
     
     
     
-    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
-    
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
@@ -228,9 +250,9 @@ table th, table</summary>
     
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
-    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
-    
     <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
+    
+    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
     
   </entry>
   
@@ -274,9 +296,9 @@ table th, table</summary>
     
     
     
-    <category term="gadgets" scheme="https://jessemcdowell.ca/tags/gadgets/"/>
-    
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="gadgets" scheme="https://jessemcdowell.ca/tags/gadgets/"/>
     
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
     
@@ -378,9 +400,9 @@ table th, table</summary>
     
     
     
-    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
-    
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
     <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
@@ -565,9 +587,9 @@ table th, table</summary>
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
-    
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
     
   </entry>
   
@@ -850,8 +872,8 @@ table th, table</summary>
   
   <entry>
     <title>Polyglot Unconference 2023</title>
-    <link href="https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/"/>
-    <id>https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/</id>
+    <link href="https://jessemcdowell.ca/2023/06/Polyglot-Unconference-2023/"/>
+    <id>https://jessemcdowell.ca/2023/06/Polyglot-Unconference-2023/</id>
     <published>2023-06-01T05:22:23.000Z</published>
     <updated>2024-08-07T05:04:17.799Z</updated>
     

@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-06-29T03:38:08.618Z</updated>
+  <updated>2025-07-27T02:38:41.680Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Household Organization: Home Assistant on Wall-Mounted Tablet</title>
+    <link href="https://jessemcdowell.ca/2025/07/Household-Organization-Home-Assistant-on-Wall-Mounted-Tablet/"/>
+    <id>https://jessemcdowell.ca/2025/07/Household-Organization-Home-Assistant-on-Wall-Mounted-Tablet/</id>
+    <published>2025-07-27T02:38:41.000Z</published>
+    <updated>2025-07-27T02:38:41.680Z</updated>
+    
+    <content type="html"><![CDATA[<p>I’ve written before about <a href="https://jessemcdowell.ca/2025/01/Household-Organization-Hallway-Whiteboard/">our hallway whiteboard</a>. It’s been helpful, and we still use it, but we are now transitioning to a digital display mounted on our refrigerator.</p><img src="/2025/07/Household-Organization-Home-Assistant-on-Wall-Mounted-Tablet/kitchen-panel.png" class="" title="A picture of a tablet mounted on a refrigerator showing the weather, a calendar, and some other information."><p>The digital display has two major advantages over the whiteboard. We can access it from anywhere, even outside the house. And it can include dynamic elements that are updated automatically, such as the weather, our calendars, and various bits of information from our home automation system.</p><p>The most useful and transformative feature has been the addition of a digital shopping list. I can quickly add an item from the kitchen panel, or from my phone, and my wife can do the same. When either of us is at the store, we can see the list and check off items as we buy them. I can’t tell you how many times we used to be missing a key ingredient because the paper list got lost or left at home. That doesn’t happen any more.</p><p>We’re using an older Android tablet for the display, which I don’t recommend. The tablet is connected permanently to a USB charging cable. On <a href="https://youtu.be/tb9Qe4fjt24?t=360">the recommendation of Everything Smart Home</a>, I have it connected to a smart plug that toggles the power on and off to protect the battery. I’m not sure how necessary this is with the tablet.</p><p>I’m using the popular commercial <a href="https://www.fully-kiosk.com/">Fully Kiosk Browser</a> application on the tablet. It seems to be the best of class, and recommended my numerous people trying to do the same thing. I have found it to be a bit glitchy, but the application also reports that many features are not available because of the older Android version my tablet is running.</p><p>The dashboard itself is generated with <a href="https://www.home-assistant.io/">Home Assistant</a>, a free open-source application for home automation. I originally ran it on a Raspberry Pi I won in a contest, but I now it’s running in a VM on a Proxmox server that runs a bunch of household services. It worked fine on the Pi, but the SD card got worn down. Home Assistant is notoriously hard on its storage medium.</p><p>My dashboard includes:</p><ul><li>Four family calendars in a tabular layout (one calendar for each of us, and a shared one for combined obligations), and a couple of web calendars for public holidays and school events</li><li>A link to the shopping list (with a count of items currently in it)</li><li>The weather: current conditions and forecasts for the next few days</li><li>A plot of indoor air temperatures over the last few hours</li><li>An air quality reading from our neighbourhood</li></ul><p>I’d like to put more information on the panel, and adjust how some of it is displayed. Home Assistant is extensible, but I’ve so far avoided writing my own extensions. Maybe one of these days I’ll take a crack at it. The information we have now is already useful for a bunch of situations.</p><h2 id="Previous-Attempts"><a href="#Previous-Attempts" class="headerlink" title="Previous Attempts"></a>Previous Attempts</h2><p>Before Home Assistant, I used a home automation platform called <a href="https://hubitat.com/">Hubitat</a>. This was a great platform for home automation, though it is both closed source, and has fewer integrations available. I did find it to be more reliable for automation. But also, the dashboard, at the time that I tried it, was hard to configure and looked pretty terrible.</p><p>On the tablet itself I also tried a free open source application called WallPanel. It was not very reliable. I’m not sure how much of this is because of the older Android version on my tablet.</p><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Having a panel mounted on the wall is a great way to keep the family organized, but it takes a fair bit of work to set it up. It is absolutely useful, but as of right now, I wouldn’t recommend it for anyone but the most technically capable, or those with a lot of free time.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I’ve written before about &lt;a href=&quot;https://jessemcdowell.ca/2025/01/Household-Organization-Hallway-Whiteboard/&quot;&gt;our hallway whiteboard&lt;/a</summary>
+      
+    
+    
+    
+    
+    <category term="household organization" scheme="https://jessemcdowell.ca/tags/household-organization/"/>
+    
+    <category term="home assistant" scheme="https://jessemcdowell.ca/tags/home-assistant/"/>
+    
+    <category term="home automation" scheme="https://jessemcdowell.ca/tags/home-automation/"/>
+    
+  </entry>
   
   <entry>
     <title>My Favourite Japanese Word</title>
@@ -872,8 +898,8 @@ table th, table</summary>
   
   <entry>
     <title>Polyglot Unconference 2023</title>
-    <link href="https://jessemcdowell.ca/2023/06/Polyglot-Unconference-2023/"/>
-    <id>https://jessemcdowell.ca/2023/06/Polyglot-Unconference-2023/</id>
+    <link href="https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/"/>
+    <id>https://jessemcdowell.ca/2023/05/Polyglot-Unconference-2023/</id>
     <published>2023-06-01T05:22:23.000Z</published>
     <updated>2024-08-07T05:04:17.799Z</updated>
     

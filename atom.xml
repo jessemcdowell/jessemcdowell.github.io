@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-07-27T02:38:41.680Z</updated>
+  <updated>2025-09-06T20:54:26.791Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Minecraft Store for Kids on Playstation</title>
+    <link href="https://jessemcdowell.ca/2025/09/Minecraft-Store-for-Kids-on-Playstation/"/>
+    <id>https://jessemcdowell.ca/2025/09/Minecraft-Store-for-Kids-on-Playstation/</id>
+    <published>2025-09-06T20:54:26.000Z</published>
+    <updated>2025-09-06T20:54:26.791Z</updated>
+    
+    <content type="html"><![CDATA[<p>My son is getting really into Minecraft right now. It’s a game that exercises design, creativity, exploration, and even teaches some basic programming skills. The stock game has quite a lot to do and explore, but at some point it’s natural to want more.</p><p>Minecraft has a built-in store with a wide assortment of extension, skins, and even whole worlds. Some of them are free, but most require some form of credit.</p><p>I spent a lot of time figuring out how to buy our first addon… It was far from straightforward, and I didn’t find any good resources that explained the process from beginning to end. So that’s what I’m going to share with you here.</p><p>My son uses Minecraft Bedrock Edition, running on a PS5. It probably isn’t so difficult if you use any other platform, but on the PlayStation, in particular, purchasing credits was a challenge.</p><h2 id="Minecoins-and-Minecraft-Tokens"><a href="#Minecoins-and-Minecraft-Tokens" class="headerlink" title="Minecoins and Minecraft Tokens"></a>Minecoins and Minecraft Tokens</h2><p>Most platforms use Minecoins for purchases in the store. On PlayStation, however, you need to buy Minecraft Tokens. You can’t mix-and-match, or use one on the other. A lot of games are like this. It can be pretty confusing the first time you run into this, and they don’t go out of their way to tell you the difference when they ask for your credit card number.</p><p>As long as you buy credits from within whichever platform you’re using, you may not even notice this oddity. But in the case of PlayStation, since it was impossible to buy Minecoins for my son’s account, we had to find another solution.</p><h2 id="Limitations-of-Child-Accounts-on-PlayStation"><a href="#Limitations-of-Child-Accounts-on-PlayStation" class="headerlink" title="Limitations of Child Accounts on PlayStation"></a>Limitations of Child Accounts on PlayStation</h2><p>All the gaming platforms have some kind of child mode protections, and PlayStation is no exception. This applies to launching games, but it especially applies to purchasing things in the PlayStation store.</p><p>Most of the things we purchase in the PlayStation store are straightforward. I purchase them with my adult account, and they become available for my son who uses the same console.</p><p>Any Minecraft Tokens I purchase, however, won’t be available to him. The only way for him to use them is to buy them with his own account. Unfortunately, because the game is rated for 10 and older, and my son is not yet 10, he isn’t able to access any Minecraft items in the PlayStation store.</p><p>For most things on the PlayStation, such as games and other content, I can control the level to which my son is restricted, and I can make exceptions for specific games. The store, however, appears to use his birthdate. There is no way that I’ve found to get around it.</p><p>The error message is incredibly unhelpful too. It took a lot of searching just to figure out what was happening. This is the error message he gets:</p><blockquote><p>Content not found<br>This content can’t be found.</p></blockquote><p>Some people online suggested setting up fake adult accounts for kids to use, but this is messy. I don’t like to fool around with fake identities where money is involved. If there is ever a problem, it might be impossible to get help.</p><h2 id="Sharing-AddOns-Between-Platforms"><a href="#Sharing-AddOns-Between-Platforms" class="headerlink" title="Sharing AddOns Between Platforms"></a>Sharing AddOns Between Platforms</h2><p>You can log in to a Microsoft account from Minecraft on any platform. This turns out to be very helpful for kids accounts. As long as the add-on is available, it will be in your library on any platform you happen to be using.</p><p>This means that you can purchase Minecoins and Add-ons on a different device (such as a phone), and then use them on the PlayStation. The store on Android is much easier for my son to use. He clicks purchase, a message pops up on my phone, and I can approve or decline it.</p><p>The downside to this approach is that you need to have two copies of Minecraft, and since it isn’t free on either platform, this costs extra money. It was worth it for us. If you’d rather not purchase a second copy, I suggest you stick to a non-PlayStation version of the game where it’s easier to purchase Minecoins.</p><p>It took me hours and hours to purchase the first add-on for my son, but now that we’ve figured this trick out, it only takes seconds.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;My son is getting really into Minecraft right now. It’s a game that exercises design, creativity, exploration, and even teaches some basi</summary>
+      
+    
+    
+    
+    
+    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
+    
+    <category term="parenting" scheme="https://jessemcdowell.ca/tags/parenting/"/>
+    
+  </entry>
   
   <entry>
     <title>Household Organization: Home Assistant on Wall-Mounted Tablet</title>
@@ -276,9 +300,9 @@ table th, table</summary>
     
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
-    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
-    
     <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
+    
+    <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
     
   </entry>
   
@@ -454,9 +478,9 @@ table th, table</summary>
     
     
     
-    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
     
@@ -1080,9 +1104,9 @@ table th, table</summary>
     
     <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
-    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
   </entry>
   
@@ -1106,9 +1130,9 @@ table th, table</summary>
     
     <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
-    
     <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
+    
+    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
     
   </entry>
   
@@ -1130,9 +1154,9 @@ table th, table</summary>
     
     
     
-    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
     
@@ -1337,9 +1361,9 @@ table th, table</summary>
     <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
     
     
-    <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
-    
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
+    
+    <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
@@ -1468,11 +1492,11 @@ table th, table</summary>
     
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
+    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
-    
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   
@@ -1574,11 +1598,11 @@ table th, table</summary>
     
     
     
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
+    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
-    
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   

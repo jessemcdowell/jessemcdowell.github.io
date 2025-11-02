@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-10-06T03:55:55.238Z</updated>
+  <updated>2025-11-02T17:52:15.976Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Connect to Remote Desktop from Outside Your Home Securely with SSH</title>
+    <link href="https://jessemcdowell.ca/2025/11/Connect-to-Remote-Desktop-from-Outside-Your-Home-Securely-with-SSH/"/>
+    <id>https://jessemcdowell.ca/2025/11/Connect-to-Remote-Desktop-from-Outside-Your-Home-Securely-with-SSH/</id>
+    <published>2025-11-02T17:52:15.000Z</published>
+    <updated>2025-11-02T17:52:15.976Z</updated>
+    
+    <content type="html"><![CDATA[<p>I have a Windows workstation sitting under my desk at home. This is where I do all of my professional development. I like this setup because it keeps my work completely separate from my personal stuff. If I’m honest, though, my main reason for buying it was because I poured a glass of water over my development laptop. But now that I have it, I highly recommend it.</p><p>When I’m working at home, I connect to this workstation using Remote Desktop (RDP). It’s a fantastic protocol for accessing a Windows machine across a network. It’s built in to the operating system, and it’s generally pretty smooth. Most times I can’t even tell that I’m using it.</p><p>When I’m working remotely, however, accessing that workstation under the desk is a lot harder.</p><p>You could share the RDP port on the workstation through your router, but I don’t recommend this. Windows isn’t really hardened to be on the open internet. I suggest instead exposing an SSH server, authenticating with a certificate (and not allowing any other methods), and using that to tunnel RDP through to your Windows workstation nestled safely within your firewall.</p><p>In this post I’ll walk you through setting that up.</p><h2 id="Quick-version"><a href="#Quick-version" class="headerlink" title="Quick version"></a>Quick version</h2><p>You can use this command to set up the SSH connection with RDP being routed through it:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@fully_qualified_ddns_name -p ssh_port -i ~/.ssh/home_server -L 127.0.0.2:3389:windows_private_ip:3389</span><br></pre></td></tr></table></figure><p>Substitute the values:</p><ul><li><code>user</code> - your username on your home server (where SSH is running)</li><li><code>fully_qualified_ddns_name</code> - the full ddns name of yours router (ex: <code>myhome.duckdns.org</code>)</li><li><code>ssh_port</code> - the public port you use to expose SSH to the internet (ex: 2299)</li><li><code>home_server</code> - the certificate file you set up for SSH authentication</li><li><code>windows_private_ip</code> - the private network ip (from the point of view of your home server) of the Windows workstation you want to connect to</li></ul><p>Once the connection is established, open the standard Remote Desktop client, and connect to: <code>127.0.0.2</code>. Then log in to the workstation with your normal credentials.</p><h2 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h2><img src="/2025/11/Connect-to-Remote-Desktop-from-Outside-Your-Home-Securely-with-SSH/ssh_tunnel.svg" class="" title="A diagram showing RDP being tunneled via SSH through to the workstation behind the router."><h2 id="Setting-up-SSH"><a href="#Setting-up-SSH" class="headerlink" title="Setting up SSH"></a>Setting up SSH</h2><p>I’m running sshd (the service that hosts SSH) on a little home server I use to run a number of services in my home. I’m using Debian, so I was able to install sshd easily using the built-in package manager. There are SSH servers for all the platforms, so you don’t need to use Debian if you don’t want to.</p><p>If you do use Debian however, this is how I’ve got mine configured:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">sudo groupadd server-access</span><br><span class="line"></span><br><span class="line">CURRENT_USER=$(<span class="built_in">whoami</span>)</span><br><span class="line">sudo usermod -aG server-access <span class="string">&quot;<span class="variable">$CURRENT_USER</span>&quot;</span></span><br><span class="line"></span><br><span class="line">sudo <span class="built_in">echo</span> <span class="string">&#x27;</span></span><br><span class="line"><span class="string">PermitRootLogin no</span></span><br><span class="line"><span class="string">PubkeyAuthentication yes</span></span><br><span class="line"><span class="string">PasswordAuthentication no</span></span><br><span class="line"><span class="string">PermitEmptyPasswords no</span></span><br><span class="line"><span class="string">MaxAuthTries 4</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">AllowGroups server-access</span></span><br><span class="line"><span class="string">&#x27;</span> &gt; /etc/ssh/sshd_config.d/secure.conf</span><br><span class="line"></span><br><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure><p>This creates a group called <code>server-access</code>, and adds the current user to it. Later on, we’re allowing anyone in this group to access the sshd server. We are also requiring all users to authenticate with a certificate. You can add as many users to this group as you’d like.</p><h2 id="Creating-a-certificate-and-adding-it-to-a-user"><a href="#Creating-a-certificate-and-adding-it-to-a-user" class="headerlink" title="Creating a certificate and adding it to a user"></a>Creating a certificate and adding it to a user</h2><p>Run this command to generate a certificate on the computer you’re connecting from. Note that it should work in both Linux and modern versions of Windows. Probably on Macs too, but I haven’t tried.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -f ~/.ssh/home_server</span><br></pre></td></tr></table></figure><p>You can use any filename you like for the certificate, but remember what you choose because you’ll need it later. If you like, you can also add a comment inside the file with <code>-C &quot;home server&quot;</code>. This can help keep them straight if you have multiple certificates.</p><p>This command generates two files: the private key (the name you chose), and the public key (the name you chose with <code>.pub</code> added to the end). Open the public key file and copy its contents. You can use <code>cat ~/.ssh/home_server.pub</code> to read the file in a console.</p><p>If you’re using a Debian machine for your Home Server, you can find (or create) a file at <code>~/.ssh/authorized_keys</code>, and paste the whole contents of the <code>.pub</code> file as a new line. If you’re setting this up for multiple users, make sure to create one of these files for each home directory. I suggest different keys for each user.</p><p>If you have multiple computers to connecting to your home network all for the same user, I also suggest using a different key pair for each connecting computer. This way, if one of your computers is lost or stolen, you can delete its key while continuing to use the others. If you’re doing this, I also suggest adding comments to the end of public keys in the <code>authorized_keys</code> file so you can tell them all apart.</p><p>Now you can test your SSH authentication. Running this inside your home network is fine.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@home_server_ip -i ~/.ssh/home_server</span><br></pre></td></tr></table></figure><p>If it works, you should be logged in to the home server.</p><h2 id="Exposing-SSH-to-the-Internet"><a href="#Exposing-SSH-to-the-Internet" class="headerlink" title="Exposing SSH to the Internet"></a>Exposing SSH to the Internet</h2><p>You have to set up port forwarding on your router&#x2F;firewall to allow SSH on your home server to be accessible from outside your home. Look to the documentation for your particular router if you need help with this.</p><p>The default port for SSH is 22. You should be forwarding to port 22 at the local ip address of your home server. I don’t recommend, however, using port 22 as the public port on the outside of your router. There are a lot of robots crawling every IP address on the internet. Since port 22 is a commonly used port, it could be a target for automated attacks.</p><p>It’s ideal to choose a port about 2000 as this is well past the range of the most commonly used protocols on the internet. You can refer to a listing of commonly used port numbers (such as <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers">https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers</a>) to make extra sure it’s not something standard.</p><h2 id="Set-up-dynamic-DNS-for-your-router"><a href="#Set-up-dynamic-DNS-for-your-router" class="headerlink" title="Set up dynamic DNS for your router"></a>Set up dynamic DNS for your router</h2><p>Depending on your Internet Provider (ISP), your home network may get an IP address that never changes, or you might have one that changes every day. Even if it happens infrequently, Dynamic DNS can make connecting to your home environment a lot simpler.</p><p>Many consumer routers have a Dynamic DNS (DDNS) option built in. If your router does, this will likely be the easiest method. If not, you can set up up a service like <a href="https://github.com/qdm12/ddns-updater">ddns-updater</a> on your home server. I personally run it inside a Podman container.</p><p>Once this is working, you’ll now have a convenient name to reach your home network instead of needing to look up its public ip every time you want to connect.</p><h2 id="Connecting-to-SSH"><a href="#Connecting-to-SSH" class="headerlink" title="Connecting to SSH"></a>Connecting to SSH</h2><p>With all of the above configured, you should now be able to connect to SSH from outside your network. Depending on your router, you may not be able to test this from inside your home network.</p><p>When I want to test external connections, I enable hotspot mode on my phone and connect the client computer I’m using to its wifi. If you don’t want to do this, it could also be a good excuse to visit your local coffee shop.</p><p>You can use this command to connect to the SSH server:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@external_ip_address -p ssh_port -i ~/.ssh/home_server</span><br></pre></td></tr></table></figure><h2 id="Enable-RDP-on-your-workstation"><a href="#Enable-RDP-on-your-workstation" class="headerlink" title="Enable RDP on your workstation"></a>Enable RDP on your workstation</h2><p>You need to enable Remote Desktop on the Windows workstation before you can use it. If you haven’t done this already, open Settings and search for Remote Desktop.</p><p>You’ll also need to know your username and password to log into Windows.</p><h2 id="Connecting-RDP-to-localhost"><a href="#Connecting-RDP-to-localhost" class="headerlink" title="Connecting RDP to localhost"></a>Connecting RDP to localhost</h2><p>If your client computer happens to be a Windows computer, you have to use a trick to get around a weird limitation in the Microsoft Remote Desktop Client.</p><p>If you try to connect it to 127.0.0.1, you get this error:</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Your computer could not connect to another console session on the remote computer because you already have a console session in progress.</span><br></pre></td></tr></table></figure><p>Unfortunately, you really want to open sharing on localhost (as opposed to the wifi ip) so that only RDP connections from on your computer will be able to reach the SSH tunnel. This is especially important when using public networks like a coffee shop wifi.</p><p>One little-known trick is that all the IP addresses in the <code>127.0.0.1/8</code> block (anything starting with <code>127.</code>) are all valid localhost IP addresses. The check in the Microsoft RDP client only looks for <code>127.0.0.1</code>, so you can use <code>127.0.0.2</code> and get around it.</p><p>To forward the port through the SSH connection, you add this to the SSH command: <code>-L 127.0.0.2:3389:windows_private_ip:3389</code></p><p>The first 3389 is the port that’s opened up on your local computer. You don’t have to use 3389 here, but it’s convenient. If you had multiple workstations inside your home network you can add <code>-L</code> multiple times with a different local port for each one.</p><p>The second 3389 is the port on the computer you’re connecting to. This will pretty much always be 3389, so don’t try to change it.</p><h2 id="Putting-it-all-together"><a href="#Putting-it-all-together" class="headerlink" title="Putting it all together"></a>Putting it all together</h2><p>Refer to <a href="#Quick-version">Quick version</a> near the top of this post for all the steps together.</p><p>With everything set up, you should now be able to work remotely with ease and peace of mind. Maybe it’s time to finally do some real work on your laptop from that coffee shop?</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I have a Windows workstation sitting under my desk at home. This is where I do all of my professional development. I like this setup beca</summary>
+      
+    
+    
+    
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
+    
+    <category term="howto" scheme="https://jessemcdowell.ca/tags/howto/"/>
+    
+  </entry>
   
   <entry>
     <title>Every Drink on the Phillips LatteGo 5500</title>
@@ -141,9 +165,9 @@ table td, table th {
     
     
     
-    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
-    
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
@@ -485,9 +509,9 @@ table th, table</summary>
     
     
     
-    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
-    
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
+    
+    <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
     <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
@@ -672,9 +696,9 @@ table th, table</summary>
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
-    
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
     
   </entry>
   
@@ -770,9 +794,9 @@ table th, table</summary>
     
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
-    
     <category term="war stories" scheme="https://jessemcdowell.ca/tags/war-stories/"/>
+    
+    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
     
   </entry>
   
@@ -1031,9 +1055,9 @@ table th, table</summary>
     
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
-    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
-    
     <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
+    
+    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
     <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
     
@@ -1085,9 +1109,9 @@ table th, table</summary>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
     
-    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
-    
     <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
+    
+    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
   </entry>
   
@@ -1113,9 +1137,9 @@ table th, table</summary>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
     
-    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
-    
     <category term="bugs" scheme="https://jessemcdowell.ca/tags/bugs/"/>
+    
+    <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
   </entry>
   
@@ -1165,9 +1189,9 @@ table th, table</summary>
     
     <category term="food" scheme="https://jessemcdowell.ca/tags/food/"/>
     
-    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
-    
     <category term="recipes" scheme="https://jessemcdowell.ca/tags/recipes/"/>
+    
+    <category term="tea" scheme="https://jessemcdowell.ca/tags/tea/"/>
     
   </entry>
   
@@ -1396,9 +1420,9 @@ table th, table</summary>
     <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
     
     
-    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
+    
+    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
@@ -1527,11 +1551,11 @@ table th, table</summary>
     
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
+    
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   
@@ -1633,11 +1657,11 @@ table th, table</summary>
     
     
     
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
+    
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   

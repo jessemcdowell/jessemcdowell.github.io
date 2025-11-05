@@ -359,9 +359,9 @@ table th, table</summary>
     
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
-    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
-    
     <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
+    
+    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
     
   </entry>
   
@@ -696,9 +696,9 @@ table th, table</summary>
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
-    
     <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
+    
+    <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
     
   </entry>
   
@@ -1420,9 +1420,9 @@ table th, table</summary>
     <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
     
     
-    <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
-    
     <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
+    
+    <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
     
@@ -1551,11 +1551,11 @@ table th, table</summary>
     
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
+    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
-    
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   
@@ -1657,11 +1657,11 @@ table th, table</summary>
     
     
     
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
+    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
-    
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   

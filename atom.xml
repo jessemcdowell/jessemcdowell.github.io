@@ -6,7 +6,7 @@
   <link href="https://jessemcdowell.ca/atom.xml" rel="self"/>
   
   <link href="https://jessemcdowell.ca/"/>
-  <updated>2025-11-02T17:52:15.976Z</updated>
+  <updated>2025-11-27T17:15:41.325Z</updated>
   <id>https://jessemcdowell.ca/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Buying Robux for Kids (Roblox)</title>
+    <link href="https://jessemcdowell.ca/2025/11/Buying-Robux-for-Kids/"/>
+    <id>https://jessemcdowell.ca/2025/11/Buying-Robux-for-Kids/</id>
+    <published>2025-11-27T17:06:48.000Z</published>
+    <updated>2025-11-27T17:15:41.325Z</updated>
+    
+    <content type="html"><![CDATA[<p>I recently wrote about <a href="/2025/09/Minecraft-Store-for-Kids-on-Playstation/">the system I use to purchase Minecoins for my son</a>. Not long after I got this figured out, my son informed me that all his friends were playing Roblox, and he would like to start using that now too. Fortunately, the process for Robux is a lot simpler than Minecoins and Minecraft Tokens.</p><p>Robux are a type of token that you can use to buy stuff in the various Roblox worlds. There are links to buy things everywhere, in your face, all around you, always. This is because Robux are a way for creators in the game to earn money. It’s unfortunately difficult for younger children to understand exactly what the big numbers beside cool things mean, or what the impact of buying them is, so I suggest considering how you want to approach this as a parent before dumping your kids into it.</p><p>The default mechanism for buying Robux in a kids account is for you to put your credit card number into their account. Any time they buy Robux, they have to promise that they are, in fact, the adult owner of the card. I am skeptical that a wall of text will effectively dissuade an eager child from impulse-buying something cool, so I don’t recommend using this method.</p><p>You can, however, easily purchase Robux gift cards in stores and online. I get mine on Amazon. There are a lot more choices for amounts to spend, and the price seems to be a touch better than buying them on the various gaming platforms.</p><p>I suggest the “Roblox Digital Gift Code”, which is fulfilled immediately via email. All you have to do is hand the code to your kid. Once they enter the code in their account, they can use the Robux immediately.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;I recently wrote about &lt;a href=&quot;/2025/09/Minecraft-Store-for-Kids-on-Playstation/&quot;&gt;the system I use to purchase Minecoins for my son&lt;/a&gt;.</summary>
+      
+    
+    
+    
+    
+    <category term="video games" scheme="https://jessemcdowell.ca/tags/video-games/"/>
+    
+    <category term="parenting" scheme="https://jessemcdowell.ca/tags/parenting/"/>
+    
+  </entry>
   
   <entry>
     <title>Connect to Remote Desktop from Outside Your Home Securely with SSH</title>
@@ -305,9 +329,9 @@ table th, table</summary>
     
     
     
-    <category term="web" scheme="https://jessemcdowell.ca/tags/web/"/>
-    
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
+    
+    <category term="web" scheme="https://jessemcdowell.ca/tags/web/"/>
     
     <category term="nodejs" scheme="https://jessemcdowell.ca/tags/nodejs/"/>
     
@@ -357,11 +381,11 @@ table th, table</summary>
     
     
     
+    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
+    
     <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
     <category term="c#" scheme="https://jessemcdowell.ca/tags/c/"/>
-    
-    <category term="consulting" scheme="https://jessemcdowell.ca/tags/consulting/"/>
     
   </entry>
   
@@ -537,11 +561,11 @@ table th, table</summary>
     
     
     
-    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
+    
+    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
   </entry>
   
@@ -696,9 +720,9 @@ table th, table</summary>
     
     <category term="architecture" scheme="https://jessemcdowell.ca/tags/architecture/"/>
     
-    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
-    
     <category term="reviews" scheme="https://jessemcdowell.ca/tags/reviews/"/>
+    
+    <category term="github" scheme="https://jessemcdowell.ca/tags/github/"/>
     
   </entry>
   
@@ -973,9 +997,9 @@ table th, table</summary>
     
     
     
-    <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
+    <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
   </entry>
   
@@ -1161,11 +1185,11 @@ table th, table</summary>
     
     
     
+    <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
+    
     <category term="people management" scheme="https://jessemcdowell.ca/tags/people-management/"/>
     
     <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
-    <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
   </entry>
   
@@ -1213,11 +1237,11 @@ table th, table</summary>
     
     
     
-    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
-    
     <category term="career" scheme="https://jessemcdowell.ca/tags/career/"/>
     
     <category term="practices" scheme="https://jessemcdowell.ca/tags/practices/"/>
+    
+    <category term="leadership" scheme="https://jessemcdowell.ca/tags/leadership/"/>
     
   </entry>
   
@@ -1291,9 +1315,9 @@ table th, table</summary>
     
     <category term="devops" scheme="https://jessemcdowell.ca/tags/devops/"/>
     
-    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
-    
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
+    
+    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
     <category term="quality" scheme="https://jessemcdowell.ca/tags/quality/"/>
     
@@ -1420,11 +1444,11 @@ table th, table</summary>
     <category term="uncategorized" scheme="https://jessemcdowell.ca/categories/uncategorized/"/>
     
     
-    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="performance" scheme="https://jessemcdowell.ca/tags/performance/"/>
+    
+    <category term="debugging" scheme="https://jessemcdowell.ca/tags/debugging/"/>
     
   </entry>
   
@@ -1551,11 +1575,11 @@ table th, table</summary>
     
     <category term="design" scheme="https://jessemcdowell.ca/tags/design/"/>
     
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
+    
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   
@@ -1657,11 +1681,11 @@ table th, table</summary>
     
     
     
-    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
-    
     <category term="database" scheme="https://jessemcdowell.ca/tags/database/"/>
     
     <category term="entity framework" scheme="https://jessemcdowell.ca/tags/entity-framework/"/>
+    
+    <category term=".net" scheme="https://jessemcdowell.ca/tags/net/"/>
     
   </entry>
   
